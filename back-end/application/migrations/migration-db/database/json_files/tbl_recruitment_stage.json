@@ -1,0 +1,217 @@
+[{
+        "id": "1",
+        "title": "Review Answer",
+        "stage_label_id": "1",
+        "stage_key": "review_answer",
+        "stage": "1.1",
+        "stage_order": "10",
+        "created": "2019-08-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "2",
+        "title": "Phone Interview",
+        "stage_label_id": "2",
+        "stage_key": "phone_interview",
+        "stage": "2.1",
+        "stage_order": "20",
+        "created": "2019-08-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "3",
+        "title": "Schedule Interview",
+        "stage_label_id": "3",
+        "stage_key": "group_schedule_interview",
+        "stage": "3.1",
+        "stage_order": "30",
+        "created": "2019-08-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "4",
+        "title": "Applicant Responses",
+        "stage_label_id": "3",
+        "stage_key": "group_applicant_responses",
+        "stage": "3.2",
+        "stage_order": "40",
+        "created": "2019-08-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "5",
+        "title": "Group Interview Results",
+        "stage_label_id": "3",
+        "stage_key": "group_interview_result",
+        "stage": "3.3",
+        "stage_order": "50",
+        "created": "2019-08-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "6",
+        "title": "Document Checklist",
+        "stage_label_id": "4",
+        "stage_key": "document_checklist",
+        "stage": "4.1",
+        "stage_order": "60",
+        "created": "2019-08-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "7",
+        "title": "Position and Award Levels",
+        "stage_label_id": "4",
+        "stage_key": "position_and_award_level",
+        "stage": "4.2",
+        "stage_order": "70",
+        "created": "2019-08-07 00:00:00",
+        "archive": "1"
+    }, {
+        "id": "8",
+        "title": "Review References",
+        "stage_label_id": "5",
+        "stage_key": "review_references",
+        "stage": "5.1",
+        "stage_order": "80",
+        "created": "2019-08-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "9",
+        "title": "Schedule Cab Day",
+        "stage_label_id": "6",
+        "stage_key": "schedule_cab_day",
+        "stage": "6.1",
+        "stage_order": "90",
+        "created": "2019-08-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "10",
+        "title": "Applicant Responses",
+        "stage_label_id": "6",
+        "stage_key": "cab_applicant_responses",
+        "stage": "6.2",
+        "stage_order": "100",
+        "created": "2019-08-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "11",
+        "title": "CAB Day Result ",
+        "stage_label_id": "6",
+        "stage_key": "cab_day_result",
+        "stage": "6.3",
+        "stage_order": "110",
+        "created": "2019-08-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "12",
+        "title": "Employment Contract",
+        "stage_label_id": "6",
+        "stage_key": "employment_contract",
+        "stage": "6.4",
+        "stage_order": "120",
+        "created": "2019-08-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "13",
+        "title": "Member App Onboarding",
+        "stage_label_id": "6",
+        "stage_key": "member_app_onboarding",
+        "stage": "6.5",
+        "stage_order": "130",
+        "created": "2019-08-07 00:00:00",
+        "archive": "1"
+    }, {
+        "id": "14",
+        "title": "Recruitment Complete",
+        "stage_label_id": "7",
+        "stage_key": "recruitment_complete",
+        "stage": "7.1",
+        "stage_order": "140",
+        "created": "2019-08-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "15",
+        "title": "Individual Interview",
+        "stage_label_id": "8",
+        "stage_key": "schedule_individual_interview",
+        "stage": "3.1",
+        "stage_order": "35",
+        "created": "2020-04-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "16",
+        "title": "Applicant Responses",
+        "stage_label_id": "8",
+        "stage_key": "individual_applicant_responses",
+        "stage": "3.2",
+        "stage_order": "36",
+        "created": "2020-04-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "17",
+        "title": "Individual Interview Results",
+        "stage_label_id": "8",
+        "stage_key": "individual_interview_result",
+        "stage": "3.3",
+        "stage_order": "37",
+        "created": "2020-04-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "18",
+        "title": "Offer",
+        "stage_label_id": "9",
+        "stage_key": "individual_interview_offer",
+        "stage": "6.1",
+        "stage_order": "95",
+        "created": "2020-04-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "19",
+        "title": "Individual Interview",
+        "stage_label_id": "10",
+        "stage_key": "schedule_individual_interview",
+        "stage": "3.1",
+        "stage_order": "46",
+        "created": "2020-05-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "20",
+        "title": "Applicant Responses",
+        "stage_label_id": "10",
+        "stage_key": "individual_applicant_responses",
+        "stage": "3.2",
+        "stage_order": "47",
+        "created": "2020-05-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "21",
+        "title": "Individual Interview Results",
+        "stage_label_id": "10",
+        "stage_key": "individual_interview_result",
+        "stage": "3.3",
+        "stage_order": "48",
+        "created": "2020-05-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "22",
+        "title": "Individual Interview",
+        "stage_label_id": "11",
+        "stage_key": "schedule_individual_interview",
+        "stage": "3.1",
+        "stage_order": "56",
+        "created": "2020-05-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "23",
+        "title": "Applicant Responses",
+        "stage_label_id": "11",
+        "stage_key": "individual_applicant_responses",
+        "stage": "3.2",
+        "stage_order": "57",
+        "created": "2020-05-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "24",
+        "title": "Individual Interview Results",
+        "stage_label_id": "11",
+        "stage_key": "individual_interview_result",
+        "stage": "3.3",
+        "stage_order": "58",
+        "created": "2020-05-22 00:00:00",
+        "archive": "0"
+    }]

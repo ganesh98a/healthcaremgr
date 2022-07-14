@@ -1,0 +1,63 @@
+---
+swagger: "2.0"
+info:
+  description: HCM API documentation.
+  version: 1.0.0
+  title: HCM
+host: virtserver.swaggerhub.com
+basePath: /OPT7/Feed/1.0.0
+schemes:
+- https
+- http
+paths:
+  /sms/Sms/send_bulk_sms:
+    post:
+      summary: "Send bulk sms to selected applications for a job"
+      description: ""
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      parameters:
+      - in: body
+        name: request_data
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                applicants:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      applicant_id:
+                        type: integer
+                      phone:
+                        type: string
+                application_id: 
+                  type: integer
+                msg:
+                  type: string
+      responses:
+        "200":
+          description: SMS sent successfully
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
+              status:
+                type: boolean
+        "500":
+          description: Server error
+      security:
+      - api_key: []
+securityDefinitions:
+  api_key:
+    type: apiKey
+    name: pin
+    in: query

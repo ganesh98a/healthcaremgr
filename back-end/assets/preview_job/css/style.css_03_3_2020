@@ -1,0 +1,395 @@
+.tooltip {
+  position: absolute;
+  z-index: 1070;
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: left;
+  text-align: start;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  letter-spacing: normal;
+  word-break: normal;
+  word-spacing: normal;
+  word-wrap: normal;
+  white-space: normal;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  line-break: auto;
+}
+
+.tooltip.in {
+  filter: alpha(opacity=90);
+  opacity: 0.9;
+}
+
+.tooltip.top {
+  padding: 5px 0;
+  margin-top: -3px;
+}
+
+.tooltip.right {
+  padding: 0 5px;
+  margin-left: 3px;
+}
+
+.tooltip.bottom {
+  padding: 5px 0;
+  margin-top: 3px;
+}
+
+.tooltip.left {
+  padding: 0 5px;
+  margin-left: -3px;
+}
+
+.tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #fff;
+  text-align: center;
+  background-color: #cc0000;
+  border-radius: 4px;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #cc0000;
+}
+
+.tooltip.top-left .tooltip-arrow {
+  right: 5px;
+  bottom: 0;
+  margin-bottom: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #cc0000;
+}
+
+.tooltip.top-right .tooltip-arrow {
+  bottom: 0;
+  left: 5px;
+  margin-bottom: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #cc0000;
+}
+
+.tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: #cc0000;
+}
+
+.tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cc0000;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #cc0000;
+}
+
+.tooltip.bottom-left .tooltip-arrow {
+  top: 0;
+  right: 5px;
+  margin-top: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #cc0000;
+}
+
+.tooltip.bottom-right .tooltip-arrow {
+  top: 0;
+  left: 5px;
+  margin-top: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #cc0000;
+}
+
+.jq-toast-wrap {
+  width: 400px;
+}
+.jq-toast-wrap .jq-toast-single {
+  width: 400px;
+}
+.jq-toast-wrap .jq-toast-single h2 {
+  font-size: 17px;
+}
+.jq-toast-wrap .jq-toast-single.jq-icon-error {
+  background-color: #f8d7da;
+  color: #670808;
+  border-color: #670808;
+  background-image: none;
+}
+.jq-toast-wrap .jq-toast-single.jq-icon-error .jq-toast-loaded {
+  background-color: #670808 !important;
+}
+.jq-toast-wrap .jq-toast-single.jq-icon-success {
+  background-color: #d4edda;
+  color: #155724;
+  border-color: #155724;
+  background-image: none;
+}
+.jq-toast-wrap .jq-toast-single.jq-icon-success .jq-toast-loaded {
+  background-color: #155724 !important;
+}
+
+.jq-icon-error::before {
+  content: "r" !important;
+  font-family: "appliedjobportalrequitement" !important;
+  font-size: 35px;
+  text-align: center;
+}
+
+.jq-icon-success::before {
+  content: "s" !important;
+  font-family: "appliedjobportalrequitement" !important;
+  font-size: 35px;
+  text-align: center;
+}
+
+.jq-has-icon {
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: 50px 1fr 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.close-jq-toast-single {
+  font-size: 17px;
+}
+
+.jq-toast-single.jq-has-icon.jq-icon-error::after,
+.jq-toast-single.jq-has-icon.jq-icon-success::after {
+  content: "dfasdf";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: fixed;
+  background: #00000057;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.main_page_template_hcm_app {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  min-height: 1200px;
+  width: 100%;
+  box-shadow: 0px 2px 11px #a09999;
+}
+.main_page_template_hcm_app .left_side {
+  background-color: #38296e;
+}
+.main_page_template_hcm_app .right_side {
+  background-color: #fff;
+  padding: 0px 50px;
+}
+.main_page_template_hcm_app .right_side.footer_right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #b2b0b7;
+  align-items: center;
+}
+.main_page_template_hcm_app .right_side.footer_right .social_icons {
+  display: flex;
+  justify-self: center;
+}
+.main_page_template_hcm_app .right_side.footer_right .social_icons div {
+  margin: 0px 7px;
+}
+.main_page_template_hcm_app .right_side.footer_right .social_icons div a img {
+  width: 45px;
+  height: 45px;
+}
+.main_page_template_hcm_app .right_side.footer_right .log_footer .img_footer {
+  background-color: #fff;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+}
+.main_page_template_hcm_app .right_side.footer_right .log_footer .img_footer img {
+  width: 70%;
+  padding: 15px 0px;
+}
+.main_page_template_hcm_app .right_side.footer_right .log_footer .website_text {
+  text-align: center;
+  color: #fff;
+}
+.main_page_template_hcm_app .right_side .main_logo {
+  text-align: center;
+  padding: 30px 0px;
+}
+.main_page_template_hcm_app .right_side .main_logo img {
+  width: 70%;
+}
+.main_page_template_hcm_app .list_req_doc {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 15px;
+  margin-top: 15px;
+}
+.main_page_template_hcm_app .list_req_doc div {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+}
+.main_page_template_hcm_app .list_req_doc div .btn_small_1 {
+  font-size: 12px;
+  border: 1px solid;
+  border-color: #007bff;
+  color: #007bff;
+  padding: 2px 8px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.modal_lg_my .modal-dialog .modal-content {
+  background-color: #f6f6f6;
+  padding: 15px 30px;
+}
+.modal_lg_my .modal-dialog .modal-content .m_header_1 {
+  padding: 7px 0px;
+  border-radius: 0px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #38296e;
+  color: #38296e;
+}
+.modal_lg_my .modal-dialog .modal-content .m_header_1 .close {
+  margin: 0px;
+  padding: 0px;
+}
+.modal_lg_my .modal-dialog .modal-content .m_header_1 .close span img {
+  width: 24px;
+}
+.modal_lg_my .modal-dialog .modal-content .m_body_1 {
+  padding: 15px 0px;
+}
+.modal_lg_my .modal-dialog .modal-content .m_body_1 .form-control {
+  font-size: 14px;
+  padding: 0.5rem 0.75rem;
+}
+.modal_lg_my .modal-dialog .modal-content .m_body_1 .form-control.input_box {
+  border-color: #000;
+}
+.modal_lg_my .modal-dialog .modal-content .m_footer_1 {
+  padding: 0px;
+  padding-top: 15px;
+  border-top: 1px solid;
+  border-color: #38296e;
+}
+
+.bt-1 {
+  border-top: 1px solid;
+}
+.bt-1.bt-color {
+  border-color: #38296e;
+}
+
+.add_btn_i span {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.btn-bg-color {
+  background-color: #38296e;
+  color: #fff;
+}
+.btn-bg-color:hover {
+  background-color: #211352;
+}
+
+.modal-open .pac-container.pac-logo {
+  z-index: 1051;
+}
+
+.upload_req_doc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #b9b9b9;
+}
+
+.upload_bro {
+  position: relative;
+  background-color: #38296e;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 5px;
+  min-width: 111px;
+  display: inline-flex;
+  justify-content: center;
+  font-size: 13px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.upload_bro input {
+  position: absolute;
+  width: 100%;
+  height: 0px;
+}
+
+.progressBar_1 {
+  background-color: #38296e;
+  width: 0px;
+  height: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -moz-transition: 0.25s ease-out;
+  -webkit-transition: 0.25s ease-out;
+  -o-transition: 0.25s ease-out;
+  transition: 0.25s ease-out;
+}
+
+.hdn_box {
+  opacity: 0;
+  opacity: 0;
+  height: 5px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  line-height: 0;
+}
+
+.danger {
+  color: #cc0000;
+}
+
+/*# sourceMappingURL=style.css.map */

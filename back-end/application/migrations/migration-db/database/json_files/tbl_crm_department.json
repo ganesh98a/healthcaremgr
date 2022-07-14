@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name": "Accommodation & Client Services",
+        "archive": "0"
+    },
+    {
+        "id": "2",
+        "name": "Casual Staff Services",
+        "archive": "0"
+    },
+    {
+        "id": "3",
+        "name": "People & Culture",
+        "archive": "0"
+    },
+    {
+        "id": "4",
+        "name": "Business Systems",
+        "archive": "0"
+    },
+    {
+        "id": "5",
+        "name": "Marketing",
+        "archive": "0"
+    },
+    {
+        "id": "6",
+        "name": "Finance",
+        "archive": "0"
+    }
+]

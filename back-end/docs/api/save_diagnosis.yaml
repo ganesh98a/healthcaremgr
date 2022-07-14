@@ -1,0 +1,132 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.30"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/sales/NeedAssessment"
+schemes:
+- "https"
+- "http"
+paths:
+  /save_diagnosis:
+    post:
+      summary: "Save Diagnosis Items"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            request_data:
+              type: object
+              properties:
+                need_assessment_id:
+                  type: "integer"
+                participant_impact_option:
+                  type: "array"
+                  items:
+                    type: object
+                    properties:
+                      label: 
+                        type: "string"
+                      value:
+                        type: "integer"
+                rows:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      conceptId:
+                        type: string
+                      current_plan:
+                        type: integer
+                      errors:
+                        type: object
+                      id:
+                        type: string
+                      impact_on_participant:
+                        type: integer
+                      incr_id_diagnosis:
+                        type: integer
+                      label:
+                        type: string
+                      plan_end_date:
+                        $ref: "#/definitions/date"
+                      primary_disability:
+                        type: boolean
+                      search_term:
+                        type: string
+                      selected:
+                        type: string
+                      support_level:
+                        type: string
+                selectedSearchResult:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      conceptId:
+                        type: string
+                      current_plan:
+                        type: integer
+                      id:
+                        type: string
+                      impact_on_participant:
+                        type: integer
+                      incr_id_diagnosis:
+                        type: integer
+                      label:
+                        type: string
+                      plan_end_date:
+                        $ref: "#/definitions/date"
+                      primary_disability:
+                        type: integer
+                      search_term:
+                        type: string
+                      selected:
+                        type: integer
+                      support_level:
+                        type: integer
+                support_level_option:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      label:
+                        type: string
+                      value:
+                        type: integer
+      security:
+        - api_key: []
+      responses:
+        "200":
+          description: ""
+          schema:
+            type: object
+            properties:
+              status:
+                  type: boolean
+              msg:
+                type: string
+                
+        "500":
+          description: "Server error"
+definitions:
+  date:
+    type: string
+    format: date
+    pattern: /([0-9]{4})-(?:[0-9]{2})-([0-9]{2})/
+    example: "YYYY-MM-DD"
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"

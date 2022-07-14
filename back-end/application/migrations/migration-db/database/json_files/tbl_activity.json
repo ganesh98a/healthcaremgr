@@ -1,0 +1,112 @@
+[
+    {
+        "id": "1",
+        "companyId": "1",
+        "name": "Fishing"
+    },
+    {
+        "id": "2",
+        "companyId": "1",
+        "name": "Football"
+    },
+    {
+        "id": "3",
+        "companyId": "1",
+        "name": "Golf"
+    },
+    {
+        "id": "4",
+        "companyId": "1",
+        "name": "Bowling"
+    },
+    {
+        "id": "5",
+        "companyId": "1",
+        "name": "Cooking"
+    },
+    {
+        "id": "6",
+        "companyId": "1",
+        "name": "Cleaning"
+    },
+    {
+        "id": "7",
+        "companyId": "1",
+        "name": "Soccer"
+    },
+    {
+        "id": "8",
+        "companyId": "1",
+        "name": "Dancing"
+    },
+    {
+        "id": "9",
+        "companyId": "1",
+        "name": "Art"
+    },
+    {
+        "id": "10",
+        "companyId": "1",
+        "name": "Reading"
+    },
+    {
+        "id": "11",
+        "companyId": "1",
+        "name": "Cycling"
+    },
+    {
+        "id": "12",
+        "companyId": "1",
+        "name": "Driving"
+    },
+    {
+        "id": "13",
+        "companyId": "1",
+        "name": "Flying"
+    },
+    {
+        "id": "14",
+        "companyId": "1",
+        "name": "Basketball"
+    },
+    {
+        "id": "15",
+        "companyId": "1",
+        "name": "Sports"
+    },
+    {
+        "id": "16",
+        "companyId": "1",
+        "name": "Gardening"
+    },
+    {
+        "id": "17",
+        "companyId": "1",
+        "name": "Picnics"
+    },
+    {
+        "id": "18",
+        "companyId": "1",
+        "name": "Walking"
+    },
+    {
+        "id": "19",
+        "companyId": "1",
+        "name": "Running"
+    },
+    {
+        "id": "20",
+        "companyId": "1",
+        "name": "Movies"
+    },
+    {
+        "id": "21",
+        "companyId": "1",
+        "name": "Video Games"
+    },
+    {
+        "id": "22",
+        "companyId": "1",
+        "name": "Swimming"
+    }
+]

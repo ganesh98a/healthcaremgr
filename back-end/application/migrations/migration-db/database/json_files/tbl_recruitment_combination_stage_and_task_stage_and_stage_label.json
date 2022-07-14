@@ -1,0 +1,205 @@
+[
+    {
+        "tbl_recruitment_stage_label": {
+            "id": "1",
+            "title": "Review Online Application",
+            "stage_number": "1",
+            "archive": "0"
+        },
+        "tbl_recruitment_stage": [
+            {
+                "title": "Review Answer",
+                "stage_key": "review_answer",
+                "stage": "1.1",
+                "stage_order": "10",
+                "created": "2019-08-07 00:00:00",
+                "archive": "0"
+            }
+        ],
+        "tbl_recruitment_task_stage": [
+            {
+                "name": "Review Online Application",
+                "key": "review_online_application",
+                "recruiter_view": "0",
+                "archive": "0"
+            }
+        ]
+    }, {
+        "tbl_recruitment_stage_label": {
+            "id": "2",
+            "title": "Phone Interview",
+            "stage_number": "2",
+            "archive": "0"
+        },
+        "tbl_recruitment_stage": [
+            {
+                "title": "Phone Interview",
+                "stage_key": "phone_interview",
+                "stage": "2.1",
+                "stage_order": "20",
+                "created": "2019-08-07 00:00:00",
+                "archive": "0"
+            }
+        ],
+        "tbl_recruitment_task_stage": [{
+                "name": "Phone interview",
+                "key": "phone_interview",
+                "recruiter_view": "0",
+                "archive": "0"
+            }]
+    }, {
+        "tbl_recruitment_stage_label": {
+            "id": "3",
+            "title": "Group Interview",
+            "stage_number": "3",
+            "archive": "0"
+        },
+        "tbl_recruitment_stage": [{
+                "title": "Schedule Interview",
+                "stage_key": "group_schedule_interview",
+                "stage": "3.1",
+                "stage_order": "30",
+                "created": "2019-08-07 00:00:00",
+                "archive": "0"
+            }, {
+                "title": "Applicant Responses",
+                "stage_key": "group_applicant_responses",
+                "stage": "3.2",
+                "stage_order": "40",
+                "created": "2019-08-07 00:00:00",
+                "archive": "0"
+            }, {
+                "title": "Group Interview Results",
+                "stage_key": "group_interview_result",
+                "stage": "3.3",
+                "stage_order": "50",
+                "created": "2019-08-07 00:00:00",
+                "archive": "0"
+            }],
+        "tbl_recruitment_task_stage": [{
+                "name": "Group Interview",
+                "key": "group_interview",
+                "recruiter_view": "1",
+                "archive": "0"
+            }]
+    }, {
+        "tbl_recruitment_stage_label": {
+            "id": "4",
+            "title": "Mandatory Documents",
+            "stage_number": "4",
+            "archive": "0"
+        },
+        "tbl_recruitment_stage": [{
+                "title": "Document Checklist",
+                "stage_key": "document_checklist",
+                "stage": "4.1",
+                "stage_order": "60",
+                "created": "2019-08-07 00:00:00",
+                "archive": "0"
+            }, {
+                "title": "Position and Award Levels",
+                "stage_key": "position_and_award_level",
+                "stage": "4.2",
+                "stage_order": "70",
+                "created": "2019-08-07 00:00:00",
+                "archive": "0"
+            }],
+        "tbl_recruitment_task_stage": [{
+                "name": "Mandatory Documentation",
+                "key": "mandatory_documentation",
+                "recruiter_view": "0",
+                "archive": "0"
+            }]
+    }, {
+        "tbl_recruitment_stage_label": {
+            "id": "5",
+            "title": "Reference Checks",
+            "stage_number": "5",
+            "archive": "0"
+        },
+        "tbl_recruitment_stage": [{
+                "title": "Review References",
+                "stage_key": "review_references",
+                "stage": "5.1",
+                "stage_order": "80",
+                "created": "2019-08-07 00:00:00",
+                "archive": "0"
+            }],
+        "tbl_recruitment_task_stage": [{
+                "name": "Reference Checks",
+                "key": "reference_checks",
+                "recruiter_view": "0",
+                "archive": "0"
+            }]
+    }, {
+        "tbl_recruitment_stage_label": {
+            "id": "6",
+            "title": "CAB Day",
+            "stage_number": "6",
+            "archive": "0"
+        },
+        "tbl_recruitment_stage": [{
+                "title": "Schedule Cab Day",
+                "stage_key": "schedule_cab_day",
+                "stage": "6.1",
+                "stage_order": "90",
+                "created": "2019-08-07 00:00:00",
+                "archive": "0"
+            }, {
+                "title": "Applicant Responses",
+                "stage_key": "cab_applicant_responses",
+                "stage": "6.2",
+                "stage_order": "100",
+                "created": "2019-08-07 00:00:00",
+                "archive": "0"
+            }, {
+                "title": "CAB Day Result ",
+                "stage_key": "cab_day_result",
+                "stage": "6.3",
+                "stage_order": "110",
+                "created": "2019-08-07 00:00:00",
+                "archive": "0"
+            }, {
+                "title": "Employment Contract",
+                "stage_key": "employment_contract",
+                "stage": "6.4",
+                "stage_order": "120",
+                "created": "2019-08-07 00:00:00",
+                "archive": "0"
+            }, {
+                "title": "Member App Onboarding",
+                "stage_key": "member_app_onboarding",
+                "stage": "6.5",
+                "stage_order": "130",
+                "created": "2019-08-07 00:00:00",
+                "archive": "0"
+            }],
+        "tbl_recruitment_task_stage": [{
+                "name": "CAB day",
+                "key": "cab_day",
+                "recruiter_view": "1",
+                "archive": "0"
+            }]
+    }, {
+        "tbl_recruitment_stage_label": {
+            "id": "7",
+            "title": "Recruitment Complete",
+            "stage_number": "7",
+            "archive": "0"
+        },
+        "tbl_recruitment_stage": [{
+                "title": "Recruitment Complete",
+                "stage_key": "recruitment_complete",
+                "stage": "7.1",
+                "stage_order": "140",
+                "created": "2019-08-07 00:00:00",
+                "archive": "0"
+            }],
+        "tbl_recruitment_task_stage": [{
+                "name": "Hiring Stage",
+                "key": "hiring_stage",
+                "recruiter_view": "0",
+                "archive": "0"
+            }]
+    }
+]

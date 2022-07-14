@@ -1,0 +1,47 @@
+[
+	{
+		"id": 1,
+		"support_category_id": 1,
+		"item_name": "Self-Care",
+		"operand": "like",
+		"support_type_id": 1,
+		"archive": 0,		
+		"created_at": "2020-05-04 18:55:00"
+	},
+	{
+		"id": 2,
+		"support_category_id": 1,
+		"item_name": "Cleaning",
+		"operand": "like",
+		"support_type_id": 2,
+		"archive": 0,
+		"created_at": "2020-05-04 18:55:00"
+	},
+	{
+		"id": 3,
+		"support_category_id": 1,
+		"item_name": "Establishment Fee",
+		"operand": "like",
+		"support_type_id": 3,
+		"archive": 0,
+		"created_at": "2020-05-04 18:55:00"
+	},
+	{
+		"id": 4,
+		"support_category_id": 4,
+		"item_name": "Access community",
+		"operand": "like",
+		"support_type_id": 4,
+		"archive": 0,
+		"created_at": "2020-05-04 18:55:00"
+	},
+	{
+		"id": 5,
+		"support_category_id": 4,
+		"item_name": "Group Activities",
+		"operand": "like",
+		"support_type_id": 4,
+		"archive": 0,
+		"created_at": "2020-05-04 18:55:00"
+	}
+]

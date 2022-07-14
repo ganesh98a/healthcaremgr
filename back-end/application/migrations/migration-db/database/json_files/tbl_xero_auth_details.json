@@ -1,0 +1,10 @@
+[
+ {
+   "id": 1,
+   "companyId": 1,
+   "xero_consumer_key": "T4PEOJRMDRUNNTPHWKPLO8BKAHKJNT",
+   "xero_consumer_secret": "FSDMG4EF8OPCFOJXU1R1D1YUTVDXZB",
+   "xero_rsa_private_key": "privatekey.pem",
+   "status": 1
+ }
+]

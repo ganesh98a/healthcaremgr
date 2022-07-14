@@ -1,0 +1,33 @@
+[		
+	{
+		"title": "Roster Funding Type",
+		"key_name": "roster_funding_type",
+		"created": "2021-03-25 21:20:00",
+		"data": [
+			{
+				"type": "",
+				"code": "roster_plan_managed",
+				"display_name": "Plan Managed",
+				"key_name": "roster_plan_managed",
+				"start_date": "",
+				"created": "2021-03-25 21:20:00"
+			},
+			{
+				"type": "",
+				"code": "roster_private_funding",
+				"display_name":"Private Funding",
+				"key_name":"roster_private_funding",
+				"start_date":"",
+				"created": "2021-03-25 21:20:00"
+			},
+			{
+				"type": "",
+				"code": "roster_self_managed",
+				"display_name":"Self managed",
+				"key_name":"roster_self_managed",
+				"start_date":"",
+				"created": "2021-03-25 21:20:00"
+			}
+		]
+	}
+]

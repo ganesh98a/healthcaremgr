@@ -1,0 +1,63 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.24"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/admin/api/"
+schemes:
+- "https"
+- "http"
+paths:
+  /callapi:
+    post:
+      summary: "Creating a lead"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+        - in: body
+          name: payload
+          schema:
+            type: object
+            properties:
+              username:
+                type: string
+              password: 
+                type: string
+              api_key:
+                type: string
+              function:
+                type: string
+              data:
+                type: object
+                properties:
+                  firstname:
+                    type: string
+                  lastname:
+                    type: string
+                  lead_topic:
+                    type: string
+                  lead_description:
+                    type: string
+                  lead_company:
+                    type: string
+                  email:
+                    type: string
+                  phone:
+                    type: string
+      responses:
+        "200":
+          description: "Creating new lead"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Lead has been created successfully.'
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"

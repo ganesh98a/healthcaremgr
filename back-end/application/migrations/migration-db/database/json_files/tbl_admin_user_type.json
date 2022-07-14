@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "name": "Admin",
+        "key_name": "admin",
+        "archive": "0"
+    },
+    {
+        "id": "2",
+        "name": "TV Display User",
+        "key_name": "tv_display_user",
+        "archive": "0"
+    },
+    {
+        "id": "3",
+        "name": "General User",
+        "key_name": "general_user",
+        "archive": "0"
+    }
+]

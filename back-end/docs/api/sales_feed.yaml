@@ -1,0 +1,186 @@
+---
+swagger: "2.0"
+info:
+  description: HCM API documentation.
+  version: 1.0.0
+  title: HCM
+host: virtserver.swaggerhub.com
+basePath: /OPT7/Feed/1.0.0
+tags:
+- name: Post Feed
+  description: Save feed
+- name: Post comment
+  description: Save comment
+schemes:
+- https
+- http
+paths:
+  /get_related_type:
+    post:
+      tags:
+      - Get Feed Related Type
+      summary: ""
+      description: ""
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      parameters:
+      - in: body
+        name: request_data
+        description: ""
+        required: true
+        schema:
+          $ref: '#/definitions/post_related_type_data'
+      responses:
+        "200":
+          description: Get related type
+          schema:
+            $ref: '#/definitions/inline_response_200'
+        "500":
+          description: Server error
+      security:
+      - api_key: []
+  /post_feed:
+    post:
+      tags:
+      - Post Feed
+      summary: ""
+      description: ""
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      parameters:
+      - in: body
+        name: request_data
+        description: ""
+        required: true
+        schema:
+          $ref: '#/definitions/request_data_1'
+      responses:
+        "200":
+          description: Create member documents
+          schema:
+            $ref: '#/definitions/inline_response_200_1'
+        "500":
+          description: Server error
+      security:
+      - api_key: []
+  /post_comment:
+    post:
+      tags:
+      - Post Comment
+      summary: ""
+      description: ""
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      parameters:
+      - in: body
+        name: request_data
+        description: ""
+        required: true
+        schema:
+          $ref: '#/definitions/request_data_2'
+      responses:
+        "200":
+          description: Post Comment
+          schema:
+            $ref: '#/definitions/inline_response_200_2'
+        "500":
+          description: Server error
+      security:
+      - api_key: []
+securityDefinitions:
+  api_key:
+    type: apiKey
+    name: pin
+    in: query
+definitions:
+  datetime:
+    type: string
+    pattern: /([0-9]{4})-(?:[0-9]{2})-([0-9]{2}) (\d{2}):(\d{2}):(\d{2})/
+    format: date-time
+    example: 2019-05-17 00:00:00
+  post_related_type_data:
+    type: object
+    properties:
+      related:
+        type: string
+  request_data:
+    type: object
+    properties:
+      token:
+        type: string
+      data:
+        $ref: '#/definitions/post_feed_data'
+  inline_response_200:
+    type: object
+    properties:
+      status:
+        type: boolean
+      msg:
+        type: string
+        example: Related Type has been fetched successfully.
+      data:
+        type: object
+        example: '{related_type:1}'
+        properties: {}
+  post_feed_data:
+    type: object
+    properties:
+      feed_title:
+        type: string
+      source_id:
+        type: integer
+      related_type:
+        type: integer
+  request_data_1:
+    type: object
+    properties:
+      token:
+        type: string
+      data:
+        $ref: '#/definitions/post_feed_data'
+  inline_response_200_1:
+    type: object
+    properties:
+      status:
+        type: boolean
+      msg:
+        type: string
+        example: Feed has been posted successfully.
+      data:
+        type: object
+        example: '{feed_id:1}'
+        properties: {}
+  post_comment_data:
+    type: object
+    properties:
+      history_id:
+        type: integer
+      token:
+        type: integer
+      feed_comment:
+        type: string
+      source_id:
+        type: integer
+      related_type:
+        type: integer
+  request_data_2:
+    type: object
+    properties:
+      token:
+        type: string
+      data:
+        $ref: '#/definitions/post_comment_data'
+  inline_response_200_2:
+    type: object
+    properties:
+      status:
+        type: boolean
+      msg:
+        type: string
+        example: Comment has been posted Successfully.

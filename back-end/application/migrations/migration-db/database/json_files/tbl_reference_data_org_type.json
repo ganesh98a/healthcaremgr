@@ -1,0 +1,154 @@
+[
+	{
+		"type": "",
+		"code": "",
+		"display_name": "Aged Carer",
+		"key_name": "aged_care",
+		"start_date": "",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"Billing Only (no jobs)",
+		"key_name":"billing_only",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"Case Management",
+		"key_name":"case_management",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"Disability",
+		"key_name":"disability",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"Disability ATSS",
+		"key_name":"disability_atss",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"In Home Support",
+		"key_name":"in_home_support",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"LifeChoices",
+		"key_name":"life_choices",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"LifeStyles",
+		"key_name":"life_style",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"NDIA Behaviour Support",
+		"key_name":"ndia_behaviour_support",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"NDIA Support Co-ordination",
+		"key_name":"ndia_support_co-ordination",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"Nursing Div 1",
+		"key_name":"nursing_div_1",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"Nursing Div 2",
+		"key_name":"nursing_div_2",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"ONCALL- Do not invoice",
+		"key_name":"oncall-do_not_invoice",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"ONCALL- Office Staff",
+		"key_name":"oncall-office_staff",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"ONCALL OoHC – HIS",
+		"key_name":"oncall_oohc-his",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"ONCALL OoHC Registration",
+		"key_name":"oncall_oohc_registration",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"ONCALL Test",
+		"key_name":"oncall_test",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"ONCALL Training",
+		"key_name":"oncall_training",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	},
+	{
+		"type": "",
+		"code": "",
+		"display_name":"Welfare",
+		"key_name":"welfare",
+		"start_date":"",
+		"created": "2021-02-10 21:20:00"
+	}
+]

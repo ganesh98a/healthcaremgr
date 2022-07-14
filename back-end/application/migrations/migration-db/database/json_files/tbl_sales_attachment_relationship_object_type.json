@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "name": "lead",
+        "table": "tbl_leads"
+    },
+    {
+        "id": "2",
+        "name": "opportunity",
+        "table": "tbl_opportunity"
+    },
+    {
+        "id": "3",
+        "name": "contact",
+        "table": "tbl_person"
+    },
+    {
+        "id": "4",
+        "name": "organisation",
+        "table": "tbl_organisation"
+    },
+    {
+        "id": "5",
+        "name": "need_assessment",
+        "table": "tbl_need_assessment"
+    },
+    {
+        "id": "6",
+        "name": "risk_assessment",
+        "table": "tbl_crm_risk_assessment"
+    },
+    {
+        "id": "7",
+        "name": "service_agreement",
+        "table": "tbl_service_agreement"
+    },
+    {
+        "id": "8",
+        "name": "fms_feedback",
+        "table": "tbl_fms_feedback"
+    }
+]

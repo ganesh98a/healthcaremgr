@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "point_name": "Pay Point 1",
+        "short_title": "1",
+        "status": "1",
+        "point_priority": "100",
+        "created": "2019-03-30 14:39:59"
+    },
+    {
+        "id": "2",
+        "point_name": "Pay Point 2",
+        "short_title": "2",
+        "status": "1",
+        "point_priority": "200",
+        "created": "2019-03-30 14:39:59"
+    },
+    {
+        "id": "3",
+        "point_name": "Pay Point 3",
+        "short_title": "3",
+        "status": "1",
+        "point_priority": "300",
+        "created": "2019-03-30 14:39:59"
+    },
+    {
+        "id": "4",
+        "point_name": "Pay Point 4",
+        "short_title": "4",
+        "status": "1",
+        "point_priority": "400",
+        "created": "2019-03-30 14:39:59"
+    }
+]

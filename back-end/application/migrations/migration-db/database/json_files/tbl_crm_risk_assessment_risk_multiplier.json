@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "type": "probability",
+        "name": "Rare",
+        "multiplier": 1
+    },
+    {
+        "id": 2,
+        "type": "probability",
+        "name": "Unlikely",
+        "multiplier": 2
+    },
+    {
+        "id": 3,
+        "type": "probability",
+        "name": "Moderate",
+        "multiplier": 3
+    },
+    {
+        "id": 4,
+        "type": "probability",
+        "name": "Likely",
+        "multiplier": 4
+    },
+    {
+        "id": 5,
+        "type": "probability",
+        "name": "Almost certain",
+        "multiplier": 5
+    },
+
+
+    {
+        "id": 6,
+        "type": "impact",
+        "name": "Insignificant",
+        "multiplier": 1
+    },
+    {
+        "id": 7,
+        "type": "impact",
+        "name": "Minor",
+        "multiplier": 2
+    },
+    {
+        "id": 8,
+        "type": "impact",
+        "name": "Significant",
+        "multiplier": 3
+    },
+    {
+        "id": 9,
+        "type": "impact",
+        "name": "Major",
+        "multiplier": 4
+    },
+    {
+        "id": 10,
+        "type": "impact",
+        "name": "Severe",
+        "multiplier": 5
+    }
+]

@@ -1,0 +1,45 @@
+[
+{"type":"27","key_name":"first_aid","display_name":"First Aid","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"27","key_name":"shift_allowance","display_name":"Shift Allowance","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"27","key_name":"mon_fri","display_name":"Mon - Fri","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"27","key_name":"night_duty_allowance","display_name":"Night Duty Allowance","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"27","key_name":"public_holiday","display_name":"Public Holiday","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"27","key_name":"overtime_15","display_name":"Overtime 1.5","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"27","key_name":"overtime_20","display_name":"Overtime 2.0","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"27","key_name":"saturday","display_name":"Saturday","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"27","key_name":"sunday","display_name":"Sunday","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"27","key_name":"so_weekday","display_name":"Sleepover Weekday","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"27","key_name":"so_weekend","display_name":"Sleepover Weekend","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"27","key_name":"personal_expenses","display_name":"Personal Expenses","start_date":"","created":"2021-01-11 10:11:12"},
+{"type":"27","key_name":"mileage","display_name":"Mileage","start_date":"","created":"2021-01-28 10:11:12"},
+{"type":"27","key_name":"mileage_taxable","display_name":"Mileage Taxable","start_date":"","created":"2021-01-28 10:11:12"},
+
+{"type":"28","key_name":"age_care_award","display_name":"Age Care Award","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"28","key_name":"child_care_award","display_name":"Child Care Award","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"28","key_name":"fitness_industry_award","display_name":"Fitness Industry Award","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"28","key_name":"DHHS","display_name":"DHHS","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"28","key_name":"SCHADS","display_name":"SCHADS","start_date":"","created":"2020-11-11 10:11:12"},
+
+{"type":"29","key_name":"fulltime","display_name":"Full Time","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"29","key_name":"casual","display_name":"Casual","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"29","key_name":"parttime","display_name":"Part Time","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"29","key_name":"fixedterm","display_name":"Fixed Term","start_date":"","created":"2020-11-11 10:11:12"},
+
+{"type":"30","key_name":"paylevel1","display_name":"Level 1","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"30","key_name":"paylevel2","display_name":"Level 2","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"30","key_name":"paylevel3","display_name":"Level 3","start_date":"","created":"2020-11-11 10:11:12"},
+
+{"type":"31","key_name":"paypoint1","display_name":"Pay Point 1","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"31","key_name":"paypoint2","display_name":"Pay Point 2","start_date":"","created":"2020-11-11 10:11:12"},
+{"type":"31","key_name":"paypoint3","display_name":"Pay Point 3","start_date":"","created":"2020-11-11 10:11:12"},
+
+{"type":"32","display_name":"Disability - Payroll Tax","key_name":"disability_payroll_tax","start_date":"","created":"2021-02-01 10:11:12"},
+{"type":"32","display_name":"Disability - No Payroll Tax","key_name":"disability_no_payroll_tax","start_date":"","created":"2021-02-01 10:11:12"},
+{"type":"32","display_name":"Disability - One Site 3% Discount","key_name":"disability_one_site_3_discount","start_date":"","created":"2021-02-01 10:11:12"},
+{"type":"32","display_name":"Welfare - Payroll Tax","key_name":"welfare_payroll_tax","start_date":"","created":"2021-02-01 10:11:12"},
+{"type":"32","display_name":"Welfare - No Payroll Tax","key_name":"welfare_no_payroll_tax","start_date":"","created":"2021-02-01 10:11:12"},
+{"type":"32","display_name":"Welfare - One Site 3% Discount","key_name":"welfare_one_site_3_discount","start_date":"","created":"2021-02-01 10:11:12"},
+{"type":"32","display_name":"Day Services - No Payroll Tax","key_name":"day_services_no_payroll_tax","start_date":"","created":"2021-02-01 10:11:12"},
+{"type":"32","display_name":"Day Services - One Site 3% Discount","key_name":"day_services_one_site_3_discount","start_date":"","created":"2021-02-01 10:11:12"},
+{"type":"32","display_name":"DDSO - 1 rate","key_name":"ddso_1_rate","start_date":"","created":"2021-02-01 10:11:12"}
+]

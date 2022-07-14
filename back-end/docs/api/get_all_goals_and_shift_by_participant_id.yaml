@@ -1,0 +1,62 @@
+openapi: 3.0.0
+info:
+  description: HCM API documentation.
+  version: 1.0.0-oas3
+  title: HCM
+paths:
+  /get_all_goals_and_shift_by_participant_id:
+    post:
+      summary: Get all goal list bu shift participant id
+      description: ''
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                data:
+                  type: object
+                  properties:
+                    participant_id:
+                      type: integer
+                      example: 48
+        required: true
+      security:
+        - api_key: []
+      responses:
+        '200':
+          description: List of goals
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      format: string
+                      example: {"label":"goal", "value":"1"}
+                      
+                      
+                  status:
+                    type: boolean
+                  msg:
+                    type: string
+        '500':
+          description: Server error
+servers:
+  - url: 'https://admin.int.healthcaremgr.net/sales/LeadHistory'
+  - url: 'http://admin.int.healthcaremgr.net/sales/LeadHistory'
+components:
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: pin
+      in: query
+  schemas:
+    datetime:
+      type: string
+      format: date-time
+      pattern: '/([0-9]{4})-(?:[0-9]{2})-([0-9]{2}) (\d{2}):(\d{2}):(\d{2})/'
+      example: '2019-05-17 00:00:00'

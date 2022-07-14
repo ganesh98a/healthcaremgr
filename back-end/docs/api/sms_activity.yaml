@@ -1,0 +1,88 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: 1.0.0
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/sms/Sms/"
+tags:
+- name: SMS
+  description: Send SMS to applicant
+schemes:
+- "https"
+- "http"
+paths:
+
+  /send_activity_sms_queue:
+    post:
+      tags:
+      - Send SMS
+      summary: "Send SMS to applicants"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+        - in: body
+          name: request_data
+          required: true
+          schema:
+            type: object
+            properties:
+              data:
+                type: "object"
+                properties:
+                  entity_type: 
+                    type: string
+                    example: 'interview'
+                  entity_id: 
+                    type: integer
+                    example: '1'
+                  msg: 
+                    type: string
+                    example: 'Hi test msg'
+                  template: 
+                    type: string
+                    example: '1'
+                  applicants:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                      label:
+                        type: string
+                      value:
+                        type: string
+                      phone:
+                        type: string
+                      application_id:
+                        type: string
+      security:
+        - api_key: []
+      responses:
+        "200":
+          description: "SMS Sent Successfully."
+          schema:
+            $ref: '#/definitions/inline_response_200'
+        "500":
+          description: "Server error"
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"
+definitions:
+  inline_response_200:
+    type: object
+    properties:
+      status:
+        type: string
+      data:
+        type: object
+        properties:
+          value:
+            type: integer
+          label:
+            type: string
+          key_name:
+            type: string

@@ -1,0 +1,39 @@
+{
+    "fms_feed_category": [
+        {"name":"Grievance","key_name":"grievance","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"Staff Performance","key_name":"staff_performance","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"Serious Misconduct","key_name":"serious_misconduct","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"Investigation","key_name":"investigation","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"Cat 1 Investigation","key_name":"cat_1_investigation","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"Own Alert","key_name":"own_alert","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"Client Mismatch","key_name":"client_mismatch","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"Client Survey Response","key_name":"client_survey_response","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"Now works for Organisation","key_name":"now_works_for_organisation","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"Cat 1 Incident","key_name":"cat_1_incident","created":"2021-04-19 09:00:00","archive":"0"}
+    ],
+    "fms_initiator_category": [
+        {"name":"Member of Public","key_name":"init_member_of_public","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"HCM Member","key_name":"init_hcm_member","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"HCM Participant","key_name":"init_hcm_participant","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"HCM (General)","key_name":"init_hcm_general","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"HCM User/Admin","key_name":"init_hcm_user_admin","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"HCM Organisation","key_name":"init_hcm_organisation","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"HCM Site","key_name":"init_hcm_site","created":"2021-04-19 09:00:00","archive":"0"}
+    ],
+    "fms_against_category": [
+        {"name":"Member of Public","key_name":"aga_member_of_public","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"HCM Member","key_name":"aga_hcm_member","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"HCM Participant","key_name":"aga_hcm_participant","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"HCM (General)","key_name":"aga_hcm_general","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"HCM User/Admin","key_name":"aga_hcm_user_admin","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"HCM Organisation","key_name":"aga_hcm_organisation","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"HCM Site","key_name":"aga_hcm_site","created":"2021-04-19 09:00:00","archive":"0"}
+    ],
+    "fms_department_details": [
+        {"name":"Accommodation Services (Disability)","key_name":"accommodation_services_disability","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"Accommodation Services (Out of Home Care)","key_name":"accommodation_services_disability_home","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"Client & NDIS Services","key_name":"client_ndis","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"Casual Staff Service","key_name":"casual_staff_service","created":"2021-04-19 09:00:00","archive":"0"},
+        {"name":"Head Office","key_name":"head_office","created":"2021-04-19 09:00:00","archive":"0"}
+    ]
+}

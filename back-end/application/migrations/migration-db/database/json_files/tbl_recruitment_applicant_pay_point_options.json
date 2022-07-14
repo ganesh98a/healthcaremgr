@@ -1,0 +1,12 @@
+[
+{"id":"1","pay_point_approval_id":"1","applicant_id":"1","work_area":"1","pay_point":"7","pay_level":"8","is_approved":"0"},
+{"id":"2","pay_point_approval_id":"1","applicant_id":"1","work_area":"1","pay_point":"6","pay_level":"5","is_approved":"0"},
+{"id":"3","pay_point_approval_id":"2","applicant_id":"2","work_area":"1","pay_point":"6","pay_level":"6","is_approved":"0"},
+{"id":"4","pay_point_approval_id":"2","applicant_id":"2","work_area":"2","pay_point":"6","pay_level":"6","is_approved":"0"},
+{"id":"5","pay_point_approval_id":"3","applicant_id":"3","work_area":"1","pay_point":"6","pay_level":"6","is_approved":"0"},
+{"id":"6","pay_point_approval_id":"3","applicant_id":"3","work_area":"2","pay_point":"6","pay_level":"6","is_approved":"0"},
+{"id":"7","pay_point_approval_id":"4","applicant_id":"4","work_area":"1","pay_point":"6","pay_level":"6","is_approved":"0"},
+{"id":"8","pay_point_approval_id":"4","applicant_id":"4","work_area":"2","pay_point":"6","pay_level":"6","is_approved":"0"},
+{"id":"9","pay_point_approval_id":"5","applicant_id":"5","work_area":"1","pay_point":"6","pay_level":"6","is_approved":"0"},
+{"id":"10","pay_point_approval_id":"5","applicant_id":"5","work_area":"2","pay_point":"6","pay_level":"6","is_approved":"0"}
+]

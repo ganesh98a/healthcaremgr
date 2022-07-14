@@ -1,0 +1,254 @@
+[
+    {
+        "id": "1",
+        "title": "Lead Source",
+        "key_name": "lead_source",
+        "created": "2020-05-14 14:36:49",
+        "archive": "0"
+    },
+    {
+        "id": "2",
+        "title": "Hobbies",
+        "key_name": "Hobbies",
+        "created": "2020-05-18 14:36:49",
+        "archive": "0"
+    },
+    {
+      "id": "3",
+      "title": "Title",
+      "key_name": "title",
+      "created": "2020-05-25 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "5",
+      "title": "Docs required (Apply Job)",
+      "key_name": "docs_required_apply_Job",
+      "created": "2020-05-26 14:36:49",
+      "archive": "0"
+    },
+    {
+        "id": "4",
+        "title": "Docs required (Recruitment Stages)",
+        "key_name": "docs_required_recruitment_stages",
+        "created": "2020-05-26 14:36:49",
+        "archive": "0"
+    },
+    {
+      "id": "6",
+      "title": "Contact Role Type",
+      "key_name": "contact_role_type",
+      "created": "2020-06-01 10:11:12",
+      "archive": "0"
+    },
+    {
+        "id": "7",
+        "title": "Cancel and Lost Reason Opportunity",
+        "key_name": "cancel_and_lost_reason_opp",
+        "created": "2020-06-11 10:11:12",
+        "archive": "0"
+    },
+	{
+      "id": "8",
+      "title": "Unqualified Reason Lead",
+      "key_name": "unqualified_reason_lead",
+      "created": "2020-06-15 10:11:12",
+      "archive": "0"
+    },
+    {
+        "id": "9",
+        "title": "Declined Reason Service Agreement",
+        "key_name": "declined_reason_service_agreement",
+        "created": "2020-06-15 10:11:12",
+        "archive": "0"
+    },
+    {
+      "id": "10",
+      "title": "Account Role Type (Person)",
+      "key_name": "account_role_type_person",
+      "created": "2020-06-18 09:39:10",
+      "archive": "0"
+    },
+    {
+      "id": "11",
+      "title": "Account Role Type (Org)",
+      "key_name": "account_role_type_org",
+      "created": "2020-06-18 09:39:10",
+      "archive": "0"
+    },
+    {
+      "id": "12",
+      "title": "Need Assessment Preferences Like",
+      "key_name": "need_assessment_preferences_like",
+      "created": "2020-06-15 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "13",
+      "title": "Need Assessment Preferences Dislike",
+      "key_name": "need_assessment_preferences_dislike",
+      "created": "2020-06-15 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "14",
+      "title": "Need Assessment Support Worker Language",
+      "key_name": "need_assessment_support_worker_language",
+      "created": "2020-06-15 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "15",
+      "title": "Need Assessment Support Worker Culture",
+      "key_name": "need_assessment_support_worker_culture",
+      "created": "2020-06-15 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "16",
+      "title": "Need Assessment Support Worker Interests",
+      "key_name": "need_assessment_support_worker_interests",
+      "created": "2020-06-15 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "17",
+      "title": "Opportunity type",
+      "key_name": "opportunity_type",
+      "created": "2020-06-23 09:39:10",
+      "archive": "0"
+    }, {
+      "id": "18",
+      "title": "Organisation type",
+      "key_name": "organisation_type",
+      "created": "2020-09-01 09:39:10",
+      "archive": "0"
+    },
+    {
+      "id": "19",
+      "title": "Transport",
+      "key_name": "transport",
+      "created": "2020-09-08 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "20",
+      "title": "Skill",
+      "key_name": "skill",
+      "created": "2020-09-23 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "21",
+      "title": "Skill Level",
+      "key_name": "skill_level",
+      "created": "2020-09-08 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "22",
+      "title": "Unavailability Type",
+      "key_name": "unavailability_type",
+      "created": "2020-09-24 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "23",
+      "title": "Gender",
+      "key_name": "gender",
+      "created": "2020-10-05 04:54:12",
+      "archive": "0"
+    },
+    {
+      "id": "24",
+      "title": "Participant Member Status",
+      "key_name": "participant_member_status",
+      "created": "2020-11-02 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "25",
+      "title": "Shift Break Type",
+      "key_name": "shift_break_yype",
+      "created": "2020-11-11 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "26",
+      "title": "Shift Cancel Reason",
+      "key_name": "shift_cancel_reason",
+      "created": "2020-11-20 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "27",
+      "title": "Pay Rates Category",
+      "key_name": "payrates_category",
+      "created": "2020-12-17 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "28",
+      "title": "Pay Rates Award",
+      "key_name": "payrates_award",
+      "created": "2020-12-17 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "29",
+      "title": "Employment Type",
+      "key_name": "employment_type",
+      "created": "2020-12-17 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "30",
+      "title": "Pay Levels",
+      "key_name": "pay_levels",
+      "created": "2020-12-17 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "31",
+      "title": "Skills",
+      "key_name": "skills",
+      "created": "2020-12-22 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "32",
+      "title": "Cost Book",
+      "key_name": "cost_book",
+      "created": "2021-02-01 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "33",
+      "title": "Timesheet Query",
+      "key_name": "timesheet_query",
+      "created": "2021-02-23 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "39",
+      "title": "Invoice Cancel Reason",
+      "key_name": "invoice_cancel_reason",
+      "created": "2021-04-08 10:11:12",
+      "archive": "0"
+    },
+    {
+      "id": "40",
+      "title": "Invoice Void Reason",
+      "key_name": "invoice_void_reason",
+      "created": "2021-04-08 10:11:12",
+      "archive": "0"
+    },
+
+    {
+      "id": "45",
+      "title": "Service Agreement Type",
+      "key_name": "service_agreement_type",
+      "created": "2021-05-04 12:05:49",
+      "archive": "0"
+    }
+]

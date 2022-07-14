@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "name":"Template 1",
+        "template": "<p>%USERNAME%</p>",
+        "archive": "0",
+        "created": "0000-00-00 00:00:00",
+        "updated": "0000-00-00 00:00:00",
+        "thumb":"resume_template.png"
+    },
+    {
+        "id": "2",
+        "name":"Template 2",
+        "template": "<p>%USERNAME%</p> <p>%MSG%</p>",
+        "archive": "0",
+        "created": "0000-00-00 00:00:00",
+        "updated": "0000-00-00 00:00:00",
+        "thumb":"resume_template.png"
+    },
+    {
+        "id": "3",
+        "name":"Template 3",
+        "template": "<p>%USERNAME%</p> <p>%MSG%</p> <p>%CONTACT_DETAIL%</p>",
+        "archive": "0",
+        "created": "0000-00-00 00:00:00",
+        "updated": "0000-00-00 00:00:00",
+        "thumb":"resume_template.png"
+    }
+]

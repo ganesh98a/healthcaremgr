@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1",
+        "name": "Full Time",
+        "created": "2019-10-10 14:08:46",
+        "archive": "0"
+    }, {
+        "id": "2",
+        "name": "Part Time",
+        "created": "2019-10-10 14:08:46",
+        "archive": "0"
+    }, {
+        "id": "3",
+        "name": "Casual",
+        "created": "2019-10-10 14:08:46",
+        "archive": "0"
+    }
+]

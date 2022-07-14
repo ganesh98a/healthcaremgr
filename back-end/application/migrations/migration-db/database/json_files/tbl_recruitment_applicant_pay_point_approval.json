@@ -1,0 +1,4 @@
+[
+{"id":"1","applicant_id":"1","relevant_notes":"test 123 test girish","status":"1","requested_by":"0","requested_at":"0000-00-00 00:00:00","approved_by":"0","approved_at":"0000-00-00 00:00:00","archived":"0"},
+{"id":"2","applicant_id":"2","relevant_notes":"123 sanjay test","status":"0","requested_by":"0","requested_at":"0000-00-00 00:00:00","approved_by":"0","approved_at":"0000-00-00 00:00:00","archived":"0"}
+]

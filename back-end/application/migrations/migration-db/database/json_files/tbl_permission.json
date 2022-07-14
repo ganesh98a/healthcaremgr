@@ -1,0 +1,402 @@
+[
+    {
+      "id": "1",
+      "companyId": "1",
+      "permission": "access_participant",
+      "title": "Access only participant",
+      "pin_type": "0",
+      "moduleId": "2"
+    },
+    {
+      "id": "2",
+      "companyId": "1",
+      "permission": "create_participant",
+      "title": "create only participant",
+      "pin_type": "0",
+      "moduleId": "2"
+    },
+    {
+      "id": "3",
+      "companyId": "1",
+      "permission": "update_participant",
+      "title": "Update only participant",
+      "pin_type": "0",
+      "moduleId": "2"
+    },
+    {
+      "id": "4",
+      "companyId": "1",
+      "permission": "delete_participant",
+      "title": "Delete only participant",
+      "pin_type": "0",
+      "moduleId": "2"
+    },
+    {
+      "id": "5",
+      "companyId": "1",
+      "permission": "access_member",
+      "title": "Access Member",
+      "pin_type": "0",
+      "moduleId": "3"
+    },
+    {
+      "id": "6",
+      "companyId": "1",
+      "permission": "create_member",
+      "title": "Create Member",
+      "pin_type": "0",
+      "moduleId": "3"
+    },
+    {
+      "id": "7",
+      "companyId": "1",
+      "permission": "update_member",
+      "title": "Update Member",
+      "pin_type": "0",
+      "moduleId": "3"
+    },
+    {
+      "id": "8",
+      "companyId": "1",
+      "permission": "delete_member",
+      "title": "Delete Member",
+      "pin_type": "0",
+      "moduleId": "3"
+    },
+    {
+      "id": "9",
+      "companyId": "1",
+      "permission": "access_organization",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "7"
+    },
+    {
+      "id": "10",
+      "companyId": "1",
+      "permission": "create_organization",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "7"
+    },
+    {
+      "id": "11",
+      "companyId": "1",
+      "permission": "update_organization",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "7"
+    },
+    {
+      "id": "12",
+      "companyId": "1",
+      "permission": "delete_organization",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "7"
+    },
+    {
+      "id": "13",
+      "companyId": "1",
+      "permission": "access_admin",
+      "title": "",
+      "pin_type": "2",
+      "moduleId": "1"
+    },
+    {
+      "id": "14",
+      "companyId": "1",
+      "permission": "create_admin",
+      "title": "",
+      "pin_type": "2",
+      "moduleId": "1"
+    },
+    {
+      "id": "15",
+      "companyId": "1",
+      "permission": "update_admin",
+      "title": "",
+      "pin_type": "2",
+      "moduleId": "1"
+    },
+    {
+      "id": "16",
+      "companyId": "1",
+      "permission": "delete_admin",
+      "title": "",
+      "pin_type": "2",
+      "moduleId": "1"
+    },
+    {
+      "id": "17",
+      "companyId": "1",
+      "permission": "access_house",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "0"
+    },
+    {
+      "id": "18",
+      "companyId": "1",
+      "permission": "create_house",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "0"
+    },
+    {
+      "id": "19",
+      "companyId": "1",
+      "permission": "update_house",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "0"
+    },
+    {
+      "id": "20",
+      "companyId": "1",
+      "permission": "delete_house",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "0"
+    },
+    {
+      "id": "21",
+      "companyId": "1",
+      "permission": "access_schedule",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "4"
+    },
+    {
+      "id": "22",
+      "companyId": "1",
+      "permission": "create_schedule",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "4"
+    },
+    {
+      "id": "23",
+      "companyId": "1",
+      "permission": "update_schedule",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "4"
+    },
+    {
+      "id": "24",
+      "companyId": "1",
+      "permission": "delete_schedule",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "4"
+    },
+    {
+      "id": "25",
+      "companyId": "1",
+      "permission": "access_fms",
+      "title": "Access only Fms case",
+      "pin_type": "1",
+      "moduleId": "5"
+    },
+    {
+      "id": "26",
+      "companyId": "1",
+      "permission": "create_fms",
+      "title": "create only Fms case",
+      "pin_type": "1",
+      "moduleId": "5"
+    },
+    {
+      "id": "27",
+      "companyId": "1",
+      "permission": "update_fms",
+      "title": "Update only Fms case",
+      "pin_type": "1",
+      "moduleId": "5"
+    },
+    {
+      "id": "28",
+      "companyId": "1",
+      "permission": "delete_fms",
+      "title": "Delete only Fms case",
+      "pin_type": "1",
+      "moduleId": "5"
+    },
+    {
+      "id": "29",
+      "companyId": "1",
+      "permission": "incident_fms",
+      "title": "",
+      "pin_type": "3",
+      "moduleId": "5"
+    },
+    {
+      "id": "30",
+      "companyId": "1",
+      "permission": "access_imail",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "8"
+    },
+    {
+      "id": "31",
+      "companyId": "1",
+      "permission": "create_imail",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "8"
+    },
+    {
+      "id": "32",
+      "companyId": "1",
+      "permission": "update_imail",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "8"
+    },
+    {
+      "id": "33",
+      "companyId": "1",
+      "permission": "delete_imail",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "8"
+    },
+    {
+      "id": "34",
+      "companyId": "1",
+      "permission": "access_recruitment",
+      "title": "Access only Recruitment Portal",
+      "pin_type": "0",
+      "moduleId": "9"
+    },
+    {
+      "id": "35",
+      "companyId": "1",
+      "permission": "access_crm",
+      "title": "Access only CRM Portal",
+      "pin_type": "0",
+      "moduleId": "10"
+    },
+    {
+      "id": "36",
+      "companyId": "1",
+      "permission": "access_crm_admin",
+      "title": "Access only CRM Admin Portal",
+      "pin_type": "0",
+      "moduleId": "10"
+    },
+    {
+      "id": "37",
+      "companyId": "1",
+      "permission": "access_recruitment_admin",
+      "title": "Access only Recruitment Admin Portal",
+      "pin_type": "0",
+      "moduleId": "9"
+    },
+    {
+      "id": "38",
+      "companyId": "1",
+      "permission": "access_marketing",
+      "title": "Access only Marketing Portal",
+      "pin_type": "0",
+      "moduleId": "0"
+    },
+    {
+      "id": "39",
+      "companyId": "1",
+      "permission": "access_finance_payrate",
+      "title": "Payrates",
+      "pin_type": "0",
+      "moduleId": "22"
+    },
+    {
+      "id": "40",
+      "companyId": "1",
+      "permission": "access_finance_quote",
+      "title": "Quotes",
+      "pin_type": "0",
+      "moduleId": "22"
+    },
+    {
+      "id": "41",
+      "companyId": "1",
+      "permission": "access_finance_invoice",
+      "title": "Invoices",
+      "pin_type": "0",
+      "moduleId": "22"
+    },
+    {
+      "id": "42",
+      "companyId": "1",
+      "permission": "access_finance_credit_note_and_refund",
+      "title": "Credit Note and Refunds",
+      "pin_type": "0",
+      "moduleId": "22"
+    },
+    {
+      "id": "43",
+      "companyId": "1",
+      "permission": "access_finance_ndis_invoice",
+      "title": "NDIS Invoices",
+      "pin_type": "0",
+      "moduleId": "22"
+    },
+    {
+      "id": "44",
+      "companyId": "1",
+      "permission": "access_finance_statement",
+      "title": "Statements",
+      "pin_type": "0",
+      "moduleId": "22"
+    },
+    {
+      "id": "45",
+      "companyId": "1",
+      "permission": "access_finance_sil_and_sdl_doc",
+      "title": "SIL/SDA",
+      "pin_type": "0",
+      "moduleId": "22"
+    },
+    {
+      "id": "46",
+      "companyId": "1",
+      "permission": "access_finance_shift_and_payroll",
+      "title": "Shifts & Payroll",
+      "pin_type": "0",
+      "moduleId": "22"
+    },
+    {
+      "id": "47",
+      "companyId": "1",
+      "permission": "access_finance",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "22"
+    },
+    {
+      "id": "48",
+      "companyId": "1",
+      "permission": "access_finance_admin",
+      "title": "",
+      "pin_type": "0",
+      "moduleId": "22"
+    },
+    {
+      "id": "49",
+      "companyId": "1",
+      "permission": "access_finance_line_item",
+      "title": "Line Item",
+      "pin_type": "0",
+      "moduleId": "22"
+    },
+    {
+      "id": "50",
+      "companyId": "1",
+      "permission": "out_of_office",
+      "title": "Out of Office Status",
+      "pin_type": "0",
+      "moduleId": "8"
+    }
+  ]

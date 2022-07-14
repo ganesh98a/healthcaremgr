@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Accommodation & Client Services",
+        "short_code": "internal_staff",
+        "archive": "0"
+    },
+    {
+        "id": "2",
+        "name": "Casual Staff Services",
+        "short_code": "external_staff",
+        "archive": "0"
+    },
+    {
+        "id": "3",
+        "name": "People & Culture",
+        "short_code": "internal_staff",
+        "archive": "0"
+    },
+    {
+        "id": "4",
+        "name": "Business Systems",
+        "short_code": "internal_staff",
+        "archive": "0"
+    },
+    {
+        "id": "5",
+        "name": "Marketing",
+        "short_code": "internal_staff",
+        "archive": "0"
+    },
+    {
+        "id": "6",
+        "name": "Finance",
+        "short_code": "internal_staff",
+        "archive": "0"
+    }
+]

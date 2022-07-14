@@ -1,0 +1,252 @@
+[
+    {
+        "id": "1",
+        "roleId": "2",
+        "permission": "1"
+    },
+    {
+        "id": "2",
+        "roleId": "2",
+        "permission": "2"
+    },
+    {
+        "id": "3",
+        "roleId": "2",
+        "permission": "4"
+    },
+    {
+        "id": "4",
+        "roleId": "2",
+        "permission": "3"
+    },
+    {
+        "id": "5",
+        "roleId": "1",
+        "permission": "13"
+    },
+    {
+        "id": "6",
+        "roleId": "1",
+        "permission": "14"
+    },
+    {
+        "id": "7",
+        "roleId": "1",
+        "permission": "15"
+    },
+    {
+        "id": "8",
+        "roleId": "1",
+        "permission": "16"
+    },
+    {
+        "id": "9",
+        "roleId": "3",
+        "permission": "5"
+    },
+    {
+        "id": "10",
+        "roleId": "3",
+        "permission": "6"
+    },
+    {
+        "id": "11",
+        "roleId": "3",
+        "permission": "7"
+    },
+    {
+        "id": "12",
+        "roleId": "3",
+        "permission": "8"
+    },
+    {
+        "id": "13",
+        "roleId": "4",
+        "permission": "9"
+    },
+    {
+        "id": "14",
+        "roleId": "4",
+        "permission": "10"
+    },
+    {
+        "id": "15",
+        "roleId": "4",
+        "permission": "11"
+    },
+    {
+        "id": "16",
+        "roleId": "4",
+        "permission": "12"
+    },
+    {
+        "id": "17",
+        "roleId": "5",
+        "permission": "17"
+    },
+    {
+        "id": "18",
+        "roleId": "5",
+        "permission": "18"
+    },
+    {
+        "id": "19",
+        "roleId": "5",
+        "permission": "19"
+    },
+    {
+        "id": "20",
+        "roleId": "5",
+        "permission": "20"
+    },
+    {
+        "id": "21",
+        "roleId": "6",
+        "permission": "21"
+    },
+    {
+        "id": "22",
+        "roleId": "6",
+        "permission": "22"
+    },
+    {
+        "id": "23",
+        "roleId": "6",
+        "permission": "23"
+    },
+    {
+        "id": "24",
+        "roleId": "6",
+        "permission": "24"
+    },
+    {
+        "id": "25",
+        "roleId": "7",
+        "permission": "25"
+    },
+    {
+        "id": "26",
+        "roleId": "7",
+        "permission": "26"
+    },
+    {
+        "id": "27",
+        "roleId": "7",
+        "permission": "27"
+    },
+    {
+        "id": "28",
+        "roleId": "7",
+        "permission": "28"
+    },
+    {
+        "id": "29",
+        "roleId": "8",
+        "permission": "29"
+    },
+    {
+        "id": "30",
+        "roleId": "9",
+        "permission": "30"
+    },
+    {
+        "id": "31",
+        "roleId": "9",
+        "permission": "31"
+    },
+    {
+        "id": "32",
+        "roleId": "9",
+        "permission": "32"
+    },
+    {
+        "id": "33",
+        "roleId": "9",
+        "permission": "33"
+    },
+    {
+        "id": "34",
+        "roleId": "10",
+        "permission": "34"
+    },
+    {
+        "id": "35",
+        "roleId": "11",
+        "permission": "35"
+    },
+    {
+        "id": "36",
+        "roleId": "12",
+        "permission": "36"
+    },
+    {
+        "id": "37",
+        "roleId": "14",
+        "permission": "37"
+    },
+    {
+        "id": "38",
+        "roleId": "15",
+        "permission": "38"
+    },
+    {
+        "id": "39",
+        "roleId": "17",
+        "permission": "39"
+    },
+    {
+        "id": "40",
+        "roleId": "17",
+        "permission": "40"
+    },
+    {
+        "id": "41",
+        "roleId": "17",
+        "permission": "41"
+    },
+    {
+        "id": "42",
+        "roleId": "17",
+        "permission": "42"
+    },
+    {
+        "id": "43",
+        "roleId": "17",
+        "permission": "43"
+    },
+    {
+        "id": "44",
+        "roleId": "17",
+        "permission": "44"
+    },
+    {
+        "id": "45",
+        "roleId": "17",
+        "permission": "45"
+    },
+    {
+        "id": "46",
+        "roleId": "17",
+        "permission": "46"
+    },
+    {
+        "id": "47",
+        "roleId": "16",
+        "permission": "47"
+    },
+    {
+        "id": "48",
+        "roleId": "17",
+        "permission": "48"
+    },
+    {
+        "id": "49",
+        "roleId": "17",
+        "permission": "49"
+    },
+     {
+        "id": "50",
+        "roleId": "18",
+        "permission": "50"
+    }
+]

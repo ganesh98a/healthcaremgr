@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1",
+        "seek_id": "0",
+        "question": "Do you have the right to work in Australia?",
+        "category": "3",
+        "sub_category":"6",
+        "archive": "0",
+        "created": "2019-07-18 17:44:35",
+        "updated": "2019-07-18 17:44:35"
+    },
+    {
+        "id": "2",
+        "seek_id": "0",
+        "question": "Do you have any industrial Qualifications?",
+        "category": "3",
+        "sub_category":"6",
+        "archive": "0",
+        "created": "2019-07-18 17:44:35",
+        "updated": "2019-07-18 17:44:35"
+    },
+    {
+        "id": "3",
+        "seek_id": "0",
+        "question": "Do you have previous Experience in this industry?",
+        "category": "3",
+        "sub_category":"6",
+        "archive": "0",
+        "created": "2019-07-18 17:44:35",
+        "updated": "2019-07-18 17:44:35"
+    },
+    {
+        "id": "4",
+        "seek_id": "0",
+        "question": "Ready to work late night ?",
+        "category": "1",
+        "sub_category":"4",
+        "archive": "0",
+        "created": "2019-07-18 17:44:35",
+        "updated": "2019-07-18 17:44:35"
+    },
+    {
+        "id": "5",
+        "seek_id": "",
+        "question": "Do you have Experience in Baby sitting ?",
+        "category": "1",
+        "sub_category":"4",
+        "archive": "0",
+        "created": "2019-07-18 17:44:35",
+        "updated": "2019-07-18 17:44:35"
+    },
+    {
+        "id": "6",
+        "seek_id": "",
+        "question": "Do you have the right to work in Australia?",
+        "category": "1",
+        "sub_category":"4",
+        "archive": "0",
+        "created": "2019-07-18 17:44:35",
+        "updated": "2019-07-18 17:44:35"
+    },
+    {
+        "id": "7",
+        "seek_id": "",
+        "question": "Do you have any industrial Qualifications?",
+        "category": "2",
+        "sub_category":"5",
+        "archive": "0",
+        "created": "2019-07-18 17:44:35",
+        "updated": "2019-07-18 17:44:35"
+    },
+    {
+        "id": "8",
+        "seek_id": "",
+        "question": "Do you have Experience in Baby sitting ?",
+        "category": "2",
+        "sub_category":"5",
+        "archive": "0",
+        "created": "2019-07-18 17:44:35",
+        "updated": "2019-07-18 17:44:35"
+    },
+    {
+        "id": "9",
+        "seek_id": "",
+        "question": "Do you have the right to work in Australia?",
+        "category": "2",
+        "sub_category":"5",
+        "archive": "0",
+        "created": "2019-07-18 17:44:35",
+        "updated": "2019-07-18 17:44:35"
+    }
+]

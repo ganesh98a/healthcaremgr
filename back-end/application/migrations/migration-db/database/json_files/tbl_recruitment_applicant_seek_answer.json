@@ -1,0 +1,5401 @@
+[{
+        "id": "1",
+        "applicantId": "1",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Programmer III",
+        "answer_status": "1",
+        "created": "2019-07-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "2",
+        "applicantId": "2",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Information Systems Manager",
+        "answer_status": "1",
+        "created": "2018-11-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "3",
+        "applicantId": "3",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "VP Accounting",
+        "answer_status": "1",
+        "created": "2019-02-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "4",
+        "applicantId": "4",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Community Outreach Specialist",
+        "answer_status": "1",
+        "created": "2019-05-01 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "5",
+        "applicantId": "5",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Nurse",
+        "answer_status": "1",
+        "created": "2019-05-31 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "6",
+        "applicantId": "6",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Food Chemist",
+        "answer_status": "1",
+        "created": "2019-03-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "7",
+        "applicantId": "7",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Safety Technician III",
+        "answer_status": "0",
+        "created": "2019-03-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "8",
+        "applicantId": "8",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Account Coordinator",
+        "answer_status": "0",
+        "created": "2018-09-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "9",
+        "applicantId": "9",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Marketing Manager",
+        "answer_status": "0",
+        "created": "2019-04-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "10",
+        "applicantId": "10",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Editor",
+        "answer_status": "0",
+        "created": "2019-07-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "11",
+        "applicantId": "11",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Sales Representative",
+        "answer_status": "1",
+        "created": "2019-05-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "12",
+        "applicantId": "12",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Media Manager III",
+        "answer_status": "1",
+        "created": "2019-04-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "13",
+        "applicantId": "13",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Payment Adjustment Coordinator",
+        "answer_status": "1",
+        "created": "2019-02-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "14",
+        "applicantId": "14",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Financial Analyst",
+        "answer_status": "0",
+        "created": "2019-06-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "15",
+        "applicantId": "15",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Safety Technician II",
+        "answer_status": "0",
+        "created": "2018-10-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "16",
+        "applicantId": "16",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Electrical Engineer",
+        "answer_status": "1",
+        "created": "2019-05-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "17",
+        "applicantId": "17",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Clinical Specialist",
+        "answer_status": "1",
+        "created": "2018-09-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "18",
+        "applicantId": "18",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Human Resources Assistant IV",
+        "answer_status": "1",
+        "created": "2019-05-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "19",
+        "applicantId": "19",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Programmer Analyst II",
+        "answer_status": "0",
+        "created": "2019-07-02 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "20",
+        "applicantId": "20",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Marketing Manager",
+        "answer_status": "0",
+        "created": "2018-10-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "21",
+        "applicantId": "21",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Sales Associate",
+        "answer_status": "0",
+        "created": "2019-05-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "22",
+        "applicantId": "22",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Geological Engineer",
+        "answer_status": "1",
+        "created": "2018-07-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "23",
+        "applicantId": "23",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "VP Quality Control",
+        "answer_status": "0",
+        "created": "2018-09-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "24",
+        "applicantId": "24",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Structural Analysis Engineer",
+        "answer_status": "1",
+        "created": "2019-01-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "25",
+        "applicantId": "25",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Chemical Engineer",
+        "answer_status": "1",
+        "created": "2019-03-02 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "26",
+        "applicantId": "26",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Web Developer II",
+        "answer_status": "1",
+        "created": "2019-05-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "27",
+        "applicantId": "27",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Environmental Tech",
+        "answer_status": "1",
+        "created": "2019-07-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "28",
+        "applicantId": "28",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Chemical Engineer",
+        "answer_status": "0",
+        "created": "2019-01-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "29",
+        "applicantId": "29",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Speech Pathologist",
+        "answer_status": "1",
+        "created": "2018-12-23 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "30",
+        "applicantId": "30",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Data Coordiator",
+        "answer_status": "1",
+        "created": "2019-06-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "31",
+        "applicantId": "31",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Senior Developer",
+        "answer_status": "0",
+        "created": "2018-11-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "32",
+        "applicantId": "32",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Assistant Media Planner",
+        "answer_status": "1",
+        "created": "2019-05-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "33",
+        "applicantId": "33",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Account Coordinator",
+        "answer_status": "1",
+        "created": "2019-05-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "34",
+        "applicantId": "34",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Systems Administrator III",
+        "answer_status": "0",
+        "created": "2019-04-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "35",
+        "applicantId": "35",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Payment Adjustment Coordinator",
+        "answer_status": "1",
+        "created": "2018-10-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "36",
+        "applicantId": "36",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Project Manager",
+        "answer_status": "0",
+        "created": "2018-12-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "37",
+        "applicantId": "37",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Budget\/Accounting Analyst II",
+        "answer_status": "1",
+        "created": "2018-10-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "38",
+        "applicantId": "38",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Technical Writer",
+        "answer_status": "0",
+        "created": "2019-05-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "39",
+        "applicantId": "39",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Operator",
+        "answer_status": "0",
+        "created": "2019-07-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "40",
+        "applicantId": "40",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Project Manager",
+        "answer_status": "0",
+        "created": "2018-09-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "41",
+        "applicantId": "41",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Occupational Therapist",
+        "answer_status": "1",
+        "created": "2018-12-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "42",
+        "applicantId": "42",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Statistician II",
+        "answer_status": "1",
+        "created": "2018-08-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "43",
+        "applicantId": "43",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Professor",
+        "answer_status": "0",
+        "created": "2019-02-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "44",
+        "applicantId": "44",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Biostatistician IV",
+        "answer_status": "0",
+        "created": "2018-11-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "45",
+        "applicantId": "45",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Sales Associate",
+        "answer_status": "1",
+        "created": "2018-08-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "46",
+        "applicantId": "46",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Research Associate",
+        "answer_status": "0",
+        "created": "2019-06-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "47",
+        "applicantId": "47",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Sales Associate",
+        "answer_status": "1",
+        "created": "2018-09-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "48",
+        "applicantId": "48",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Nurse Practicioner",
+        "answer_status": "0",
+        "created": "2018-08-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "49",
+        "applicantId": "49",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Web Designer IV",
+        "answer_status": "0",
+        "created": "2019-07-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "50",
+        "applicantId": "50",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Health Coach I",
+        "answer_status": "1",
+        "created": "2019-05-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "51",
+        "applicantId": "51",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Programmer II",
+        "answer_status": "1",
+        "created": "2019-03-23 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "52",
+        "applicantId": "52",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Financial Analyst",
+        "answer_status": "1",
+        "created": "2019-01-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "53",
+        "applicantId": "53",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Editor",
+        "answer_status": "0",
+        "created": "2019-07-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "54",
+        "applicantId": "54",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Director of Sales",
+        "answer_status": "0",
+        "created": "2019-01-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "55",
+        "applicantId": "55",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Database Administrator II",
+        "answer_status": "0",
+        "created": "2019-03-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "56",
+        "applicantId": "56",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Physical Therapy Assistant",
+        "answer_status": "0",
+        "created": "2018-08-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "57",
+        "applicantId": "57",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Senior Cost Accountant",
+        "answer_status": "0",
+        "created": "2018-08-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "58",
+        "applicantId": "58",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Mechanical Systems Engineer",
+        "answer_status": "0",
+        "created": "2018-11-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "59",
+        "applicantId": "59",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Data Coordiator",
+        "answer_status": "0",
+        "created": "2019-02-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "60",
+        "applicantId": "60",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Human Resources Manager",
+        "answer_status": "1",
+        "created": "2019-03-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "61",
+        "applicantId": "61",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Desktop Support Technician",
+        "answer_status": "0",
+        "created": "2018-08-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "62",
+        "applicantId": "62",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Software Engineer I",
+        "answer_status": "0",
+        "created": "2019-07-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "63",
+        "applicantId": "63",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Geological Engineer",
+        "answer_status": "1",
+        "created": "2019-07-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "64",
+        "applicantId": "64",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Environmental Tech",
+        "answer_status": "0",
+        "created": "2019-02-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "65",
+        "applicantId": "65",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Sales Representative",
+        "answer_status": "0",
+        "created": "2018-08-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "66",
+        "applicantId": "66",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "VP Product Management",
+        "answer_status": "1",
+        "created": "2019-03-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "67",
+        "applicantId": "67",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Chief Design Engineer",
+        "answer_status": "0",
+        "created": "2019-01-23 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "68",
+        "applicantId": "68",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "VP Quality Control",
+        "answer_status": "0",
+        "created": "2018-10-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "69",
+        "applicantId": "69",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Geologist III",
+        "answer_status": "1",
+        "created": "2018-08-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "70",
+        "applicantId": "70",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Recruiter",
+        "answer_status": "1",
+        "created": "2019-04-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "71",
+        "applicantId": "71",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Financial Analyst",
+        "answer_status": "0",
+        "created": "2018-11-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "72",
+        "applicantId": "72",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Structural Engineer",
+        "answer_status": "1",
+        "created": "2019-04-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "73",
+        "applicantId": "73",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Systems Administrator I",
+        "answer_status": "1",
+        "created": "2018-12-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "74",
+        "applicantId": "74",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Editor",
+        "answer_status": "1",
+        "created": "2018-08-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "75",
+        "applicantId": "75",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Civil Engineer",
+        "answer_status": "1",
+        "created": "2019-02-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "76",
+        "applicantId": "76",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Help Desk Operator",
+        "answer_status": "1",
+        "created": "2018-10-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "77",
+        "applicantId": "77",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Human Resources Manager",
+        "answer_status": "0",
+        "created": "2019-01-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "78",
+        "applicantId": "78",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Registered Nurse",
+        "answer_status": "0",
+        "created": "2018-10-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "79",
+        "applicantId": "79",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Occupational Therapist",
+        "answer_status": "1",
+        "created": "2018-12-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "80",
+        "applicantId": "80",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "General Manager",
+        "answer_status": "0",
+        "created": "2019-03-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "81",
+        "applicantId": "81",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Office Assistant IV",
+        "answer_status": "0",
+        "created": "2018-12-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "82",
+        "applicantId": "82",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Assistant Professor",
+        "answer_status": "0",
+        "created": "2019-02-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "83",
+        "applicantId": "83",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Environmental Tech",
+        "answer_status": "1",
+        "created": "2019-05-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "84",
+        "applicantId": "84",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Chief Design Engineer",
+        "answer_status": "1",
+        "created": "2018-10-14 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "85",
+        "applicantId": "85",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Assistant Media Planner",
+        "answer_status": "0",
+        "created": "2019-03-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "86",
+        "applicantId": "86",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Analyst Programmer",
+        "answer_status": "1",
+        "created": "2018-11-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "87",
+        "applicantId": "87",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Compensation Analyst",
+        "answer_status": "1",
+        "created": "2019-03-31 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "88",
+        "applicantId": "88",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Research Assistant III",
+        "answer_status": "0",
+        "created": "2019-01-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "89",
+        "applicantId": "89",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Quality Control Specialist",
+        "answer_status": "0",
+        "created": "2019-03-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "90",
+        "applicantId": "90",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Staff Accountant I",
+        "answer_status": "1",
+        "created": "2018-12-14 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "91",
+        "applicantId": "91",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Chemical Engineer",
+        "answer_status": "0",
+        "created": "2019-03-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "92",
+        "applicantId": "92",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "VP Product Management",
+        "answer_status": "1",
+        "created": "2018-11-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "93",
+        "applicantId": "93",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Engineer IV",
+        "answer_status": "1",
+        "created": "2019-01-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "94",
+        "applicantId": "94",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Executive Secretary",
+        "answer_status": "1",
+        "created": "2019-07-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "95",
+        "applicantId": "95",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Occupational Therapist",
+        "answer_status": "0",
+        "created": "2019-01-06 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "96",
+        "applicantId": "96",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Web Designer II",
+        "answer_status": "0",
+        "created": "2018-12-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "97",
+        "applicantId": "97",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Quality Control Specialist",
+        "answer_status": "0",
+        "created": "2018-09-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "98",
+        "applicantId": "98",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Internal Auditor",
+        "answer_status": "0",
+        "created": "2019-01-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "99",
+        "applicantId": "99",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Analyst Programmer",
+        "answer_status": "1",
+        "created": "2019-03-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "100",
+        "applicantId": "100",
+        "jobId": "1",
+        "questionId": "1",
+        "answer": "Recruiter",
+        "answer_status": "1",
+        "created": "2018-08-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "101",
+        "applicantId": "1",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Web Developer II",
+        "answer_status": "0",
+        "created": "2018-09-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "102",
+        "applicantId": "2",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Editor",
+        "answer_status": "0",
+        "created": "2018-12-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "103",
+        "applicantId": "3",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Occupational Therapist",
+        "answer_status": "1",
+        "created": "2018-07-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "104",
+        "applicantId": "4",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Librarian",
+        "answer_status": "0",
+        "created": "2018-09-06 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "105",
+        "applicantId": "5",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Legal Assistant",
+        "answer_status": "1",
+        "created": "2019-04-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "106",
+        "applicantId": "6",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Help Desk Technician",
+        "answer_status": "0",
+        "created": "2018-11-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "107",
+        "applicantId": "7",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Nuclear Power Engineer",
+        "answer_status": "0",
+        "created": "2019-02-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "108",
+        "applicantId": "8",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Professor",
+        "answer_status": "1",
+        "created": "2019-04-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "109",
+        "applicantId": "9",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Paralegal",
+        "answer_status": "0",
+        "created": "2019-05-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "110",
+        "applicantId": "10",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Account Representative II",
+        "answer_status": "0",
+        "created": "2019-01-06 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "111",
+        "applicantId": "11",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Physical Therapy Assistant",
+        "answer_status": "0",
+        "created": "2018-11-14 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "112",
+        "applicantId": "12",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Accounting Assistant I",
+        "answer_status": "1",
+        "created": "2018-09-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "113",
+        "applicantId": "13",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Research Assistant I",
+        "answer_status": "1",
+        "created": "2019-05-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "114",
+        "applicantId": "14",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Senior Editor",
+        "answer_status": "0",
+        "created": "2019-01-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "115",
+        "applicantId": "15",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Clinical Specialist",
+        "answer_status": "0",
+        "created": "2019-04-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "116",
+        "applicantId": "16",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Nurse",
+        "answer_status": "1",
+        "created": "2018-12-01 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "117",
+        "applicantId": "17",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Internal Auditor",
+        "answer_status": "1",
+        "created": "2019-02-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "118",
+        "applicantId": "18",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Data Coordiator",
+        "answer_status": "1",
+        "created": "2019-03-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "119",
+        "applicantId": "19",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Electrical Engineer",
+        "answer_status": "0",
+        "created": "2019-07-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "120",
+        "applicantId": "20",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Chief Design Engineer",
+        "answer_status": "1",
+        "created": "2018-08-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "121",
+        "applicantId": "21",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Financial Advisor",
+        "answer_status": "1",
+        "created": "2019-03-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "122",
+        "applicantId": "22",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Recruiting Manager",
+        "answer_status": "0",
+        "created": "2019-01-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "123",
+        "applicantId": "23",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Payment Adjustment Coordinator",
+        "answer_status": "1",
+        "created": "2018-09-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "124",
+        "applicantId": "24",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Marketing Manager",
+        "answer_status": "1",
+        "created": "2019-05-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "125",
+        "applicantId": "25",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Accounting Assistant II",
+        "answer_status": "1",
+        "created": "2019-04-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "126",
+        "applicantId": "26",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Electrical Engineer",
+        "answer_status": "0",
+        "created": "2019-01-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "127",
+        "applicantId": "27",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Research Associate",
+        "answer_status": "1",
+        "created": "2018-07-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "128",
+        "applicantId": "28",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Analyst Programmer",
+        "answer_status": "0",
+        "created": "2019-07-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "129",
+        "applicantId": "29",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "General Manager",
+        "answer_status": "0",
+        "created": "2019-05-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "130",
+        "applicantId": "30",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Graphic Designer",
+        "answer_status": "1",
+        "created": "2018-08-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "131",
+        "applicantId": "31",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Senior Developer",
+        "answer_status": "1",
+        "created": "2019-06-06 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "132",
+        "applicantId": "32",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Marketing Assistant",
+        "answer_status": "1",
+        "created": "2019-07-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "133",
+        "applicantId": "33",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Desktop Support Technician",
+        "answer_status": "1",
+        "created": "2019-02-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "134",
+        "applicantId": "34",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Business Systems Development Analyst",
+        "answer_status": "1",
+        "created": "2018-12-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "135",
+        "applicantId": "35",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Assistant Media Planner",
+        "answer_status": "0",
+        "created": "2018-11-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "136",
+        "applicantId": "36",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Business Systems Development Analyst",
+        "answer_status": "0",
+        "created": "2019-06-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "137",
+        "applicantId": "37",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Associate Professor",
+        "answer_status": "1",
+        "created": "2018-12-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "138",
+        "applicantId": "38",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Community Outreach Specialist",
+        "answer_status": "1",
+        "created": "2019-07-14 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "139",
+        "applicantId": "39",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Editor",
+        "answer_status": "1",
+        "created": "2019-02-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "140",
+        "applicantId": "40",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Sales Representative",
+        "answer_status": "1",
+        "created": "2019-02-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "141",
+        "applicantId": "41",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Compensation Analyst",
+        "answer_status": "1",
+        "created": "2019-06-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "142",
+        "applicantId": "42",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Chemical Engineer",
+        "answer_status": "1",
+        "created": "2019-02-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "143",
+        "applicantId": "43",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Legal Assistant",
+        "answer_status": "0",
+        "created": "2018-09-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "144",
+        "applicantId": "44",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Information Systems Manager",
+        "answer_status": "0",
+        "created": "2018-08-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "145",
+        "applicantId": "45",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Computer Systems Analyst III",
+        "answer_status": "1",
+        "created": "2019-07-14 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "146",
+        "applicantId": "46",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Web Developer I",
+        "answer_status": "0",
+        "created": "2018-12-02 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "147",
+        "applicantId": "47",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Director of Sales",
+        "answer_status": "0",
+        "created": "2019-05-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "148",
+        "applicantId": "48",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Internal Auditor",
+        "answer_status": "1",
+        "created": "2018-08-01 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "149",
+        "applicantId": "49",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Operator",
+        "answer_status": "1",
+        "created": "2018-11-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "150",
+        "applicantId": "50",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Physical Therapy Assistant",
+        "answer_status": "0",
+        "created": "2019-07-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "151",
+        "applicantId": "51",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Nuclear Power Engineer",
+        "answer_status": "0",
+        "created": "2018-08-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "152",
+        "applicantId": "52",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Marketing Manager",
+        "answer_status": "1",
+        "created": "2019-06-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "153",
+        "applicantId": "53",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Nuclear Power Engineer",
+        "answer_status": "1",
+        "created": "2019-03-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "154",
+        "applicantId": "54",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Compensation Analyst",
+        "answer_status": "1",
+        "created": "2019-07-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "155",
+        "applicantId": "55",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Speech Pathologist",
+        "answer_status": "1",
+        "created": "2019-06-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "156",
+        "applicantId": "56",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Actuary",
+        "answer_status": "1",
+        "created": "2019-02-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "157",
+        "applicantId": "57",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Programmer III",
+        "answer_status": "1",
+        "created": "2019-04-01 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "158",
+        "applicantId": "58",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Operator",
+        "answer_status": "1",
+        "created": "2018-08-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "159",
+        "applicantId": "59",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Business Systems Development Analyst",
+        "answer_status": "1",
+        "created": "2018-11-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "160",
+        "applicantId": "60",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Compensation Analyst",
+        "answer_status": "1",
+        "created": "2018-12-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "161",
+        "applicantId": "61",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Speech Pathologist",
+        "answer_status": "0",
+        "created": "2018-10-23 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "162",
+        "applicantId": "62",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Librarian",
+        "answer_status": "0",
+        "created": "2019-04-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "163",
+        "applicantId": "63",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Human Resources Manager",
+        "answer_status": "0",
+        "created": "2019-02-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "164",
+        "applicantId": "64",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Quality Control Specialist",
+        "answer_status": "1",
+        "created": "2019-05-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "165",
+        "applicantId": "65",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Environmental Specialist",
+        "answer_status": "1",
+        "created": "2018-10-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "166",
+        "applicantId": "66",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Senior Quality Engineer",
+        "answer_status": "0",
+        "created": "2019-01-06 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "167",
+        "applicantId": "67",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Assistant Media Planner",
+        "answer_status": "0",
+        "created": "2018-09-14 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "168",
+        "applicantId": "68",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Software Test Engineer I",
+        "answer_status": "0",
+        "created": "2018-10-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "169",
+        "applicantId": "69",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Health Coach III",
+        "answer_status": "0",
+        "created": "2019-06-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "170",
+        "applicantId": "70",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Staff Accountant I",
+        "answer_status": "1",
+        "created": "2019-03-14 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "171",
+        "applicantId": "71",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Compensation Analyst",
+        "answer_status": "0",
+        "created": "2018-10-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "172",
+        "applicantId": "72",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "General Manager",
+        "answer_status": "0",
+        "created": "2019-01-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "173",
+        "applicantId": "73",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Research Nurse",
+        "answer_status": "1",
+        "created": "2018-09-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "174",
+        "applicantId": "74",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Librarian",
+        "answer_status": "0",
+        "created": "2019-05-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "175",
+        "applicantId": "75",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Financial Advisor",
+        "answer_status": "0",
+        "created": "2018-11-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "176",
+        "applicantId": "76",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Business Systems Development Analyst",
+        "answer_status": "1",
+        "created": "2019-06-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "177",
+        "applicantId": "77",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Web Developer II",
+        "answer_status": "0",
+        "created": "2018-10-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "178",
+        "applicantId": "78",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Associate Professor",
+        "answer_status": "1",
+        "created": "2018-07-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "179",
+        "applicantId": "79",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Geological Engineer",
+        "answer_status": "1",
+        "created": "2018-12-01 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "180",
+        "applicantId": "80",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Payment Adjustment Coordinator",
+        "answer_status": "0",
+        "created": "2019-02-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "181",
+        "applicantId": "81",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Administrative Officer",
+        "answer_status": "0",
+        "created": "2018-11-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "182",
+        "applicantId": "82",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Payment Adjustment Coordinator",
+        "answer_status": "1",
+        "created": "2019-03-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "183",
+        "applicantId": "83",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Payment Adjustment Coordinator",
+        "answer_status": "0",
+        "created": "2018-11-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "184",
+        "applicantId": "84",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Programmer II",
+        "answer_status": "0",
+        "created": "2019-03-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "185",
+        "applicantId": "85",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Associate Professor",
+        "answer_status": "1",
+        "created": "2019-01-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "186",
+        "applicantId": "86",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Human Resources Manager",
+        "answer_status": "0",
+        "created": "2019-07-02 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "187",
+        "applicantId": "87",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Marketing Manager",
+        "answer_status": "1",
+        "created": "2019-07-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "188",
+        "applicantId": "88",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Compensation Analyst",
+        "answer_status": "0",
+        "created": "2019-04-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "189",
+        "applicantId": "89",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Accountant III",
+        "answer_status": "0",
+        "created": "2019-07-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "190",
+        "applicantId": "90",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Structural Analysis Engineer",
+        "answer_status": "1",
+        "created": "2018-09-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "191",
+        "applicantId": "91",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Web Designer III",
+        "answer_status": "1",
+        "created": "2019-06-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "192",
+        "applicantId": "92",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Speech Pathologist",
+        "answer_status": "1",
+        "created": "2019-06-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "193",
+        "applicantId": "93",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Quality Control Specialist",
+        "answer_status": "0",
+        "created": "2019-06-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "194",
+        "applicantId": "94",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Geological Engineer",
+        "answer_status": "1",
+        "created": "2018-09-14 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "195",
+        "applicantId": "95",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Environmental Tech",
+        "answer_status": "1",
+        "created": "2019-01-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "196",
+        "applicantId": "96",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Paralegal",
+        "answer_status": "1",
+        "created": "2019-03-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "197",
+        "applicantId": "97",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Structural Analysis Engineer",
+        "answer_status": "0",
+        "created": "2019-02-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "198",
+        "applicantId": "98",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Geological Engineer",
+        "answer_status": "0",
+        "created": "2018-11-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "199",
+        "applicantId": "99",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Associate Professor",
+        "answer_status": "0",
+        "created": "2018-09-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "200",
+        "applicantId": "100",
+        "jobId": "1",
+        "questionId": "2",
+        "answer": "Statistician I",
+        "answer_status": "0",
+        "created": "2018-10-02 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "201",
+        "applicantId": "1",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Nurse",
+        "answer_status": "1",
+        "created": "2019-01-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "202",
+        "applicantId": "2",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Associate Professor",
+        "answer_status": "0",
+        "created": "2019-02-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "203",
+        "applicantId": "3",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "VP Sales",
+        "answer_status": "0",
+        "created": "2018-10-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "204",
+        "applicantId": "4",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Web Designer III",
+        "answer_status": "1",
+        "created": "2019-05-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "205",
+        "applicantId": "5",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Actuary",
+        "answer_status": "1",
+        "created": "2019-06-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "206",
+        "applicantId": "6",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Actuary",
+        "answer_status": "1",
+        "created": "2018-12-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "207",
+        "applicantId": "7",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Research Nurse",
+        "answer_status": "1",
+        "created": "2019-06-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "208",
+        "applicantId": "8",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Computer Systems Analyst I",
+        "answer_status": "1",
+        "created": "2019-06-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "209",
+        "applicantId": "9",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Product Engineer",
+        "answer_status": "1",
+        "created": "2018-08-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "210",
+        "applicantId": "10",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Programmer Analyst III",
+        "answer_status": "1",
+        "created": "2018-09-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "211",
+        "applicantId": "11",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Information Systems Manager",
+        "answer_status": "1",
+        "created": "2019-01-14 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "212",
+        "applicantId": "12",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Account Representative I",
+        "answer_status": "0",
+        "created": "2019-02-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "213",
+        "applicantId": "13",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Compensation Analyst",
+        "answer_status": "0",
+        "created": "2018-12-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "214",
+        "applicantId": "14",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Business Systems Development Analyst",
+        "answer_status": "1",
+        "created": "2019-04-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "215",
+        "applicantId": "15",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Research Nurse",
+        "answer_status": "0",
+        "created": "2018-09-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "216",
+        "applicantId": "16",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Internal Auditor",
+        "answer_status": "0",
+        "created": "2019-04-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "217",
+        "applicantId": "17",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Software Consultant",
+        "answer_status": "0",
+        "created": "2018-12-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "218",
+        "applicantId": "18",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Research Nurse",
+        "answer_status": "1",
+        "created": "2018-11-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "219",
+        "applicantId": "19",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Technical Writer",
+        "answer_status": "1",
+        "created": "2019-03-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "220",
+        "applicantId": "20",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Director of Sales",
+        "answer_status": "0",
+        "created": "2019-07-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "221",
+        "applicantId": "21",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Community Outreach Specialist",
+        "answer_status": "1",
+        "created": "2019-02-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "222",
+        "applicantId": "22",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Financial Advisor",
+        "answer_status": "0",
+        "created": "2019-02-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "223",
+        "applicantId": "23",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Nurse Practicioner",
+        "answer_status": "1",
+        "created": "2019-05-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "224",
+        "applicantId": "24",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Media Manager IV",
+        "answer_status": "1",
+        "created": "2019-01-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "225",
+        "applicantId": "25",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Speech Pathologist",
+        "answer_status": "1",
+        "created": "2019-05-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "226",
+        "applicantId": "26",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Budget\/Accounting Analyst II",
+        "answer_status": "1",
+        "created": "2018-08-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "227",
+        "applicantId": "27",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Senior Editor",
+        "answer_status": "0",
+        "created": "2018-11-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "228",
+        "applicantId": "28",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Database Administrator II",
+        "answer_status": "0",
+        "created": "2019-06-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "229",
+        "applicantId": "29",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Chief Design Engineer",
+        "answer_status": "1",
+        "created": "2019-01-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "230",
+        "applicantId": "30",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Recruiting Manager",
+        "answer_status": "0",
+        "created": "2019-01-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "231",
+        "applicantId": "31",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Statistician I",
+        "answer_status": "0",
+        "created": "2018-12-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "232",
+        "applicantId": "32",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Engineer I",
+        "answer_status": "0",
+        "created": "2018-09-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "233",
+        "applicantId": "33",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Research Associate",
+        "answer_status": "1",
+        "created": "2019-01-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "234",
+        "applicantId": "34",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "VP Marketing",
+        "answer_status": "1",
+        "created": "2019-02-23 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "235",
+        "applicantId": "35",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Dental Hygienist",
+        "answer_status": "0",
+        "created": "2018-11-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "236",
+        "applicantId": "36",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Paralegal",
+        "answer_status": "0",
+        "created": "2018-09-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "237",
+        "applicantId": "37",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Environmental Tech",
+        "answer_status": "0",
+        "created": "2018-12-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "238",
+        "applicantId": "38",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Speech Pathologist",
+        "answer_status": "1",
+        "created": "2019-07-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "239",
+        "applicantId": "39",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Product Engineer",
+        "answer_status": "1",
+        "created": "2018-09-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "240",
+        "applicantId": "40",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Information Systems Manager",
+        "answer_status": "1",
+        "created": "2018-08-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "241",
+        "applicantId": "41",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Environmental Specialist",
+        "answer_status": "0",
+        "created": "2018-11-23 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "242",
+        "applicantId": "42",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Operator",
+        "answer_status": "0",
+        "created": "2019-05-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "243",
+        "applicantId": "43",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Product Engineer",
+        "answer_status": "1",
+        "created": "2019-02-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "244",
+        "applicantId": "44",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Community Outreach Specialist",
+        "answer_status": "1",
+        "created": "2019-05-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "245",
+        "applicantId": "45",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Web Designer IV",
+        "answer_status": "1",
+        "created": "2019-07-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "246",
+        "applicantId": "46",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Legal Assistant",
+        "answer_status": "1",
+        "created": "2019-01-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "247",
+        "applicantId": "47",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "GIS Technical Architect",
+        "answer_status": "0",
+        "created": "2019-05-31 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "248",
+        "applicantId": "48",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Help Desk Technician",
+        "answer_status": "1",
+        "created": "2019-06-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "249",
+        "applicantId": "49",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "VP Product Management",
+        "answer_status": "0",
+        "created": "2018-07-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "250",
+        "applicantId": "50",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Geologist II",
+        "answer_status": "0",
+        "created": "2019-05-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "251",
+        "applicantId": "51",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Quality Engineer",
+        "answer_status": "1",
+        "created": "2019-03-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "252",
+        "applicantId": "52",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Executive Secretary",
+        "answer_status": "0",
+        "created": "2019-05-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "253",
+        "applicantId": "53",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Junior Executive",
+        "answer_status": "0",
+        "created": "2019-01-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "254",
+        "applicantId": "54",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Engineer II",
+        "answer_status": "0",
+        "created": "2019-06-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "255",
+        "applicantId": "55",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Environmental Specialist",
+        "answer_status": "1",
+        "created": "2018-11-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "256",
+        "applicantId": "56",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Help Desk Operator",
+        "answer_status": "0",
+        "created": "2019-04-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "257",
+        "applicantId": "57",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Community Outreach Specialist",
+        "answer_status": "1",
+        "created": "2019-01-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "258",
+        "applicantId": "58",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Teacher",
+        "answer_status": "0",
+        "created": "2019-04-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "259",
+        "applicantId": "59",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Civil Engineer",
+        "answer_status": "1",
+        "created": "2019-05-01 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "260",
+        "applicantId": "60",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Geological Engineer",
+        "answer_status": "1",
+        "created": "2019-03-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "261",
+        "applicantId": "61",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Staff Accountant I",
+        "answer_status": "0",
+        "created": "2019-07-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "262",
+        "applicantId": "62",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Internal Auditor",
+        "answer_status": "0",
+        "created": "2018-11-23 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "263",
+        "applicantId": "63",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Systems Administrator I",
+        "answer_status": "1",
+        "created": "2018-12-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "264",
+        "applicantId": "64",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "VP Sales",
+        "answer_status": "1",
+        "created": "2018-10-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "265",
+        "applicantId": "65",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Administrative Assistant II",
+        "answer_status": "1",
+        "created": "2019-06-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "266",
+        "applicantId": "66",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Electrical Engineer",
+        "answer_status": "1",
+        "created": "2018-09-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "267",
+        "applicantId": "67",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Software Consultant",
+        "answer_status": "0",
+        "created": "2018-11-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "268",
+        "applicantId": "68",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Automation Specialist III",
+        "answer_status": "1",
+        "created": "2019-04-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "269",
+        "applicantId": "69",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Programmer Analyst IV",
+        "answer_status": "1",
+        "created": "2018-11-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "270",
+        "applicantId": "70",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Financial Analyst",
+        "answer_status": "1",
+        "created": "2018-11-02 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "271",
+        "applicantId": "71",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Automation Specialist II",
+        "answer_status": "0",
+        "created": "2018-12-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "272",
+        "applicantId": "72",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Sales Representative",
+        "answer_status": "0",
+        "created": "2019-04-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "273",
+        "applicantId": "73",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Geologist III",
+        "answer_status": "1",
+        "created": "2018-09-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "274",
+        "applicantId": "74",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Structural Engineer",
+        "answer_status": "0",
+        "created": "2019-01-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "275",
+        "applicantId": "75",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Office Assistant IV",
+        "answer_status": "1",
+        "created": "2018-07-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "276",
+        "applicantId": "76",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "VP Accounting",
+        "answer_status": "1",
+        "created": "2019-06-02 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "277",
+        "applicantId": "77",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Product Engineer",
+        "answer_status": "1",
+        "created": "2018-10-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "278",
+        "applicantId": "78",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Software Consultant",
+        "answer_status": "1",
+        "created": "2019-06-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "279",
+        "applicantId": "79",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Research Assistant II",
+        "answer_status": "0",
+        "created": "2019-04-02 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "280",
+        "applicantId": "80",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Office Assistant IV",
+        "answer_status": "1",
+        "created": "2019-05-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "281",
+        "applicantId": "81",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Developer III",
+        "answer_status": "1",
+        "created": "2019-03-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "282",
+        "applicantId": "82",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "VP Product Management",
+        "answer_status": "0",
+        "created": "2018-10-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "283",
+        "applicantId": "83",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Professor",
+        "answer_status": "0",
+        "created": "2018-12-23 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "284",
+        "applicantId": "84",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Speech Pathologist",
+        "answer_status": "0",
+        "created": "2019-05-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "285",
+        "applicantId": "85",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Recruiter",
+        "answer_status": "1",
+        "created": "2018-12-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "286",
+        "applicantId": "86",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Speech Pathologist",
+        "answer_status": "1",
+        "created": "2019-06-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "287",
+        "applicantId": "87",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Programmer Analyst I",
+        "answer_status": "0",
+        "created": "2019-03-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "288",
+        "applicantId": "88",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Design Engineer",
+        "answer_status": "1",
+        "created": "2019-06-14 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "289",
+        "applicantId": "89",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Cost Accountant",
+        "answer_status": "1",
+        "created": "2018-08-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "290",
+        "applicantId": "90",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Nurse Practicioner",
+        "answer_status": "0",
+        "created": "2018-12-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "291",
+        "applicantId": "91",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Registered Nurse",
+        "answer_status": "0",
+        "created": "2018-08-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "292",
+        "applicantId": "92",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Human Resources Assistant III",
+        "answer_status": "1",
+        "created": "2018-12-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "293",
+        "applicantId": "93",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Senior Developer",
+        "answer_status": "1",
+        "created": "2018-09-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "294",
+        "applicantId": "94",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Engineer II",
+        "answer_status": "0",
+        "created": "2019-06-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "295",
+        "applicantId": "95",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Internal Auditor",
+        "answer_status": "0",
+        "created": "2018-12-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "296",
+        "applicantId": "96",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Research Associate",
+        "answer_status": "0",
+        "created": "2018-12-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "297",
+        "applicantId": "97",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Junior Executive",
+        "answer_status": "1",
+        "created": "2019-03-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "298",
+        "applicantId": "98",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Financial Advisor",
+        "answer_status": "1",
+        "created": "2018-11-02 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "299",
+        "applicantId": "99",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Director of Sales",
+        "answer_status": "1",
+        "created": "2019-06-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "300",
+        "applicantId": "100",
+        "jobId": "1",
+        "questionId": "3",
+        "answer": "Internal Auditor",
+        "answer_status": "1",
+        "created": "2019-04-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "301",
+        "applicantId": "1",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Community Outreach Specialist",
+        "answer_status": "0",
+        "created": "2018-11-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "302",
+        "applicantId": "2",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Software Consultant",
+        "answer_status": "1",
+        "created": "2018-12-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "303",
+        "applicantId": "3",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Physical Therapy Assistant",
+        "answer_status": "1",
+        "created": "2019-06-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "304",
+        "applicantId": "4",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Desktop Support Technician",
+        "answer_status": "1",
+        "created": "2018-12-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "305",
+        "applicantId": "5",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Account Executive",
+        "answer_status": "0",
+        "created": "2018-11-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "306",
+        "applicantId": "6",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Sales Associate",
+        "answer_status": "1",
+        "created": "2019-07-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "307",
+        "applicantId": "7",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Automation Specialist II",
+        "answer_status": "1",
+        "created": "2018-12-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "308",
+        "applicantId": "8",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Marketing Assistant",
+        "answer_status": "1",
+        "created": "2019-03-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "309",
+        "applicantId": "9",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Analog Circuit Design manager",
+        "answer_status": "0",
+        "created": "2019-01-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "310",
+        "applicantId": "10",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Social Worker",
+        "answer_status": "1",
+        "created": "2018-10-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "311",
+        "applicantId": "11",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Human Resources Manager",
+        "answer_status": "1",
+        "created": "2018-12-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "312",
+        "applicantId": "12",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Geological Engineer",
+        "answer_status": "1",
+        "created": "2019-02-14 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "313",
+        "applicantId": "13",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Quality Control Specialist",
+        "answer_status": "1",
+        "created": "2019-02-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "314",
+        "applicantId": "14",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Account Executive",
+        "answer_status": "0",
+        "created": "2018-11-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "315",
+        "applicantId": "15",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Structural Engineer",
+        "answer_status": "0",
+        "created": "2018-07-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "316",
+        "applicantId": "16",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Structural Engineer",
+        "answer_status": "1",
+        "created": "2019-03-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "317",
+        "applicantId": "17",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Legal Assistant",
+        "answer_status": "0",
+        "created": "2019-03-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "318",
+        "applicantId": "18",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Director of Sales",
+        "answer_status": "1",
+        "created": "2018-10-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "319",
+        "applicantId": "19",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Social Worker",
+        "answer_status": "0",
+        "created": "2018-10-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "320",
+        "applicantId": "20",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Librarian",
+        "answer_status": "0",
+        "created": "2018-10-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "321",
+        "applicantId": "21",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "VP Sales",
+        "answer_status": "1",
+        "created": "2018-09-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "322",
+        "applicantId": "22",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Senior Developer",
+        "answer_status": "1",
+        "created": "2018-12-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "323",
+        "applicantId": "23",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Paralegal",
+        "answer_status": "0",
+        "created": "2019-04-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "324",
+        "applicantId": "24",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Civil Engineer",
+        "answer_status": "0",
+        "created": "2018-10-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "325",
+        "applicantId": "25",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Recruiter",
+        "answer_status": "0",
+        "created": "2018-08-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "326",
+        "applicantId": "26",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Quality Engineer",
+        "answer_status": "1",
+        "created": "2019-04-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "327",
+        "applicantId": "27",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Project Manager",
+        "answer_status": "1",
+        "created": "2019-03-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "328",
+        "applicantId": "28",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Staff Accountant I",
+        "answer_status": "1",
+        "created": "2018-09-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "329",
+        "applicantId": "29",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Community Outreach Specialist",
+        "answer_status": "1",
+        "created": "2018-09-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "330",
+        "applicantId": "30",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Administrative Assistant I",
+        "answer_status": "0",
+        "created": "2018-10-06 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "331",
+        "applicantId": "31",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Software Consultant",
+        "answer_status": "1",
+        "created": "2019-07-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "332",
+        "applicantId": "32",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Associate Professor",
+        "answer_status": "0",
+        "created": "2018-08-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "333",
+        "applicantId": "33",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "VP Marketing",
+        "answer_status": "0",
+        "created": "2019-06-02 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "334",
+        "applicantId": "34",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Chemical Engineer",
+        "answer_status": "1",
+        "created": "2019-05-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "335",
+        "applicantId": "35",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Geological Engineer",
+        "answer_status": "0",
+        "created": "2018-10-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "336",
+        "applicantId": "36",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Health Coach IV",
+        "answer_status": "1",
+        "created": "2019-04-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "337",
+        "applicantId": "37",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Electrical Engineer",
+        "answer_status": "1",
+        "created": "2019-07-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "338",
+        "applicantId": "38",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Web Designer II",
+        "answer_status": "1",
+        "created": "2018-08-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "339",
+        "applicantId": "39",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "General Manager",
+        "answer_status": "1",
+        "created": "2019-05-06 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "340",
+        "applicantId": "40",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Professor",
+        "answer_status": "1",
+        "created": "2018-10-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "341",
+        "applicantId": "41",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Senior Quality Engineer",
+        "answer_status": "0",
+        "created": "2019-07-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "342",
+        "applicantId": "42",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Junior Executive",
+        "answer_status": "0",
+        "created": "2019-03-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "343",
+        "applicantId": "43",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Staff Scientist",
+        "answer_status": "0",
+        "created": "2018-08-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "344",
+        "applicantId": "44",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Assistant Manager",
+        "answer_status": "0",
+        "created": "2018-10-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "345",
+        "applicantId": "45",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Dental Hygienist",
+        "answer_status": "0",
+        "created": "2018-10-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "346",
+        "applicantId": "46",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Programmer Analyst III",
+        "answer_status": "0",
+        "created": "2019-06-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "347",
+        "applicantId": "47",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Office Assistant I",
+        "answer_status": "0",
+        "created": "2019-06-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "348",
+        "applicantId": "48",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Editor",
+        "answer_status": "0",
+        "created": "2019-01-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "349",
+        "applicantId": "49",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Technical Writer",
+        "answer_status": "0",
+        "created": "2018-10-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "350",
+        "applicantId": "50",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Research Nurse",
+        "answer_status": "0",
+        "created": "2019-01-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "351",
+        "applicantId": "51",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Quality Control Specialist",
+        "answer_status": "1",
+        "created": "2019-01-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "352",
+        "applicantId": "52",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Senior Quality Engineer",
+        "answer_status": "1",
+        "created": "2018-08-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "353",
+        "applicantId": "53",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Physical Therapy Assistant",
+        "answer_status": "0",
+        "created": "2018-08-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "354",
+        "applicantId": "54",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Recruiting Manager",
+        "answer_status": "1",
+        "created": "2019-04-01 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "355",
+        "applicantId": "55",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Teacher",
+        "answer_status": "1",
+        "created": "2018-12-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "356",
+        "applicantId": "56",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Clinical Specialist",
+        "answer_status": "0",
+        "created": "2018-08-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "357",
+        "applicantId": "57",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "VP Product Management",
+        "answer_status": "0",
+        "created": "2019-01-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "358",
+        "applicantId": "58",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Director of Sales",
+        "answer_status": "1",
+        "created": "2019-01-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "359",
+        "applicantId": "59",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Food Chemist",
+        "answer_status": "0",
+        "created": "2019-03-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "360",
+        "applicantId": "60",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Data Coordiator",
+        "answer_status": "1",
+        "created": "2018-07-23 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "361",
+        "applicantId": "61",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Staff Accountant III",
+        "answer_status": "1",
+        "created": "2018-11-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "362",
+        "applicantId": "62",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Developer III",
+        "answer_status": "0",
+        "created": "2018-09-02 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "363",
+        "applicantId": "63",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Engineer I",
+        "answer_status": "1",
+        "created": "2019-03-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "364",
+        "applicantId": "64",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Clinical Specialist",
+        "answer_status": "1",
+        "created": "2018-09-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "365",
+        "applicantId": "65",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Food Chemist",
+        "answer_status": "0",
+        "created": "2018-11-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "366",
+        "applicantId": "66",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Actuary",
+        "answer_status": "1",
+        "created": "2018-07-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "367",
+        "applicantId": "67",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Product Engineer",
+        "answer_status": "1",
+        "created": "2019-06-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "368",
+        "applicantId": "68",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Speech Pathologist",
+        "answer_status": "1",
+        "created": "2019-05-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "369",
+        "applicantId": "69",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Administrative Assistant I",
+        "answer_status": "1",
+        "created": "2018-11-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "370",
+        "applicantId": "70",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Legal Assistant",
+        "answer_status": "0",
+        "created": "2019-06-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "371",
+        "applicantId": "71",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Desktop Support Technician",
+        "answer_status": "1",
+        "created": "2018-10-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "372",
+        "applicantId": "72",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Financial Analyst",
+        "answer_status": "1",
+        "created": "2018-11-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "373",
+        "applicantId": "73",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Food Chemist",
+        "answer_status": "0",
+        "created": "2019-04-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "374",
+        "applicantId": "74",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Food Chemist",
+        "answer_status": "1",
+        "created": "2019-04-02 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "375",
+        "applicantId": "75",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Mechanical Systems Engineer",
+        "answer_status": "1",
+        "created": "2019-01-01 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "376",
+        "applicantId": "76",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Geologist II",
+        "answer_status": "1",
+        "created": "2019-02-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "377",
+        "applicantId": "77",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Analyst Programmer",
+        "answer_status": "1",
+        "created": "2019-06-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "378",
+        "applicantId": "78",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Marketing Assistant",
+        "answer_status": "0",
+        "created": "2018-12-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "379",
+        "applicantId": "79",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Systems Administrator I",
+        "answer_status": "0",
+        "created": "2019-06-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "380",
+        "applicantId": "80",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Recruiter",
+        "answer_status": "0",
+        "created": "2018-07-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "381",
+        "applicantId": "81",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Librarian",
+        "answer_status": "1",
+        "created": "2018-09-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "382",
+        "applicantId": "82",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Occupational Therapist",
+        "answer_status": "1",
+        "created": "2018-11-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "383",
+        "applicantId": "83",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Structural Analysis Engineer",
+        "answer_status": "1",
+        "created": "2019-05-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "384",
+        "applicantId": "84",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Financial Analyst",
+        "answer_status": "0",
+        "created": "2019-05-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "385",
+        "applicantId": "85",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "VP Accounting",
+        "answer_status": "0",
+        "created": "2019-01-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "386",
+        "applicantId": "86",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Accountant III",
+        "answer_status": "1",
+        "created": "2019-03-31 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "387",
+        "applicantId": "87",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Programmer Analyst I",
+        "answer_status": "0",
+        "created": "2018-08-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "388",
+        "applicantId": "88",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Occupational Therapist",
+        "answer_status": "0",
+        "created": "2019-05-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "389",
+        "applicantId": "89",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Business Systems Development Analyst",
+        "answer_status": "0",
+        "created": "2019-02-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "390",
+        "applicantId": "90",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Editor",
+        "answer_status": "1",
+        "created": "2018-07-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "391",
+        "applicantId": "91",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Civil Engineer",
+        "answer_status": "0",
+        "created": "2019-04-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "392",
+        "applicantId": "92",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Financial Analyst",
+        "answer_status": "0",
+        "created": "2019-06-14 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "393",
+        "applicantId": "93",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Senior Cost Accountant",
+        "answer_status": "0",
+        "created": "2018-10-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "394",
+        "applicantId": "94",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Research Assistant II",
+        "answer_status": "1",
+        "created": "2019-06-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "395",
+        "applicantId": "95",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Software Engineer I",
+        "answer_status": "0",
+        "created": "2019-02-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "396",
+        "applicantId": "96",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Statistician II",
+        "answer_status": "1",
+        "created": "2018-10-06 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "397",
+        "applicantId": "97",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Senior Quality Engineer",
+        "answer_status": "1",
+        "created": "2018-08-14 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "398",
+        "applicantId": "98",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Pharmacist",
+        "answer_status": "0",
+        "created": "2018-12-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "399",
+        "applicantId": "99",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "Help Desk Technician",
+        "answer_status": "0",
+        "created": "2019-06-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "400",
+        "applicantId": "100",
+        "jobId": "1",
+        "questionId": "4",
+        "answer": "VP Accounting",
+        "answer_status": "1",
+        "created": "2019-03-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "401",
+        "applicantId": "1",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Media Manager I",
+        "answer_status": "1",
+        "created": "2018-11-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "402",
+        "applicantId": "2",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Payment Adjustment Coordinator",
+        "answer_status": "0",
+        "created": "2018-11-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "403",
+        "applicantId": "3",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Structural Engineer",
+        "answer_status": "0",
+        "created": "2018-11-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "404",
+        "applicantId": "4",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Human Resources Manager",
+        "answer_status": "0",
+        "created": "2018-10-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "405",
+        "applicantId": "5",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Marketing Manager",
+        "answer_status": "0",
+        "created": "2018-11-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "406",
+        "applicantId": "6",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Staff Accountant III",
+        "answer_status": "0",
+        "created": "2018-09-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "407",
+        "applicantId": "7",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Help Desk Technician",
+        "answer_status": "0",
+        "created": "2018-11-06 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "408",
+        "applicantId": "8",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Analog Circuit Design manager",
+        "answer_status": "0",
+        "created": "2019-03-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "409",
+        "applicantId": "9",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Project Manager",
+        "answer_status": "0",
+        "created": "2019-07-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "410",
+        "applicantId": "10",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Chief Design Engineer",
+        "answer_status": "1",
+        "created": "2019-06-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "411",
+        "applicantId": "11",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Editor",
+        "answer_status": "0",
+        "created": "2018-12-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "412",
+        "applicantId": "12",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Financial Analyst",
+        "answer_status": "0",
+        "created": "2018-10-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "413",
+        "applicantId": "13",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Software Consultant",
+        "answer_status": "1",
+        "created": "2018-10-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "414",
+        "applicantId": "14",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Sales Representative",
+        "answer_status": "1",
+        "created": "2019-06-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "415",
+        "applicantId": "15",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Office Assistant IV",
+        "answer_status": "1",
+        "created": "2018-09-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "416",
+        "applicantId": "16",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Nuclear Power Engineer",
+        "answer_status": "1",
+        "created": "2019-01-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "417",
+        "applicantId": "17",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "VP Product Management",
+        "answer_status": "0",
+        "created": "2019-01-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "418",
+        "applicantId": "18",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Marketing Manager",
+        "answer_status": "0",
+        "created": "2018-09-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "419",
+        "applicantId": "19",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Office Assistant IV",
+        "answer_status": "1",
+        "created": "2019-06-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "420",
+        "applicantId": "20",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Help Desk Operator",
+        "answer_status": "1",
+        "created": "2019-03-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "421",
+        "applicantId": "21",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Geological Engineer",
+        "answer_status": "1",
+        "created": "2018-10-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "422",
+        "applicantId": "22",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Electrical Engineer",
+        "answer_status": "1",
+        "created": "2019-07-14 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "423",
+        "applicantId": "23",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Marketing Manager",
+        "answer_status": "0",
+        "created": "2018-07-23 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "424",
+        "applicantId": "24",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Web Designer II",
+        "answer_status": "1",
+        "created": "2018-11-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "425",
+        "applicantId": "25",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Associate Professor",
+        "answer_status": "0",
+        "created": "2019-03-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "426",
+        "applicantId": "26",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Senior Quality Engineer",
+        "answer_status": "0",
+        "created": "2018-12-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "427",
+        "applicantId": "27",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Marketing Manager",
+        "answer_status": "0",
+        "created": "2018-11-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "428",
+        "applicantId": "28",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Editor",
+        "answer_status": "1",
+        "created": "2019-07-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "429",
+        "applicantId": "29",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Quality Engineer",
+        "answer_status": "0",
+        "created": "2019-03-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "430",
+        "applicantId": "30",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Help Desk Technician",
+        "answer_status": "0",
+        "created": "2018-10-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "431",
+        "applicantId": "31",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Speech Pathologist",
+        "answer_status": "1",
+        "created": "2019-02-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "432",
+        "applicantId": "32",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "VP Quality Control",
+        "answer_status": "1",
+        "created": "2018-09-14 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "433",
+        "applicantId": "33",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Account Coordinator",
+        "answer_status": "1",
+        "created": "2019-06-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "434",
+        "applicantId": "34",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Budget\/Accounting Analyst II",
+        "answer_status": "1",
+        "created": "2018-10-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "435",
+        "applicantId": "35",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Nurse Practicioner",
+        "answer_status": "0",
+        "created": "2018-12-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "436",
+        "applicantId": "36",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "VP Product Management",
+        "answer_status": "1",
+        "created": "2019-07-06 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "437",
+        "applicantId": "37",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Nuclear Power Engineer",
+        "answer_status": "1",
+        "created": "2019-05-23 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "438",
+        "applicantId": "38",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Financial Advisor",
+        "answer_status": "1",
+        "created": "2019-06-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "439",
+        "applicantId": "39",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Structural Engineer",
+        "answer_status": "0",
+        "created": "2019-02-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "440",
+        "applicantId": "40",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Editor",
+        "answer_status": "1",
+        "created": "2018-09-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "441",
+        "applicantId": "41",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Chemical Engineer",
+        "answer_status": "0",
+        "created": "2018-08-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "442",
+        "applicantId": "42",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Assistant Manager",
+        "answer_status": "1",
+        "created": "2018-08-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "443",
+        "applicantId": "43",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Nurse Practicioner",
+        "answer_status": "0",
+        "created": "2018-10-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "444",
+        "applicantId": "44",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Nurse",
+        "answer_status": "1",
+        "created": "2018-10-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "445",
+        "applicantId": "45",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Design Engineer",
+        "answer_status": "1",
+        "created": "2019-04-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "446",
+        "applicantId": "46",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Help Desk Operator",
+        "answer_status": "0",
+        "created": "2019-03-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "447",
+        "applicantId": "47",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Nuclear Power Engineer",
+        "answer_status": "1",
+        "created": "2019-03-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "448",
+        "applicantId": "48",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Administrative Assistant IV",
+        "answer_status": "0",
+        "created": "2019-06-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "449",
+        "applicantId": "49",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Financial Advisor",
+        "answer_status": "1",
+        "created": "2019-04-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "450",
+        "applicantId": "50",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Teacher",
+        "answer_status": "0",
+        "created": "2018-09-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "451",
+        "applicantId": "51",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Civil Engineer",
+        "answer_status": "0",
+        "created": "2019-06-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "452",
+        "applicantId": "52",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Senior Sales Associate",
+        "answer_status": "0",
+        "created": "2018-11-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "453",
+        "applicantId": "53",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Senior Cost Accountant",
+        "answer_status": "1",
+        "created": "2019-02-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "454",
+        "applicantId": "54",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Registered Nurse",
+        "answer_status": "1",
+        "created": "2019-01-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "455",
+        "applicantId": "55",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Legal Assistant",
+        "answer_status": "1",
+        "created": "2018-11-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "456",
+        "applicantId": "56",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Programmer IV",
+        "answer_status": "0",
+        "created": "2019-06-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "457",
+        "applicantId": "57",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Project Manager",
+        "answer_status": "0",
+        "created": "2019-06-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "458",
+        "applicantId": "58",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Software Consultant",
+        "answer_status": "0",
+        "created": "2019-01-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "459",
+        "applicantId": "59",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Mechanical Systems Engineer",
+        "answer_status": "1",
+        "created": "2018-10-06 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "460",
+        "applicantId": "60",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Help Desk Technician",
+        "answer_status": "0",
+        "created": "2019-04-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "461",
+        "applicantId": "61",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Civil Engineer",
+        "answer_status": "0",
+        "created": "2018-10-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "462",
+        "applicantId": "62",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Programmer II",
+        "answer_status": "1",
+        "created": "2019-01-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "463",
+        "applicantId": "63",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Geologist I",
+        "answer_status": "1",
+        "created": "2018-09-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "464",
+        "applicantId": "64",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Clinical Specialist",
+        "answer_status": "1",
+        "created": "2019-02-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "465",
+        "applicantId": "65",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Environmental Specialist",
+        "answer_status": "1",
+        "created": "2019-04-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "466",
+        "applicantId": "66",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Tax Accountant",
+        "answer_status": "1",
+        "created": "2019-07-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "467",
+        "applicantId": "67",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Recruiter",
+        "answer_status": "0",
+        "created": "2019-03-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "468",
+        "applicantId": "68",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Project Manager",
+        "answer_status": "0",
+        "created": "2019-06-01 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "469",
+        "applicantId": "69",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Accounting Assistant III",
+        "answer_status": "1",
+        "created": "2019-03-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "470",
+        "applicantId": "70",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Account Representative I",
+        "answer_status": "1",
+        "created": "2019-01-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "471",
+        "applicantId": "71",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Senior Financial Analyst",
+        "answer_status": "1",
+        "created": "2018-08-31 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "472",
+        "applicantId": "72",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Geologist I",
+        "answer_status": "0",
+        "created": "2018-09-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "473",
+        "applicantId": "73",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Marketing Manager",
+        "answer_status": "1",
+        "created": "2018-12-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "474",
+        "applicantId": "74",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Executive Secretary",
+        "answer_status": "0",
+        "created": "2018-12-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "475",
+        "applicantId": "75",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Sales Representative",
+        "answer_status": "0",
+        "created": "2018-12-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "476",
+        "applicantId": "76",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Research Nurse",
+        "answer_status": "0",
+        "created": "2019-01-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "477",
+        "applicantId": "77",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Programmer Analyst IV",
+        "answer_status": "0",
+        "created": "2019-03-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "478",
+        "applicantId": "78",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Product Engineer",
+        "answer_status": "1",
+        "created": "2018-12-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "479",
+        "applicantId": "79",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Budget\/Accounting Analyst III",
+        "answer_status": "0",
+        "created": "2019-04-29 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "480",
+        "applicantId": "80",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Automation Specialist I",
+        "answer_status": "1",
+        "created": "2019-05-14 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "481",
+        "applicantId": "81",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Programmer Analyst I",
+        "answer_status": "0",
+        "created": "2019-01-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "482",
+        "applicantId": "82",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Information Systems Manager",
+        "answer_status": "1",
+        "created": "2019-01-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "483",
+        "applicantId": "83",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Occupational Therapist",
+        "answer_status": "0",
+        "created": "2019-03-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "484",
+        "applicantId": "84",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Clinical Specialist",
+        "answer_status": "1",
+        "created": "2018-12-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "485",
+        "applicantId": "85",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "General Manager",
+        "answer_status": "1",
+        "created": "2018-09-01 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "486",
+        "applicantId": "86",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Nurse",
+        "answer_status": "0",
+        "created": "2019-07-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "487",
+        "applicantId": "87",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Operator",
+        "answer_status": "1",
+        "created": "2019-07-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "488",
+        "applicantId": "88",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Web Developer III",
+        "answer_status": "0",
+        "created": "2018-10-31 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "489",
+        "applicantId": "89",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Programmer I",
+        "answer_status": "0",
+        "created": "2019-07-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "490",
+        "applicantId": "90",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Community Outreach Specialist",
+        "answer_status": "0",
+        "created": "2019-05-23 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "491",
+        "applicantId": "91",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Actuary",
+        "answer_status": "0",
+        "created": "2019-01-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "492",
+        "applicantId": "92",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Office Assistant II",
+        "answer_status": "0",
+        "created": "2018-10-23 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "493",
+        "applicantId": "93",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Research Associate",
+        "answer_status": "1",
+        "created": "2019-06-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "494",
+        "applicantId": "94",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Marketing Assistant",
+        "answer_status": "0",
+        "created": "2019-06-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "495",
+        "applicantId": "95",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Director of Sales",
+        "answer_status": "0",
+        "created": "2019-05-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "496",
+        "applicantId": "96",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Developer II",
+        "answer_status": "0",
+        "created": "2019-06-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "497",
+        "applicantId": "97",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Sales Associate",
+        "answer_status": "1",
+        "created": "2018-12-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "498",
+        "applicantId": "98",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Professor",
+        "answer_status": "0",
+        "created": "2019-02-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "499",
+        "applicantId": "99",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Software Consultant",
+        "answer_status": "0",
+        "created": "2019-06-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "500",
+        "applicantId": "100",
+        "jobId": "1",
+        "questionId": "5",
+        "answer": "Safety Technician II",
+        "answer_status": "0",
+        "created": "2018-08-01 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "501",
+        "applicantId": "1",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Senior Quality Engineer",
+        "answer_status": "1",
+        "created": "2019-03-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "502",
+        "applicantId": "2",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Senior Developer",
+        "answer_status": "1",
+        "created": "2019-03-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "503",
+        "applicantId": "3",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Financial Analyst",
+        "answer_status": "0",
+        "created": "2019-01-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "504",
+        "applicantId": "4",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Director of Sales",
+        "answer_status": "1",
+        "created": "2018-11-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "505",
+        "applicantId": "5",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Technical Writer",
+        "answer_status": "1",
+        "created": "2018-12-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "506",
+        "applicantId": "6",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Tax Accountant",
+        "answer_status": "1",
+        "created": "2019-05-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "507",
+        "applicantId": "7",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Human Resources Assistant IV",
+        "answer_status": "1",
+        "created": "2018-08-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "508",
+        "applicantId": "8",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Computer Systems Analyst I",
+        "answer_status": "1",
+        "created": "2018-08-31 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "509",
+        "applicantId": "9",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Electrical Engineer",
+        "answer_status": "0",
+        "created": "2019-03-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "510",
+        "applicantId": "10",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Assistant Media Planner",
+        "answer_status": "1",
+        "created": "2019-07-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "511",
+        "applicantId": "11",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Business Systems Development Analyst",
+        "answer_status": "1",
+        "created": "2018-10-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "512",
+        "applicantId": "12",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Speech Pathologist",
+        "answer_status": "1",
+        "created": "2018-08-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "513",
+        "applicantId": "13",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Senior Quality Engineer",
+        "answer_status": "1",
+        "created": "2018-12-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "514",
+        "applicantId": "14",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Recruiter",
+        "answer_status": "0",
+        "created": "2019-04-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "515",
+        "applicantId": "15",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Physical Therapy Assistant",
+        "answer_status": "1",
+        "created": "2019-03-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "516",
+        "applicantId": "16",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Administrative Officer",
+        "answer_status": "0",
+        "created": "2019-07-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "517",
+        "applicantId": "17",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Technical Writer",
+        "answer_status": "0",
+        "created": "2018-09-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "518",
+        "applicantId": "18",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Marketing Manager",
+        "answer_status": "0",
+        "created": "2019-03-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "519",
+        "applicantId": "19",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Data Coordiator",
+        "answer_status": "0",
+        "created": "2019-03-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "520",
+        "applicantId": "20",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Desktop Support Technician",
+        "answer_status": "1",
+        "created": "2018-08-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "521",
+        "applicantId": "21",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Software Consultant",
+        "answer_status": "1",
+        "created": "2018-12-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "522",
+        "applicantId": "22",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Data Coordiator",
+        "answer_status": "1",
+        "created": "2019-06-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "523",
+        "applicantId": "23",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Research Nurse",
+        "answer_status": "0",
+        "created": "2018-10-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "524",
+        "applicantId": "24",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Systems Administrator III",
+        "answer_status": "0",
+        "created": "2018-10-02 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "525",
+        "applicantId": "25",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Database Administrator II",
+        "answer_status": "1",
+        "created": "2019-02-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "526",
+        "applicantId": "26",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Accounting Assistant IV",
+        "answer_status": "0",
+        "created": "2019-03-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "527",
+        "applicantId": "27",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Database Administrator III",
+        "answer_status": "0",
+        "created": "2018-11-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "528",
+        "applicantId": "28",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Analyst Programmer",
+        "answer_status": "0",
+        "created": "2019-05-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "529",
+        "applicantId": "29",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Environmental Specialist",
+        "answer_status": "1",
+        "created": "2018-10-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "530",
+        "applicantId": "30",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Software Engineer II",
+        "answer_status": "1",
+        "created": "2019-05-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "531",
+        "applicantId": "31",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Senior Sales Associate",
+        "answer_status": "0",
+        "created": "2019-03-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "532",
+        "applicantId": "32",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Clinical Specialist",
+        "answer_status": "1",
+        "created": "2019-04-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "533",
+        "applicantId": "33",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Paralegal",
+        "answer_status": "0",
+        "created": "2019-02-15 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "534",
+        "applicantId": "34",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Product Engineer",
+        "answer_status": "0",
+        "created": "2018-12-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "535",
+        "applicantId": "35",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Occupational Therapist",
+        "answer_status": "0",
+        "created": "2019-05-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "536",
+        "applicantId": "36",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Human Resources Assistant II",
+        "answer_status": "0",
+        "created": "2019-06-23 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "537",
+        "applicantId": "37",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Occupational Therapist",
+        "answer_status": "0",
+        "created": "2018-09-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "538",
+        "applicantId": "38",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Statistician IV",
+        "answer_status": "0",
+        "created": "2018-09-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "539",
+        "applicantId": "39",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Research Assistant III",
+        "answer_status": "0",
+        "created": "2019-06-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "540",
+        "applicantId": "40",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Human Resources Manager",
+        "answer_status": "1",
+        "created": "2018-11-09 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "541",
+        "applicantId": "41",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "VP Quality Control",
+        "answer_status": "0",
+        "created": "2018-11-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "542",
+        "applicantId": "42",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Nuclear Power Engineer",
+        "answer_status": "0",
+        "created": "2019-07-16 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "543",
+        "applicantId": "43",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Computer Systems Analyst II",
+        "answer_status": "0",
+        "created": "2019-07-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "544",
+        "applicantId": "44",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "VP Sales",
+        "answer_status": "0",
+        "created": "2019-05-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "545",
+        "applicantId": "45",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "GIS Technical Architect",
+        "answer_status": "0",
+        "created": "2018-11-22 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "546",
+        "applicantId": "46",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Web Designer III",
+        "answer_status": "0",
+        "created": "2019-07-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "547",
+        "applicantId": "47",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Librarian",
+        "answer_status": "0",
+        "created": "2019-05-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "548",
+        "applicantId": "48",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Accountant III",
+        "answer_status": "1",
+        "created": "2019-02-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "549",
+        "applicantId": "49",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Safety Technician IV",
+        "answer_status": "0",
+        "created": "2018-12-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "550",
+        "applicantId": "50",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Programmer Analyst IV",
+        "answer_status": "1",
+        "created": "2019-07-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "551",
+        "applicantId": "51",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Actuary",
+        "answer_status": "1",
+        "created": "2019-07-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "552",
+        "applicantId": "52",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Systems Administrator I",
+        "answer_status": "0",
+        "created": "2018-11-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "553",
+        "applicantId": "53",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Database Administrator I",
+        "answer_status": "1",
+        "created": "2019-04-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "554",
+        "applicantId": "54",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Mechanical Systems Engineer",
+        "answer_status": "0",
+        "created": "2018-11-13 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "555",
+        "applicantId": "55",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Registered Nurse",
+        "answer_status": "1",
+        "created": "2019-03-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "556",
+        "applicantId": "56",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Chemical Engineer",
+        "answer_status": "0",
+        "created": "2019-02-02 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "557",
+        "applicantId": "57",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Executive Secretary",
+        "answer_status": "1",
+        "created": "2019-04-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "558",
+        "applicantId": "58",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Statistician II",
+        "answer_status": "1",
+        "created": "2018-11-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "559",
+        "applicantId": "59",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Analog Circuit Design manager",
+        "answer_status": "1",
+        "created": "2019-03-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "560",
+        "applicantId": "60",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Internal Auditor",
+        "answer_status": "0",
+        "created": "2019-04-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "561",
+        "applicantId": "61",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Director of Sales",
+        "answer_status": "0",
+        "created": "2018-09-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "562",
+        "applicantId": "62",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Nurse",
+        "answer_status": "1",
+        "created": "2018-12-30 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "563",
+        "applicantId": "63",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Graphic Designer",
+        "answer_status": "1",
+        "created": "2019-01-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "564",
+        "applicantId": "64",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Automation Specialist II",
+        "answer_status": "0",
+        "created": "2018-11-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "565",
+        "applicantId": "65",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Computer Systems Analyst III",
+        "answer_status": "1",
+        "created": "2018-09-27 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "566",
+        "applicantId": "66",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Dental Hygienist",
+        "answer_status": "0",
+        "created": "2018-09-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "567",
+        "applicantId": "67",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Chemical Engineer",
+        "answer_status": "1",
+        "created": "2019-03-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "568",
+        "applicantId": "68",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Sales Representative",
+        "answer_status": "1",
+        "created": "2019-02-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "569",
+        "applicantId": "69",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Senior Editor",
+        "answer_status": "1",
+        "created": "2019-04-28 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "570",
+        "applicantId": "70",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Database Administrator II",
+        "answer_status": "1",
+        "created": "2018-12-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "571",
+        "applicantId": "71",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Associate Professor",
+        "answer_status": "0",
+        "created": "2018-08-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "572",
+        "applicantId": "72",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Product Engineer",
+        "answer_status": "0",
+        "created": "2018-08-23 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "573",
+        "applicantId": "73",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Senior Editor",
+        "answer_status": "0",
+        "created": "2018-12-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "574",
+        "applicantId": "74",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Tax Accountant",
+        "answer_status": "1",
+        "created": "2018-11-08 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "575",
+        "applicantId": "75",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "VP Marketing",
+        "answer_status": "1",
+        "created": "2019-02-06 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "576",
+        "applicantId": "76",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Help Desk Technician",
+        "answer_status": "1",
+        "created": "2019-03-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "577",
+        "applicantId": "77",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Environmental Specialist",
+        "answer_status": "1",
+        "created": "2019-07-05 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "578",
+        "applicantId": "78",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Account Coordinator",
+        "answer_status": "0",
+        "created": "2018-12-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "579",
+        "applicantId": "79",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Research Nurse",
+        "answer_status": "0",
+        "created": "2019-06-25 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "580",
+        "applicantId": "80",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Research Assistant I",
+        "answer_status": "1",
+        "created": "2019-03-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "581",
+        "applicantId": "81",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Programmer I",
+        "answer_status": "0",
+        "created": "2018-09-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "582",
+        "applicantId": "82",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Sales Associate",
+        "answer_status": "0",
+        "created": "2018-10-17 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "583",
+        "applicantId": "83",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "VP Product Management",
+        "answer_status": "0",
+        "created": "2019-03-31 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "584",
+        "applicantId": "84",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Account Coordinator",
+        "answer_status": "0",
+        "created": "2019-05-10 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "585",
+        "applicantId": "85",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Registered Nurse",
+        "answer_status": "0",
+        "created": "2018-08-03 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "586",
+        "applicantId": "86",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Senior Sales Associate",
+        "answer_status": "1",
+        "created": "2019-06-04 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "587",
+        "applicantId": "87",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Food Chemist",
+        "answer_status": "1",
+        "created": "2018-09-26 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "588",
+        "applicantId": "88",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Actuary",
+        "answer_status": "0",
+        "created": "2018-08-12 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "589",
+        "applicantId": "89",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Chief Design Engineer",
+        "answer_status": "0",
+        "created": "2019-01-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "590",
+        "applicantId": "90",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Marketing Assistant",
+        "answer_status": "1",
+        "created": "2019-03-11 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "591",
+        "applicantId": "91",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Clinical Specialist",
+        "answer_status": "1",
+        "created": "2019-01-31 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "592",
+        "applicantId": "92",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Quality Engineer",
+        "answer_status": "1",
+        "created": "2018-10-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "593",
+        "applicantId": "93",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Senior Developer",
+        "answer_status": "1",
+        "created": "2019-01-14 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "594",
+        "applicantId": "94",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Payment Adjustment Coordinator",
+        "answer_status": "0",
+        "created": "2018-07-24 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "595",
+        "applicantId": "95",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Librarian",
+        "answer_status": "0",
+        "created": "2019-02-21 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "596",
+        "applicantId": "96",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Editor",
+        "answer_status": "0",
+        "created": "2018-08-18 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "597",
+        "applicantId": "97",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Legal Assistant",
+        "answer_status": "1",
+        "created": "2019-03-19 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "598",
+        "applicantId": "98",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Marketing Manager",
+        "answer_status": "1",
+        "created": "2018-10-07 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "599",
+        "applicantId": "99",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Compensation Analyst",
+        "answer_status": "1",
+        "created": "2018-10-20 00:00:00",
+        "archive": "0"
+    }, {
+        "id": "600",
+        "applicantId": "100",
+        "jobId": "1",
+        "questionId": "6",
+        "answer": "Physical Therapy Assistant",
+        "answer_status": "1",
+        "created": "2019-01-25 00:00:00",
+        "archive": "0"
+    }]

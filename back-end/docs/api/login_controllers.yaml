@@ -1,0 +1,169 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.26"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/admin/Login"
+schemes:
+- "https"
+- "http"
+paths: 
+  /check_login:
+    post:
+      summary: "Admin login"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                email: 
+                  type: string
+                password: 
+                  type: string
+      responses:
+        "200":
+          description: "Successful login"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Login successfully'
+              status: 
+                type: boolean
+                example: true
+        "201":
+          description: "Account locked actually returns 200"
+          schema:
+            type: object
+            properties:
+              error: 
+                type: string
+                example: 'Account is locked actually returns 200'
+              status: 
+                type: boolean
+                example: false
+        "202":
+          description: "Invalid username or passsword"
+          schema:
+            type: object
+            properties:
+              error: 
+                type: string
+                example: 'Invalid username or passsword'
+              status: 
+                type: boolean
+                example: false
+        "500":
+          description: "Server error"
+  /submit_oldlogin_pin:
+    post:
+      summary: "Submit OTP for old logins"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                email: 
+                  type: string
+                password: 
+                  type: string
+                serial: 
+                  type: string
+                pin: 
+                  type: string
+                member_id: 
+                  type: integer
+      responses:
+        "200":
+          description: "Successful OTP verification"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'OTP verified successfully'
+              status: 
+                type: boolean
+                example: true
+        "201":
+          description: "Account locked actually returns 200"
+          schema:
+            type: object
+            properties:
+              error: 
+                type: string
+                example: 'Account is locked'
+              status: 
+                type: boolean
+                example: false
+        "202":
+          description: "OTP verification failed actually returns 200"
+          schema:
+            type: object
+            properties:
+              error: 
+                type: string
+                example: 'OTP verification failed'
+              status: 
+                type: boolean
+                example: false
+        "500":
+          description: "Server error"
+  /resend_oldlogin_pin:
+    post:
+      summary: "Resend OTP"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                email: 
+                  type: string
+                member_id: 
+                  type: integer
+      responses:
+        "200":
+          description: "Successful sending of OTP"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Successfully resent OTP'
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"

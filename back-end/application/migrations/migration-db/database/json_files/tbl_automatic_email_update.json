@@ -1,0 +1,24 @@
+[
+  {
+    "id": "14",
+    "moduleId": "9",
+    "email_name": "Applicant portal login details",
+    "email_key_name": "new_applicant_login",
+    "templateId":0,
+    "assign_by": 1,
+    "assign_at": "2020-09-29 17:23:58",
+    "created": "2020-09-29 17:23:58",
+    "archive": "0"
+  },
+  {
+    "id": "15",
+    "moduleId": "9",
+    "email_name": "Welcome member",
+    "email_key_name": "new_member_creation",
+    "templateId":0,
+    "assign_by": 1,
+    "assign_at": "2020-09-29 17:23:58",
+    "created": "2020-09-29 17:23:58",
+    "archive": "0"
+  }
+]

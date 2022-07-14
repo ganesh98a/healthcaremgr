@@ -1,0 +1,56 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.22"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/recruitment_oa_template/archive_existing_template"
+schemes:
+- "https"
+- "http"
+paths:
+  /update_member:
+    post:
+      summary: "Archive the existing online assessment template"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                id: 
+                  type: integer
+                  example: 11
+      security:
+        - api_key: []
+      responses:
+        "200":
+          description: "Archive the existing online assessment template by Id"
+          schema:
+            type: object
+            properties:
+              data:
+                type: object
+                properties:
+                    msg: 
+                     type: string
+                     example: 'Template has been Archived successfully.'
+                    status: 
+                     type: boolean
+        "500":
+          description: "Server error"
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"

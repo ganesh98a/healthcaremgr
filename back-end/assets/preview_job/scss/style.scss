@@ -1,0 +1,228 @@
+$bg_color: #38296e;
+$bg_color_hover: #211352;
+@import "./custom_tooltip.scss";
+@import "./tosty_msg.scss";
+
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+.main_page_template_hcm_app {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  min-height: 1100px;
+  width: 100%;
+  box-shadow: 0px 2px 11px #a09999;
+  grid-template-rows: 1fr 190px;
+  p,
+  ul li,
+  ol  li{
+    word-break: break-word !important;
+  }
+
+  .left_side {
+    background-color: #62a744;
+    padding: 10px;
+  }
+  .right_side {
+    background-color: #fff;
+    padding: 50px 50px;
+    &.footer_right {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background-color: #3d3d3d;
+      align-items: center;
+      .social_icons {
+        display: flex;
+        justify-self: center;
+        div {
+          margin: 0px 7px;
+          a {
+            color: #fff;
+            transition: all 0.3s ease;
+            svg {
+              width: 35px;
+              height: 35px;
+              fill: #fff;
+              transition: all 0.3s ease;
+            }
+            &:hover {
+              color: #f37021;
+              svg {
+                fill: #f37021;
+              }
+            }
+          }
+        }
+      }
+      .log_footer {
+        .img_footer {
+          // background-color: #fff;
+          display: flex;
+          justify-self: center;
+          justify-content: center;
+          img {
+            width: 50%;
+            padding: 15px 0px;
+          }
+        }
+        .website_text {
+          text-align: center;
+          color: #fff;
+        }
+      }
+    }
+    .main_logo {
+      text-align: center;
+      padding: 30px 0px;
+      img {
+        width: 50%;
+      }
+    }
+  }
+  .list_req_doc {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 15px;
+    margin-top: 15px;
+    div {
+      display: grid;
+      grid-template-columns: 1fr 80px;
+      .btn_small_1 {
+        font-size: 12px;
+        border: 1px solid;
+        border-color: #007bff;
+        color: #007bff;
+        padding: 2px 8px;
+        border-radius: 3px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.modal_lg_my {
+  .modal-dialog {
+    .modal-content {
+      background-color: #f6f6f6;
+      padding: 15px 30px;
+      .m_header_1 {
+        padding: 7px 0px;
+        border-radius: 0px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        border-color: $bg_color;
+        color: $bg_color;
+        .close {
+          margin: 0px;
+          padding: 0px;
+          span {
+            img {
+              width: 24px;
+            }
+          }
+        }
+      }
+      .m_body_1 {
+        padding: 15px 0px;
+        .form-control {
+          font-size: 14px;
+          padding: 0.5rem 0.75rem;
+          &.input_box {
+            border-color: #000;
+          }
+        }
+      }
+      .m_footer_1 {
+        padding: 0px;
+        padding-top: 15px;
+        border-top: 1px solid;
+        border-color: $bg_color;
+      }
+    }
+  }
+}
+
+.bt-1 {
+  border-top: 1px solid;
+  &.bt-color {
+    border-color: $bg_color;
+  }
+}
+.add_btn_i {
+  span {
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
+.btn-bg-color {
+  background-color: #f37021;
+  color: #fff;
+  &:hover {
+    background-color: #d06626;
+  }
+}
+.modal-open {
+  .pac-container.pac-logo {
+    z-index: 1051;
+  }
+}
+
+.upload_req_doc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #b9b9b9;
+}
+.upload_bro {
+  position: relative;
+  background-color: #62a744;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 5px;
+  min-width: 111px;
+  display: inline-flex;
+  justify-content: center;
+  font-size: 13px;
+  margin-bottom: 0;
+  cursor: pointer;
+  input {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+  }
+}
+
+.progressBar_1 {
+  background-color: $bg_color;
+  width: 0px;
+  height: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -moz-transition: 0.25s ease-out;
+  -webkit-transition: 0.25s ease-out;
+  -o-transition: 0.25s ease-out;
+  transition: 0.25s ease-out;
+}
+
+.hdn_box {
+  opacity: 0;
+  opacity: 0;
+  height: 5px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  line-height: 0;
+}
+
+.danger {
+  color: #cc0000;
+}

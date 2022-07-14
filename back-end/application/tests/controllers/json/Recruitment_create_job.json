@@ -1,0 +1,384 @@
+{
+  "0": {
+    "drp_dwn": {
+      "label": "Seek",
+      "value": "1"
+    },
+    "question": [
+      
+    ],
+    "channel_name": "Seek",
+    "question_tab": false,
+    "drp_dwn_val": "1"
+  },
+  "1": {
+    "drp_dwn": {
+      "label": "Website",
+      "value": "2"
+    },
+    "question": [
+      
+    ],
+    "channel_name": "Website",
+    "question_tab": false,
+    "drp_dwn_val": "2"
+  },
+  "2": {
+    "drp_dwn": {
+      "label": "HCM software",
+      "value": "3"
+    },
+    "question": [
+      
+    ],
+    "channel_name": "HCM software",
+    "question_tab": false,
+    "drp_dwn_val": "3"
+  },
+  "Partnersettings": {
+    "dots": false,
+    "infinite": false,
+    "slidesToShow": 5,
+    "slidesToScroll": 1
+  },
+  "additionQuesAr": [
+    {
+      "id": 1,
+      "name": "Ques1",
+      "inpValue": ""
+    },
+    {
+      "id": 2,
+      "name": "Ques2",
+      "inpValue": ""
+    },
+    {
+      "id": 3,
+      "name": "Ques3",
+      "inpValue": ""
+    },
+    {
+      "id": 4,
+      "name": "Ques4",
+      "inpValue": ""
+    }
+  ],
+  "quickModal": true,
+  "AddDocumentsModal": false,
+  "magageDocModal": false,
+  "ac1": true,
+  "validate": false,
+  "job_type": [
+    {
+      "label": "NDIS",
+      "value": "1"
+    },
+    {
+      "label": "Welfare",
+      "value": "2"
+    },
+    {
+      "label": "Internal",
+      "value": "3"
+    }
+  ],
+  "job_template": [
+    {
+      "id": "1",
+      "template": "  %USERNAME% ",
+      "name": "Template 1",
+      "thumb": "resume_template.png"
+    },
+    {
+      "id": "2",
+      "template": "  %USERNAME%  %MSG% ",
+      "name": "Template 2",
+      "thumb": "resume_template.png"
+    },
+    {
+      "id": "3",
+      "template": "  %USERNAME%  %MSG%  %CONTACT_DETAIL% ",
+      "name": "Template 3",
+      "thumb": "resume_template.png"
+    }
+  ],
+  "job_category": [
+    {
+      "parent_id": "0",
+      "value": "1",
+      "label": "Field Staff"
+    },
+    {
+      "parent_id": "0",
+      "value": "2",
+      "label": "Head Office"
+    }
+  ],
+  "job_sub_category": [
+    {
+      "parent_id": "1",
+      "value": "3",
+      "label": "Child, Youth & Family"
+    },
+    {
+      "parent_id": "1",
+      "value": "4",
+      "label": "Disability"
+    },
+    {
+      "parent_id": "1",
+      "value": "5",
+      "label": "NDIS Job Ready"
+    }
+  ],
+  "title": "TEst 1",
+  "job_position": "",
+  "job_employment_type": [
+    {
+      "label": "Full Time",
+      "value": "1"
+    },
+    {
+      "label": "Casual",
+      "value": "2"
+    },
+    {
+      "label": "Part Time",
+      "value": "3"
+    }
+  ],
+  "job_salary_range": [
+    {
+      "label": "$0-$30K",
+      "value": "1"
+    },
+    {
+      "label": "$30K-$40K",
+      "value": "2"
+    },
+    {
+      "label": "$40K-$50K",
+      "value": "3"
+    },
+    {
+      "label": "$50K-$60K",
+      "value": "4"
+    },
+    {
+      "label": "$60K-$70K",
+      "value": "5"
+    },
+    {
+      "label": "$70K-$80K",
+      "value": "6"
+    },
+    {
+      "label": "$80K-$90K",
+      "value": "7"
+    },
+    {
+      "label": "$90K-$100K",
+      "value": "8"
+    },
+    {
+      "label": "$100K-$150K",
+      "value": "9"
+    },
+    {
+      "label": "$150K-$200K",
+      "value": "10"
+    },
+    {
+      "label": "$200K+",
+      "value": "11"
+    }
+  ],
+  "all_documents": [
+    {
+      "label": "Resume",
+      "value": "1",
+      "optional": false,
+      "mandatory": true,
+      "clickable": true,
+      "selected": false
+    },
+    {
+      "label": "Cover Letter",
+      "value": "2",
+      "optional": false,
+      "mandatory": true,
+      "clickable": true,
+      "selected": false
+    },
+    {
+      "label": "Qualification",
+      "value": "3",
+      "optional": false,
+      "mandatory": true,
+      "clickable": true,
+      "selected": false
+    },
+    {
+      "label": "Referral Letter",
+      "value": "4",
+      "optional": false,
+      "mandatory": false,
+      "clickable": false,
+      "selected": false
+    },
+    {
+      "label": "Other",
+      "value": "5",
+      "optional": false,
+      "mandatory": false,
+      "clickable": false,
+      "selected": false
+    }
+  ],
+  "allow_close_docs_form": false,
+  "publish_to": [
+    {
+      "drp_dwn": {
+        "label": "Seek",
+        "value": "1"
+      },
+      "question": [
+        
+      ],
+      "channel_name": "Seek",
+      "question_tab": false,
+      "drp_dwn_val": "1"
+    },
+    {
+      "drp_dwn": {
+        "label": "Website",
+        "value": "2"
+      },
+      "question": [
+        
+      ],
+      "channel_name": "Website",
+      "question_tab": false,
+      "drp_dwn_val": "2"
+    },
+    {
+      "drp_dwn": {
+        "label": "HCM software",
+        "value": "3"
+      },
+      "question": [
+        
+      ],
+      "channel_name": "HCM software",
+      "question_tab": false,
+      "drp_dwn_val": "3"
+    }
+  ],
+  "activeTemplate": 1,
+  "is_salary_publish": false,
+  "is_cat_publish": false,
+  "is_subcat_publish": false,
+  "is_emptype_publish": false,
+  "save_success": false,
+  "view": "operate",
+  "job_operation": "create",
+  "document_name": "",
+  "is_editable": false,
+  "editor_read_only": true,
+  "job_status": 0,
+  "loading": true,
+  "category": "1",
+  "sub_category": "3",
+  "questionByCatAndSubcat": [
+    
+  ],
+  "employment_type": "2",
+  "salary_range": "2",
+  "from_date": "2020-05-19T14:00:00.000Z",
+  "to_date": "2020-05-19T14:00:00.000Z",
+  "job_location": "Testar Grove, Caulfield North VIC 3161, Australia",
+  "complete_address": {
+    "address_components": [
+      {
+        "long_name": "Testar Grove",
+        "short_name": "Testar Grove",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Caulfield North",
+        "short_name": "Caulfield North",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Glen Eira City",
+        "short_name": "Glen Eira",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Victoria",
+        "short_name": "VIC",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Australia",
+        "short_name": "AU",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "3161",
+        "short_name": "3161",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "adr_address": "Testar Grove, Caulfield North VIC 3161, Australia",
+    "formatted_address": "Testar Grove, Caulfield North VIC 3161, Australia",
+    "geometry": {
+      "location": {
+        "lat": -37.87112219999999,
+        "lng": 145.0137606
+      },
+      "viewport": {
+        "south": -37.8724711802915,
+        "west": 145.0124116197085,
+        "north": -37.8697732197085,
+        "east": 145.0151095802915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+    "id": "074ef0ca36accba54b2e03839f0e059f4ab75f64",
+    "name": "Testar Grove",
+    "place_id": "EjFUZXN0YXIgR3JvdmUsIENhdWxmaWVsZCBOb3J0aCBWSUMgMzE2MSwgQXVzdHJhbGlhIi4qLAoUChIJfVXxBrdp1moRWGNk4kOuBDcSFAoSCffladSmadZqEVDbjCF1VgQF",
+    "reference": "EjFUZXN0YXIgR3JvdmUsIENhdWxmaWVsZCBOb3J0aCBWSUMgMzE2MSwgQXVzdHJhbGlhIi4qLAoUChIJfVXxBrdp1moRWGNk4kOuBDcSFAoSCffladSmadZqEVDbjCF1VgQF",
+    "scope": "GOOGLE",
+    "types": [
+      "route"
+    ],
+    "url": "https://maps.google.com/?q=Testar+Grove,+Caulfield+North+VIC+3161,+Australia&ftid=0x6ad669b706f1557d:0x3704ae43e2646358",
+    "utc_offset": 600,
+    "vicinity": "Caulfield North",
+    "html_attributions": [
+      
+    ],
+    "utc_offset_minutes": 600
+  },
+  "job_content": "  Test TDD \n",
+  "job_content_error": false,
+  "save_as_draft": false,
+  "post_job": true
+}

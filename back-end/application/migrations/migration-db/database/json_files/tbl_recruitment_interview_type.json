@@ -1,0 +1,40 @@
+[{
+        "id": "1",
+        "name": "Group Interview",
+        "archive": "0",
+        "key_type":"group_interview",
+        "created": "2019-09-12 00:00:00",
+        "sort_order":"10"
+    }, {
+        "id": "2",
+        "name": "CAB day",
+        "archive": "0",
+        "key_type":"cab_day",
+        "created": "2019-09-12 00:00:00",
+        "sort_order":"40"
+    },
+    {
+        "id": "3",
+        "name": "Reference Check",
+        "archive": "0",
+        "key_type":"reference_check",
+        "created": "2020-04-07 00:00:00",
+        "sort_order":"30"
+    },
+    {
+        "id": "4",
+        "name": "Phone Interview",
+        "archive": "0",
+        "key_type":"phone_interview",
+        "created": "2020-04-07 00:00:00",
+        "sort_order":"20"
+    },
+    {
+        "id": "5",
+        "name": "Job Questions",
+        "archive": "0",
+        "key_type":"job_questions",
+        "created": "2020-04-21 00:00:00",
+        "sort_order":"50"
+    }
+]

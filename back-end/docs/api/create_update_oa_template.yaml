@@ -1,0 +1,93 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.22"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "recruitment/Recruitment_oa_template/create_update_oa_template"
+schemes:
+- "https"
+- "http"
+paths:
+  /update_member:
+    post:
+      summary: "Update Member Details by Applicant ID"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                assessment_template: 
+                  type: object
+                title: 
+                  type: string
+                  example: test new assessment for validation
+                location: 
+                  type: integer
+                  example: 1
+                job_type:
+                   type: integer
+                   example: 4
+                status:
+                   type: integer
+                   example: 1
+                question_answers_list: 
+                   type: array of object
+                   properties:
+                     question:
+                      type: integer
+                      example: 19 
+                       answer_type:
+                      type: integer
+                      example: 19 
+                       grade:
+                      type: integer
+                      example: 19 
+                       is_mandatory:
+                      type: integer
+                      example: 19 
+                options:
+                   type: object
+                   properties:
+                     is_correct: 
+                      type: integer
+                      example: 1
+                     option:
+                      type: string
+                      example: "peace" 
+      security:
+        - api_key: []
+      responses:
+        "200":
+          description: "Create Update Assessment Template"
+          schema:
+            type: object
+            properties:
+              data:
+                type: object
+                properties:
+                    msg: 
+                     type: string
+                     example: ' Assessment Template has been updated successfully. or Assessment Template has been created successfully'
+                    status: 
+                     type: boolean
+        "500":
+          description: "Server error"
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"
+
+           

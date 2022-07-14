@@ -1,0 +1,72 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.22"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/sales/LeadHistory"
+schemes:
+- "https"
+- "http"
+paths:
+  /get_contact_list:
+    post:
+      summary: "Get List of Lead History"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                lead_id: 
+                  type: integer
+      security:
+        - api_key: []
+      responses:
+        "200":
+          description: "List of History Items"
+          schema:
+            type: object
+            properties:
+              data:
+                type: "object"
+                properties:
+                  created_at: 
+                    $ref: '#/definitions/datetime'
+                  created_by: 
+                    type: string
+                  field: 
+                    type: string
+                  history_id: 
+                    type: integer
+                  prev_val: 
+                    type: integer
+                  value: 
+                    $ref: '#/definitions/datetime'
+              status:
+                  type: boolean
+              msg:
+                type: string
+        "500":
+          description: "Server error"
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"
+definitions:
+  datetime:
+    type: string
+    format: date-time
+    pattern: /([0-9]{4})-(?:[0-9]{2})-([0-9]{2}) (\d{2}):(\d{2}):(\d{2})/
+    example: "2019-05-17 00:00:00"

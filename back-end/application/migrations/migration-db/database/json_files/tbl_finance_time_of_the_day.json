@@ -1,0 +1,51 @@
+[
+    {
+        "id": "1",
+        "name": "Daytime",
+        "short_name": "Daytime",
+        "order": "10",
+        "created": "2019-10-07 15:31:00",
+        "archive": "0",
+        "key_name":"daytime"
+    }, {
+        "id": "2",
+        "name": "Evening",
+        "short_name": "Evening",
+        "order": "20",
+        "created": "2019-10-07 15:31:00",
+        "archive": "0",
+        "key_name":"evening"
+    }, {
+        "id": "3",
+        "name": "Overnight (Sleep Over)",
+        "short_name": "S\/O",
+        "order": "30",
+        "created": "2019-10-07 15:31:55",
+        "archive": "0",
+        "key_name":"s_o"
+    }, {
+        "id": "4",
+        "name": "Active Overnight",
+        "short_name": "A\/O",
+        "order": "40",
+        "created": "2019-10-07 15:31:55",
+        "archive": "0",
+        "key_name":"a_o"
+    }, {
+        "id": "5",
+        "name": "Transferred",
+        "short_name": "Transferred",
+        "order": "0",
+        "created": "2019-10-07 15:32:21",
+        "archive": "0",
+        "key_name":"transferred"
+    }, {
+        "id": "6",
+        "name": "ECO",
+        "short_name": "ECO",
+        "order": "0",
+        "created": "2019-10-07 15:32:21",
+        "archive": "0",
+        "key_name":"eco"
+    }
+]

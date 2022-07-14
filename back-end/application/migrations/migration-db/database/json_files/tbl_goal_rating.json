@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "rating": "0",
+        "name": "Refused to Participate",
+        "archive": "0"
+    },
+    {
+        "id": "2",
+        "rating": "1",
+        "name": "Hand over hand physical Assistance",
+        "archive": "0"
+    },
+    {
+        "id": "3",
+        "rating": "2",
+        "name": "Partial Physical Assistance",
+        "archive": "0"
+    },
+    {
+        "id": "4",
+        "rating": "3",
+        "name": "Model",
+        "archive": "0"
+    },
+    {
+        "id": "5",
+        "rating": "4",
+        "name": "Full Assistance Direct Verbal",
+        "archive": "0"
+    },
+    {
+        "id": "6",
+        "rating": "5",
+        "name": "Indirect Verbal",
+        "archive": "0"
+    },
+    {
+        "id": "7",
+        "rating": "6",
+        "name": "Gesture",
+        "archive": "0"
+    },
+    {
+        "id": "8",
+        "rating": "7",
+        "name": "Natural CueIndependen",
+        "archive": "0"
+    }
+]

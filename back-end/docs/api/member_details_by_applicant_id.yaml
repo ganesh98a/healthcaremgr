@@ -1,0 +1,101 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.22"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/member/MemberRole"
+schemes:
+- "https"
+- "http"
+paths:
+  /get_applicant_member_details_by_id:
+    post:
+      summary: "Get Member Details by Applicant ID"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                applicant_id: 
+                  type: integer
+                  example: 1
+      security:
+        - api_key: []
+      responses:
+        "200":
+          description: "Get Member Details by Applicant ID"
+          schema:
+            type: object
+            properties:
+              data:
+                type: object
+                properties:
+                  id: 
+                   type: integer
+                  applicant_id: 
+                   type: integer
+                  created_by: 
+                   type: integer
+                  hours_per_week:
+                   type: string
+                  max_dis_to_travel:
+                   type: string
+                  mem_experience:
+                   type: string
+                  updated_by:
+                   type: integer
+                  account_person: 
+                   type: object
+                   properties:
+                     label: 
+                      type: string
+                     id:
+                      type: integer
+                  language_selection:
+                   type: object
+                   properties:
+                     label: 
+                      type: string
+                      example: "Latin" 
+                     id:
+                      type: integer
+                      example: 12
+                  like_selection:
+                   type: object
+                   properties:
+                     label: 
+                      type: string
+                      example: "Acting" 
+                     id:
+                      type: integer
+                      example: 12 
+                  transport_selection:
+                   type: object
+                   properties:
+                     label: 
+                      type: string
+                      example: "Public Transport" 
+                     id:
+                      type: integer
+                      example: 4 
+              status: 
+                type: boolean
+        "500":
+          description: "Server error"
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"

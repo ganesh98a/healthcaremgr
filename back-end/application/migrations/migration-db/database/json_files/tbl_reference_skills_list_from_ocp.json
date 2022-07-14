@@ -1,0 +1,170 @@
+[
+    {
+      "type": "",
+      "code": "",
+      "display_name": "ATSI",
+      "key_name": "Training_ATSI",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "CALD",
+      "key_name": "Training_CulturalAndLinguisticDiversity",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Bowel / Catheter Care",
+      "key_name": "Bowel_Catheter_Care",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "CAB (Assessment and Briefing)",
+      "key_name": "Training_CandidateAssessmentBriefing_Care",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Challenging Behaviour",
+      "key_name": "Challenging_Behaviour_Experience",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Dementia",
+      "key_name": "Training_Dementia",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Diabetes/Insulin Training",
+      "key_name": "Diabetes_Insulin_Training",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Diabetes BSL",
+      "key_name": "Training_DiabetesBSL_Training",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Epilepsy",
+      "key_name": "Training_Epilepsy",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Hazardous Substances",
+      "key_name": "Training_HazardousSubstances",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Food Handling",
+      "key_name": "Training_FoodHandling",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Infection Control",
+      "key_name": "Infection_Control",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "LAC-Look After Children",
+      "key_name": "Training_LookAfterChildren",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Manual Handling",
+      "key_name": "Lifting",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Medication",
+      "key_name": "Training_Medication",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Medication Assessment OCP",
+      "key_name": "Medication_Assessment_OCP",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Medication Course - external",
+      "key_name": "Medication_Course_external",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Medication Endorsed",
+      "key_name": "Training_MedicationEndorsed",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Midazolam",
+      "key_name": "Training_Midazolam",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Peg Feed",
+      "key_name": "Training_PegFeed",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "With Care - Trauma",
+      "key_name": "Training_WithCare_TraumaInformedCare",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Fire Safety Training",
+      "key_name": "Fire_Safety_Trained",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Covid Workforce",
+      "key_name": "CovidWorkforce",
+      "source": "from_ocp"
+    },
+    {
+      "type": "",
+      "code": "",
+      "display_name": "Has Signed Permitted Worker Permit",
+      "key_name": "HasSignedCovidPermittedWorkerPermit",
+      "source": "from_ocp"
+    }
+  ]

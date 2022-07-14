@@ -1,0 +1,9 @@
+[
+{"id":"1","name":"Primary carer","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"2","name":"Participant","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"3","name":"Legal guardian","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"4","name":"Support coordinator","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"5","name":"Case manager","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"6","name":"Family member","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"7","name":"Other","created":"0000-00-00 00:00:00","archive":"0"}
+]

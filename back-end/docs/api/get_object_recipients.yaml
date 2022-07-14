@@ -1,0 +1,61 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.30"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/admin/ProcessBuilder"
+schemes:
+- "https"
+- "http"
+paths:
+  /get_object_recipients:
+    post:
+      summary: "Fetches Object Recipients"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            request_data:
+              type: object
+              properties:
+                object_name:
+                  type: "string"
+                recipient_type:
+                  type: "string"
+      security:
+        - api_key: []
+      responses:
+        "200":
+          description: ""
+          schema:
+            type: object
+            properties:
+              status:
+                  type: boolean
+              data:
+                type: array
+                items: 
+                  type: "object"
+                  properties:
+                    field:
+                      type: "string"
+                    label:
+                      type: "string"
+                
+        "500":
+          description: "Server error"
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"

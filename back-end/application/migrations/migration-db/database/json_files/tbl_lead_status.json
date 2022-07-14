@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "key_name": "open",
+        "name": "Open",
+        "order_ref":10,
+        "archive":0
+    },
+    {
+        "id": "2",
+        "key_name": "in_progress",
+        "name": "In Progress",
+        "order_ref":30,
+        "archive":0
+    },
+    {
+        "id": "3",
+        "key_name": "qualified",
+        "name": "Qualified",
+        "order_ref":50,
+        "archive":0
+    },
+    {
+        "id": "4",
+        "key_name": "unqualified",
+        "name": "Unqualified",
+        "order_ref":70,
+        "archive":0
+    }
+]

@@ -1,0 +1,33 @@
+[		
+	{
+		"title": "Roster Type",
+		"key_name": "roster_type",
+		"created": "2021-03-25 21:20:00",
+		"data": [
+			{
+				"type": "",
+				"code": "",
+				"display_name": "NDIS",
+				"key_name": "roster_ndis",
+				"start_date": "",
+				"created": "2021-03-25 21:20:00"
+			},
+			{
+				"type": "",
+				"code": "roster_out_of_home_care",
+				"display_name":"Out of Home Care",
+				"key_name":"roster_out_of_home_care",
+				"start_date":"",
+				"created": "2021-03-25 21:20:00"
+			},
+			{
+				"type": "",
+				"code": "roster_disability_accommodation_services",
+				"display_name":"Disability Accommodation Services",
+				"key_name":"roster_disability_accommodation_services",
+				"start_date":"",
+				"created": "2021-03-25 21:20:00"
+			}
+		]
+	}
+]

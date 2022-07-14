@@ -1,0 +1,113 @@
+[
+    {
+        "id": "1",
+        "title": "Review Online Application",
+        "key_name": "review_online_application",
+        "stage_number": "1",
+        "stage_order_by":"10",
+        "display_stage_number":"1",
+        "used_in_create_job": "0",
+        "label_used_in_create_job": "Review Online Application",
+        "archive": "0"
+    }, {
+        "id": "2",
+        "title": "Phone Interview",
+        "key_name": "phone_interview",
+        "stage_number": "2",
+        "stage_order_by":"20",
+        "display_stage_number":"2",
+        "used_in_create_job": "0",
+        "label_used_in_create_job": "Phone Interview",
+        "archive": "0"
+    }, {
+        "id": "3",
+        "title": "Group Interview",
+        "key_name": "group_interview",
+        "stage_number": "3",
+        "stage_order_by":"30",
+        "display_stage_number":"3",
+        "used_in_create_job": "1",
+        "label_used_in_create_job": "Group Interview",
+        "archive": "0"
+    }, {
+        "id": "4",
+        "title": "Mandatory Documents",
+        "key_name": "mandatory_documents",
+        "stage_number": "4",
+        "stage_order_by":"70",
+        "display_stage_number":"4",
+        "used_in_create_job": "0",
+        "label_used_in_create_job": "Mandatory Documents",
+        "archive": "0"
+    }, {
+        "id": "5",
+        "title": "Reference Checks",
+        "key_name": "reference_checks",
+        "stage_number": "5",
+        "stage_order_by":"80",
+        "display_stage_number":"5",
+        "used_in_create_job": "0",
+        "label_used_in_create_job": "Reference Checks",
+        "archive": "0"
+    }, {
+        "id": "6",
+        "title": "CAB Day",
+        "key_name": "cab_day",
+        "stage_number": "6",
+        "stage_order_by":"90",
+        "display_stage_number":"6",
+        "used_in_create_job": "0",
+        "label_used_in_create_job": "CAB Day",
+        "archive": "0"
+    }, {
+        "id": "7",
+        "title": "Finalise Recruitment",
+        "key_name": "recruitment_complete",
+        "stage_number": "7",
+        "stage_order_by":"110",
+        "display_stage_number":"7",
+        "used_in_create_job": "0",
+        "label_used_in_create_job": "Finalise Recruitment",
+        "archive": "0"
+    }, {
+        "id": "8",
+        "title": "Individual Interview",
+        "key_name": "individual_interview",
+        "stage_number": "3",
+        "stage_order_by":"40",
+        "display_stage_number":"3a",
+        "used_in_create_job": "1",
+        "label_used_in_create_job": "Individual Interview",
+        "archive": "0"
+    }, {
+        "id": "9",
+        "title": "Offers",
+        "key_name": "offer",
+        "stage_number": "6",
+        "stage_order_by":"100",
+        "display_stage_number":"6",
+        "used_in_create_job": "0",
+        "label_used_in_create_job": "Offers",
+        "archive": "0"
+    }, {
+        "id": "10",
+        "title": "Individual Interview",
+        "key_name": "individual_interview",
+        "stage_number": "3",
+        "stage_order_by":"50",
+        "display_stage_number":"3b",
+        "used_in_create_job": "0",
+        "label_used_in_create_job": "Individual Interview",
+        "archive": "0"
+    }, {
+        "id": "11",
+        "title": "Individual Interview",
+        "key_name": "individual_interview",
+        "stage_number": "3",
+        "stage_order_by":"60",
+        "display_stage_number":"3c",
+        "used_in_create_job": "0",
+        "label_used_in_create_job": "Individual Interview",
+        "archive": "0"
+    }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "id": "1",
+    "moduleId": "9",
+    "email_name": "Thank you for applying",
+    "email_key_name": "thank_apply_for_job",
+    "templateId": "5",
+    "assign_by": "11",
+    "assign_at": "2020-04-29 21:32:06",
+    "created": "2020-04-28 17:23:58",
+    "archive": "0"
+  },
+  {
+    "id": "2",
+    "moduleId": "9",
+    "email_name": "Employment Contract at stage 6.4",
+    "email_key_name": "employment_contract_applicant",
+    "templateId": "4",
+    "assign_by": "11",
+    "assign_at": "2020-04-29 21:14:01",
+    "created": "2020-04-28 17:23:58",
+    "archive": "1"
+  },
+  {
+    "id": "3",
+    "moduleId": "0",
+    "email_name": "CAB certificate",
+    "email_key_name": "cab_certificate_applicant",
+    "templateId": "4",
+    "assign_by": "11",
+    "assign_at": "2020-04-29 21:18:40",
+    "created": "2020-04-28 17:23:58",
+    "archive": "0"
+  },
+  {
+    "id": "4",
+    "moduleId": "9",
+    "email_name": "Draft contract at stage 3.3",
+    "email_key_name": "draft_contract_in_group_interview",
+    "templateId": "3",
+    "assign_by": "11",
+    "assign_at": "2020-04-29 21:07:15",
+    "created": "2020-04-28 17:23:58",
+    "archive": "1"
+  },
+  {
+    "id": "5",
+    "moduleId": "9",
+    "email_name": "Group Interview Schedule",
+    "email_key_name": "group_interview_schedule",
+    "templateId": "6",
+    "assign_by": "11",
+    "assign_at": "2020-04-30 19:48:15",
+    "created": "2020-04-28 17:23:58",
+    "archive": "0"
+  },
+  {
+    "id": "6",
+    "moduleId": "9",
+    "email_name": "Group Interview Reschedule",
+    "email_key_name": "group_interview_reschedule",
+    "templateId": "8",
+    "assign_by": "11",
+    "assign_at": "2020-04-30 19:46:15",
+    "created": "2020-04-28 17:23:58",
+    "archive": "0"
+  },
+  {
+    "id": "7",
+    "moduleId": "9",
+    "email_name": "Group Interview Resend Invite",
+    "email_key_name": "group_interview_re_invite",
+    "templateId": "7",
+    "assign_by": "11",
+    "assign_at": "2020-04-30 19:48:23",
+    "created": "2020-04-28 17:23:58",
+    "archive": "0"
+  },
+  {
+    "id": "8",
+    "moduleId": "9",
+    "email_name": "CAB day Schedule",
+    "email_key_name": "cab_day_schedule",
+    "templateId": "9",
+    "assign_by": "11",
+    "assign_at": "2020-04-30 20:58:11",
+    "created": "2020-04-28 17:23:58",
+    "archive": "0"
+  },
+  {
+    "id": "9",
+    "moduleId": "9",
+    "email_name": "CAB day Reschedule",
+    "email_key_name": "cab_day_reschedule",
+    "templateId": "10",
+    "assign_by": "11",
+    "assign_at": "2020-04-30 20:58:05",
+    "created": "2020-04-28 17:23:58",
+    "archive": "0"
+  },
+  {
+    "id": "10",
+    "moduleId": "9",
+    "email_name": "CAB day Resend Invite\t",
+    "email_key_name": "cab_day_re_invite",
+    "templateId": "11",
+    "assign_by": "11",
+    "assign_at": "2020-04-30 20:57:59",
+    "created": "2020-04-28 17:23:58",
+    "archive": "0"
+  },
+  {
+    "id": "11",
+    "moduleId": "9",
+    "email_name": "Hired Successfully",
+    "email_key_name": "hired_successfully_applicant",
+    "templateId": "12",
+    "assign_by": "11",
+    "assign_at": "2020-04-30 21:47:02",
+    "created": "2020-04-28 17:23:58",
+    "archive": "0"
+  },
+  {
+    "id": "12",
+    "moduleId": "9",
+    "email_name": "Individual Interview Schedule",
+    "email_key_name": "individual_interview_schedule",
+    "templateId": "3",
+    "assign_by": "11",
+    "assign_at": "2020-04-29 21:07:58",
+    "created": "2020-04-28 17:23:58",
+    "archive": "0"
+  },
+  {
+    "id": "13",
+    "moduleId": "9",
+    "email_name": "Individual Interview Resend Invite",
+    "email_key_name": "individual_interview_re_invite",
+    "templateId": "6",
+    "assign_by": "11",
+    "assign_at": "2020-04-30 18:49:32",
+    "created": "2020-04-28 17:23:58",
+    "archive": "0"
+  }
+]

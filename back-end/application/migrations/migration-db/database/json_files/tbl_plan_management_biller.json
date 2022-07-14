@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "biller_code": "45369",
+        "biller_short_name": "Adel Hills Council",
+        "biller_long_name": "ADELAIDE HILLS COUNCIL",
+        "biller_reference_number": "RIGHT HAND SIDE OF PAGE MIDDLE WAY DOWN",
+        "created_at": "2019-07-11 19:27:45",
+        "updated_at": "2019-07-11 19:27:45"
+    },
+    {
+        "id": "2",
+        "biller_code": "157123",
+        "biller_short_name": "AGL ENERGY SALES",
+        "biller_long_name": "AGL ENERGY SALES AND MARKETING",
+        "biller_reference_number": "AT THE BOTTOM OF REVERSE SIDE OF THE REMITTANCE SLIP",
+        "created_at": "2019-07-11 19:27:45",
+        "updated_at": "2019-07-11 19:27:45"
+    },
+    {
+        "id": "3",
+        "biller_code": "208892",
+        "biller_short_name": "AGL RETAIL ENERGY",
+        "biller_long_name": "AGL RETAIL ENERGY LTD (GAS)",
+        "biller_reference_number": "NEXT TO THE BPAY LOGO IN THE PAYMENTS OPTIONS SECTION ON THE BACK OF THE REMITTANCE SLIP",
+        "created_at": "2019-07-11 19:27:45",
+        "updated_at": "2019-07-11 19:27:45"
+    },
+    {
+        "id": "4",
+        "biller_code": "88088",
+        "biller_short_name": "AGL RETAILENERGY LTD",
+        "biller_long_name": "AGL RETAIL ENERGY LTD",
+        "biller_reference_number": "NEXT TO THE BPAY LOGO",
+        "created_at": "2019-07-11 19:27:45",
+        "updated_at": "2019-07-11 19:27:45"
+    },
+    {
+        "id": "5",
+        "biller_code": "157149",
+        "biller_short_name": "AGL SALES",
+        "biller_long_name": "AGL Sales (Queensland ) Pty Limited",
+        "biller_reference_number": "AT THE BOTTOM OF REVERSE SIDE OF THE REMITTANCE SLIP",
+        "created_at": "2019-07-11 19:27:45",
+        "updated_at": "2019-07-11 19:27:45"
+    }
+]

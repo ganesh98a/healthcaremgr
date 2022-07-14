@@ -1,0 +1,34 @@
+[
+    {
+        "type": "8",
+        "code": "unqualified_reason_lead",
+        "display_name": "Customer- incorrect use of form (Recruitment)",
+        "key_name": "unqualified_reason_lead",
+        "start_date": "",
+        "created": "2021-02-22 09:39:10"
+    },
+    {
+        "type": "8",
+        "code": "unqualified_reason_lead",
+        "display_name": "ONCALL unable to service (Allied Health)",
+        "key_name": "unqualified_reason_lead",
+        "start_date": "",
+        "created": "2021-02-22 09:39:10"
+    },
+    {
+        "type": "8",
+        "code": "unqualified_reason_lead",
+        "display_name": "Customer choice- Non-responsive",
+        "key_name": "unqualified_reason_lead",
+        "start_date": "",
+        "created": "2021-02-22 09:39:10"
+    },
+    {
+        "type": "8",
+        "code": "unqualified_reason_lead",
+        "display_name": "Other",
+        "key_name": "unqualified_reason_lead",
+        "start_date": "",
+        "created": "2021-02-22 09:39:10"
+    }
+]

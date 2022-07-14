@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "name": "Driver Required for All Shifts",
+        "archive": "0",
+        "created": "2018-12-26 14:52:24"
+    },
+    {
+        "id": "2",
+        "name": "Full VIC Car Licence Required",
+        "archive": "0",
+        "created": "2018-12-26 14:52:47"
+    },
+    {
+        "id": "5",
+        "name": "Medication Training",
+        "archive": "0",
+        "created": "2018-12-26 15:02:07"
+    },
+    {
+        "id": "6",
+        "name": "Home Based Care",
+        "archive": "0",
+        "created": "2018-12-26 15:02:07"
+    },
+    {
+        "id": "7",
+        "name": "Email Shift Changes to LC Manager",
+        "archive": "0",
+        "created": "2018-12-26 15:02:07"
+    },
+    {
+        "id": "8",
+        "name": "Compulsory Lunch Breaks for Shifts > 5hrs",
+        "archive": "0",
+        "created": "2018-12-26 15:02:07"
+    },
+    {
+        "id": "9",
+        "name": "Welfare Confidentiality Forms NOT REQUIRED",
+        "archive": "0",
+        "created": "2018-12-26 15:02:07"
+    },
+    {
+        "id": "10",
+        "name": "Attach Timesheet to Invoices",
+        "archive": "0",
+        "created": "2018-12-26 15:02:07"
+    },
+    {
+        "id": "11",
+        "name": "Smoking Ban",
+        "archive": "0",
+        "created": "2018-12-26 15:02:07"
+    },
+    {
+        "id": "12",
+        "name": "Bushfire Area",
+        "archive": "0",
+        "created": "2018-12-26 15:02:07"
+    }
+]

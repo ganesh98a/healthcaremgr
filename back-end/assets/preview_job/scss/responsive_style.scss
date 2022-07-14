@@ -1,0 +1,32 @@
+@media (min-width: 576px) {
+  .main_page_template_hcm_app {
+    .list_req_doc {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .main_page_template_hcm_app {
+    .list_req_doc {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+  .main_page_template_hcm_app {
+    min-height: 1100px;
+    width: 1100px;
+    grid-template-columns: 200px 1fr;
+    .list_req_doc {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    margin: 15px auto;
+  }
+  .modal_lg_my {
+    .modal-dialog {
+      max-width: 1100px;
+    }
+  }
+}

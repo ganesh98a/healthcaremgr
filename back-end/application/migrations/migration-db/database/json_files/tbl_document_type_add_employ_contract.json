@@ -1,0 +1,21 @@
+[
+	{
+		"title": "Employment Contract",
+		"issue_date_mandatory": 0,
+		"expire_date_mandatory": 0,
+		"reference_number_mandatory": 0,
+		"active": 1,
+		"system_gen_flag": 1,
+		"doc_category_id": "",
+		"archive": 0,
+		"created_at": "2021-02-08 10:11:12",
+		"related": [
+			{
+				"doc_type_id": "",
+				"related_to": 1,
+				"archive": 0,
+				"created_at": "2021-02-08 10:11:12"
+			}
+		]
+	}
+]

@@ -1,0 +1,21 @@
+{
+    "fms_feed_category": [
+            {"name":"Currently works there","key_name":"currently_works","created":"2021-04-19 09:00:00","archive":"0"},
+            {"name":"Location not suitable","key_name":"location_not_suitable","created":"2021-04-19 09:00:00","archive":"0"},
+            {"name":"Previously works there","key_name":"previously_works","created":"2021-04-19 09:00:00","archive":"0"},
+            {"name":"Mismatch skills/ shift tasks","key_name":"mismatch_skills","created":"2021-04-19 09:00:00","archive":"0"},
+            {"name":"Mismatch Client/Site","key_name":"mismatch_client","created":"2021-04-19 09:00:00","archive":"0"},
+            {"name":"Other","key_name":"other","created":"2021-04-19 09:00:00","archive":"0"},
+            {"name":"Staff Performance","key_name":"staff_performance","created":"2021-04-19 09:00:00","archive":"0"},
+            {"name":"Mismatch Member skills/quals","key_name":"mismatch_member_skills","created":"2021-04-19 09:00:00","archive":"0"},
+            {"name":"Mismatch demographic","key_name":"mismatch_demographic","created":"2021-04-19 09:00:00","archive":"0"},
+            {"name":"Service Delivery","key_name":"service_delivery","created":"2021-04-19 09:00:00","archive":"0"},
+            {"name":"NDIS Serious","key_name":"ndis_serious","created":"2021-04-19 09:00:00","archive":"0"},
+            {"name":"NDIS Unauthorised Restrictive Practice","key_name":"ndis_unauthorised","created":"2021-04-19 09:00:00","archive":"0"},
+            {"name":"CIMS Major","key_name":"cims_major","created":"2021-04-19 09:00:00","archive":"0"},
+            {"name":"Notification of Event","key_name":"notification_of_event","created":"2021-04-19 09:00:00","archive":"0"},
+            {"name":"Other Agency Reportable","key_name":"other_agency_reportable","created":"2021-04-19 09:00:00","archive":"0"},
+            {"name":"Compliment","key_name":"compliment","created":"2021-04-19 09:00:00","archive":"0"},
+            {"name":"Comment","key_name":"comment","created":"2021-04-19 09:00:00","archive":"0"}
+    ]
+}

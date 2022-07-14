@@ -1,0 +1,113 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.24"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/recriotment/RecruitmentJob/"
+tags:
+- name: Recruitment Job Transfer
+  description: Re-assign job to applicant
+schemes:
+- "https"
+- "http"
+paths:
+  /get_job_application:
+    post:
+      tags:
+      - Job List
+      summary: "Get all job application"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+        - in: body
+          name: request_data
+          required: true
+          schema:
+            type: object
+            properties:
+              data:
+                type: "object"
+                properties:
+                  query: 
+                    type: string
+                    example: 'test'
+      security:
+        - api_key: []
+      responses:
+        "200":
+          description: "Get list of jobs "
+          schema:
+            type: object
+            properties:
+              data:
+                type: object
+                properties:
+                  value: 
+                    type: integer
+                    example: 1
+                  label: 
+                    type: string
+                    example: 'role'
+        "500":
+          description: "Server error"
+  /transfer_application:
+    post:
+      tags:
+      - Transfer Job
+      summary: "Reassign job"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+        - in: body
+          name: request_data
+          required: true
+          schema:
+            type: object
+            properties:
+              data:
+                type: "object"
+                properties:
+                  applicant_id: 
+                    type: string
+                    example: '1'
+                  application_id: 
+                    type: string
+                    example: '1'
+                  selected_job: 
+                    type: object
+                    properties:
+                      label:
+                        type: 'string'
+                        example: 'Test'
+                      value:
+                        type: 'string'
+                        example: '1'
+      security:
+        - api_key: []
+      responses:
+        "200":
+          description: "Job Transfer"
+          schema:
+            type: object
+            properties:
+              data:
+                type: object
+                properties:
+                  status: 
+                    type: 'boolean'
+                    example: 'true or false'
+                  msg: 
+                    type: string
+                    example: 'Successfully Updated'
+        "500":
+          description: "Server error"
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"

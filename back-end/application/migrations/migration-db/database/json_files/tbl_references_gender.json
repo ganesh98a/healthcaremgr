@@ -1,0 +1,6 @@
+[
+    {"type":"23","key_name":"male", "display_name":"Male","start_date":"","created":"2020-10-07 10:11:12"},
+    {"type":"23","key_name":"female", "display_name":"Female","start_date":"","created":"2020-10-07 10:11:12"},
+    {"type":"23","key_name":"intersex", "display_name":"Intersex (or) Indeterminate","created":"2020-10-07 10:11:12"},
+    {"type":"23","key_name":"prefer_not_to_answer", "display_name":"Prefer Not To Answer","start_date":"","created":"2021-02-12 10:11:12"}
+]

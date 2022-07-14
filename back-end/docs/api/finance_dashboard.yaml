@@ -1,0 +1,1942 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.28"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/finance/FinanceDashboard"
+schemes:
+- "https"
+- "http"
+paths: 
+  /create_update_charge_rate:
+    post:
+      summary: "Creating or updating charge rate"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                id: 
+                  type: integer
+                charge_rate_category_id: 
+                  type: integer
+                role_id: 
+                  type: integer
+                pay_level_id: 
+                  type: integer
+                skill_level_id: 
+                  type: integer
+                cost_book_id: 
+                  type: integer
+                start_date: 
+                  type: date
+                end_date: 
+                  type: date
+                amount: 
+                    type: decimal
+                description: 
+                  type: string
+                external_reference: 
+                  type: string
+                status: 
+                  type: integer
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "Successful creating/updating of charge rate"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Charge rate has been created successfully.'
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+  /archive_charge_rate:
+    post:
+      summary: "Archiving charge rate"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                id: 
+                  type: integer
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "Successful archiving of charge rate"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Charge rate has been deleted successfully.'
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+  /get_charge_rate_ref_data:
+    post:
+      summary: "Get charge rates reference data"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                type: object
+                  properties:
+                    cost_book_options:
+                      $ref: "#/definitions/tupple"
+                    pay_level_options:
+                      $ref: "#/definitions/tupple"
+                    chargerates_category_options:
+                      $ref: "#/definitions/tupple"
+                    skill_level_options:
+                      $ref: "#/definitions/tupple"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_charge_rates_list:
+    post:
+      summary: "Get the list of charge rates"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                page:
+                  type: integer
+                pageSize:
+                  type: integer
+                sorted:
+                  type: object
+                  properties:
+                    column:
+                      type: string
+                    value:
+                      type: string
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/charge_rates_list"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_charge_rate_details:
+    post:
+      summary: "Get details of a charge rate"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                id:
+                  type: integer
+            token: 
+              type: string
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/charge_rate"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /create_update_pay_rate:
+    post:
+      summary: "Creating or updating pay rate"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                id: 
+                  type: integer
+                pay_rate_category_id: 
+                  type: integer
+                pay_rate_award_id: 
+                  type: integer
+                role_id: 
+                  type: integer
+                pay_level_id: 
+                  type: integer
+                skill_level_id: 
+                  type: integer
+                employment_type_id: 
+                  type: integer
+                start_date: 
+                  type: date
+                end_date: 
+                  type: date
+                amount: 
+                    type: decimal
+                description: 
+                  type: string
+                external_reference: 
+                  type: string
+                status: 
+                  type: integer
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "Successful creating/updating of pay rate"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Pay rate has been created successfully.'
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+  /archive_pay_rate:
+    post:
+      summary: "Archiving pay rate"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                id: 
+                  type: integer
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "Successful archiving of pay rate"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Pay rate has been deleted successfully.'
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+  /create_update_timesheet:
+    post:
+      summary: "Creating or updating timesheet"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                id: 
+                  type: integer
+                member_id: 
+                  type: integer
+                shift_id: 
+                  type: integer
+                amount: 
+                    type: decimal
+                timesheet_no: 
+                  type: string
+                status: 
+                  type: integer
+                timesheet_line_items: 
+                  $ref: "#/definitions/timesheet_line_items"
+                timesheet_query:
+                  $ref: "#/definitions/tupple"
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "Successful creating/updating of timesheet"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Timesheet has been created successfully.'
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+  /get_next_timesheet_no:
+    post:
+      summary: "Get the next timesheet number"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/tupple"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /generate_invoice_pdf:
+    post:
+      summary: "Generating invoice PDF file and save it in AWS S3 bucket"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            id:
+              type: integer
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              msg:
+                type: string
+              status:
+                type: boolean 
+              preview_url:
+                type: string
+        "500":
+          description: "Server error"
+  /send_invoice_mail:
+    post:
+      summary: "Emailing invoice to one or more accounts"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            ids:
+              type: object
+              properties:
+                type: integer
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              msg:
+                type: string
+              status:
+                type: boolean
+        "500":
+          description: "Server error"
+  /get_timesheet_ref_data:
+    post:
+      summary: "Get timesheet reference data"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                type: object
+                  properties:
+                    status_options:
+                      $ref: "#/definitions/tupple"
+                    query_options:
+                      $ref: "#/definitions/tupple"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_pay_rate_ref_data:
+    post:
+      summary: "Get pay rates reference data"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                type: object
+                  properties:
+                    employment_type_options:
+                      $ref: "#/definitions/tupple"
+                    pay_level_options:
+                      $ref: "#/definitions/tupple"
+                    payrates_award_options:
+                      $ref: "#/definitions/tupple"
+                    payrates_category_options:
+                      $ref: "#/definitions/tupple"
+                    skill_level_options:
+                      $ref: "#/definitions/tupple"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_invoice_cancel_void_reasons:
+    post:
+      summary: "Get the list of cancel and void reasons"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                type: object
+                  properties:
+                    cancel_reason_option:
+                      $ref: "#/definitions/tupple"
+                    void_reason_option:
+                      $ref: "#/definitions/tupple"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_invoice_line_items_ref_data:
+    post:
+      summary: "Get invoice line items reference data"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                type: object
+                  properties:
+                    account_options:
+                      $ref: "#/definitions/tupple"
+                    category_options:
+                      $ref: "#/definitions/tupple"
+                    shift_options:
+                      $ref: "#/definitions/tupple"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_pay_rates_list:
+    post:
+      summary: "Get the list of pay rates"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                page:
+                  type: integer
+                pageSize:
+                  type: integer
+                sorted:
+                  type: object
+                  properties:
+                    column:
+                      type: string
+                    value:
+                      type: string
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/pay_rates_list"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_timesheet_line_items_list:
+    post:
+      summary: "Get the list of timesheet line items"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                timesheet_id:
+                  type: integer
+                page:
+                  type: integer
+                pageSize:
+                  type: integer
+                sorted:
+                  type: object
+                  properties:
+                    column:
+                      type: string
+                    value:
+                      type: string
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/timesheet_line_items"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_invoice_line_items_list:
+    post:
+      summary: "Get the list of invoice line items"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                invoice_id:
+                  type: integer
+                page:
+                  type: integer
+                pageSize:
+                  type: integer
+                sorted:
+                  type: object
+                  properties:
+                    column:
+                      type: string
+                    value:
+                      type: string
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/invoice_line_items"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_pay_rate_details:
+    post:
+      summary: "Get details of a pay rate"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                id:
+                  type: integer
+            token: 
+              type: string
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/pay_rate"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /update_timesheet_status:
+    post:
+      summary: "Updating timesheet status"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                id: 
+                  type: integer
+                status: 
+                  type: integer
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "Successful updating statos of timesheet"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Timesheet status has been updated successfully.'
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+  /update_invoice_status:
+    post:
+      summary: "Updating invoice status"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                id: 
+                  type: integer
+                status: 
+                  type: integer
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "Successful updating statos of invoice"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Invoice status has been updated successfully.'
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+  /create_keypay_timesheet:
+    post:
+      summary: "Creating keypay timesheet and its line items"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                id: 
+                  type: integer
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "Successful creation of timesheet inside keypay"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Timesheet has been created successfully inside KeyPay.'
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+  /archive_timesheet_line_item:
+    post:
+      summary: "Archiving timesheet line item"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                id: 
+                  type: integer
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "Successful archiving of timesheet line item"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Line item has been deleted successfully.'
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+  /archive_invoice_line_item:
+    post:
+      summary: "Archiving invoice line item"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                id: 
+                  type: integer
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "Successful archiving of invoice line item"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Line item has been deleted successfully.'
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+  /get_payrates_categories:
+    post:
+      summary: "Get pay rates' categories data"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/tupple"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /add_update_timesheet_line_items:
+    post:
+      summary: "Creating, updating and/or archiving timesheet line item"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                shift_id: 
+                  type: integer
+                timesheet_id: 
+                  type: integer
+                timesheet_line_items: 
+                  $ref: "#/definitions/timesheet_line_items"
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "Successful updating of timesheet line items"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Line items have been updated successfully.'
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+  /add_update_invoice_line_items:
+    post:
+      summary: "Creating, updating and/or archiving invoice line item"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                invoice_id: 
+                  type: integer
+                invoice_line_items: 
+                  $ref: "#/definitions/invoice_line_items"
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "Successful updating of invoice line items"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Line items have been updated successfully.'
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+  /get_timesheet_details:
+    post:
+      summary: "Get details of a timesheet"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                id:
+                  type: integer
+            token: 
+              type: string
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/timesheet"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_timesheets_list:
+    post:
+      summary: "Get the list of timesheets"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                page:
+                  type: integer
+                pageSize:
+                  type: integer
+                sorted:
+                  type: object
+                  properties:
+                    column:
+                      type: string
+                    value:
+                      type: string
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/timesheets_list"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_timesheet_statuses:
+    post:
+      summary: "Get the list of timesheet statuses"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/tupple"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_invoice_details:
+    post:
+      summary: "Get details of a invoice"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                id:
+                  type: integer
+            token: 
+              type: string
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/invoice"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_invoices_list:
+    post:
+      summary: "Get the list of invoices"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                page:
+                  type: integer
+                pageSize:
+                  type: integer
+                sorted:
+                  type: object
+                  properties:
+                    column:
+                      type: string
+                    value:
+                      type: string
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/invoices_list"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_invoice_statuses:
+    post:
+      summary: "Get the list of invoice statuses"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/tupple"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_invoice_statuses_final:
+    post:
+      summary: "Get the list of invoice statuses in the final group"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/tupple"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_invoice_statuses_grouped:
+    post:
+      summary: "Get the list of invoice statuses in the group stage"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/tupple"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /import_payrates:
+    post:
+      summary: "Bulk uploading pay rates"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+        name: "file_upload"
+        description: "CSV file with comma separated values"
+        required: true
+      responses:
+        "200":
+          description: "Successful processing of CSV upload"
+          schema:
+            type: object
+            properties:
+              data_msg: 
+                type: string
+                example: '11 records were found. 0 record was updated. 11 records had errors.'
+              error_msg: 
+                type: boolean
+                example: true
+              import_id: 
+                type: integer
+                example: 1
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+  /import_chargerates:
+    post:
+      summary: "Bulk uploading charge rates"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+        name: "file_upload"
+        description: "CSV file with comma separated values"
+        required: true
+      responses:
+        "200":
+          description: "Successful processing of CSV upload"
+          schema:
+            type: object
+            properties:
+              data_msg: 
+                type: string
+                example: '11 records were found. 0 record was updated. 11 records had errors.'
+              error_msg: 
+                type: boolean
+                example: true
+              import_id: 
+                type: integer
+                example: 1
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+  /download_import_stats:
+    post:
+      summary: "Downloading stats of bulk uploading of pay rates or import job"
+      consumes:
+      - "application/text"
+      produces:
+      - "application/text"
+      parameters:
+        name: "id"
+        required: true
+        description: "Import id of the bulk uploading/importing job"
+        example: "1"
+      responses:
+        "200":
+          description: "Successful downloading of stats in a text/CSV file"
+        "500":
+          description: "Server error"
+  /get_paid_keypay_timesheets:
+    post:
+      summary: "Fetching the timesheet line items from keypay which are payment processed"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data_msg:
+                type: string
+              import_id:
+                type: integer
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_next_invoice_no:
+    post:
+      summary: "Get the next invoice number"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/tupple"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /create_update_invoice:
+    post:
+      summary: "Creating or updating invoice"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: object
+              properties:
+                id: 
+                  type: integer
+                invoice_type: 
+                  type: integer
+                invoice_no: 
+                  type: string
+                invoice_date: 
+                  type: date
+                amount: 
+                    type: decimal
+                account_id: 
+                  type: integer
+                account_type: 
+                  type: integer
+                status: 
+                  type: integer
+                invoice_shift: 
+                  type: object
+                  properties:
+                    id: 
+                      type: integer
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "Successful creating/updating of invoice"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Invoice has been created successfully.'
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+  /get_invoice_ref_data:
+    post:
+      summary: "Get invoice reference data"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                type: object
+                  properties:
+                    status_options:
+                      $ref: "#/definitions/tupple"
+                    invoice_type_options:
+                      $ref: "#/definitions/tupple"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+definitions:
+  date:
+    type: string
+    pattern: /([0-9]{4})-(?:[0-9]{2})-([0-9]{2})/
+    example: "2019-05-17"
+  datetime:
+    type: string
+    pattern: /([0-9]{4})-(?:[0-9]{2})-([0-9]{2}) (\d{2}):(\d{2}):(\d{2})/
+    example: "2019-05-17 00:00:00"
+  timesheet_line_items:
+    type: object
+    properties:
+      line_item_label:
+        type: string
+      total_cost: 
+        type: decimal
+      unit_rate:
+        type: decimal
+      units: 
+        type: integer
+      category_id:
+        type: integer
+      id:
+        type: integer
+      external_reference:
+        type: integer
+  invoice_line_items:
+    type: object
+    properties:
+      id:
+        type: integer
+      shift_id:
+        type: integer
+      account_id:
+        type: integer
+      account_type:
+        type: integer
+      line_item_label:
+        type: string
+      total_cost: 
+        type: decimal
+      unit_rate:
+        type: decimal
+      units: 
+        type: integer
+  pay_rates_list:
+    type: object
+    properties:
+      id:
+        type: integer
+      pay_rate_category_id: 
+        type: integer
+      pay_rate_category_label:
+        type: string
+      pay_rate_award_id: 
+        type: integer
+      pay_rate_award_label:
+        type: string
+      role_id: 
+        type: integer
+      pay_level_id: 
+        type: integer
+      pay_level_label:
+        type: string
+      skill_level_id: 
+        type: integer
+      skill_level_label:
+        type: string
+      employment_type_id: 
+        type: integer
+      employment_type_label:
+        type: string
+      start_date: 
+        type: date
+      end_date: 
+        type: date
+      amount: 
+          type: decimal
+      description: 
+        type: string
+      external_reference: 
+        type: string
+      status: 
+        type: integer
+      status_label:
+        type: string
+  pay_rate:
+    type: object
+    properties:
+      id: 
+        type: integer
+      pay_rate_category_id: 
+        type: integer
+      pay_rate_award_id: 
+        type: integer
+      role_id: 
+        type: integer
+      role_details:
+        type: object
+          properties:
+            $ref: "#/definitions/tupple"
+      pay_level_id: 
+        type: integer
+      skill_level_id: 
+        type: integer
+      employment_type_id: 
+        type: integer
+      start_date: 
+        type: date
+      end_date: 
+        type: date
+      amount: 
+        type: decimal
+      description: 
+        type: string
+      external_reference: 
+        type: string
+      status: 
+        type: integer
+      archive:
+        type: integer
+      created:
+        type: datetime
+      created_by:
+        type: integer
+      updated:
+        type: datetime
+      updated_by:
+        type: integer
+  charge_rates_list:
+    type: object
+    properties:
+      id:
+        type: integer
+      charge_rate_category_id: 
+        type: integer
+      charge_rate_category_label:
+        type: string
+      role_id: 
+        type: integer
+      pay_level_id: 
+        type: integer
+      pay_level_label:
+        type: string
+      skill_level_id: 
+        type: integer
+      skill_level_label:
+        type: string
+      cost_book_id: 
+        type: integer
+      cost_book_label:
+        type: string
+      start_date: 
+        type: date
+      end_date: 
+        type: date
+      amount: 
+          type: decimal
+      description: 
+        type: string
+      external_reference: 
+        type: string
+      status: 
+        type: integer
+      status_label:
+        type: string
+  charge_rate:
+    type: object
+    properties:
+      id: 
+        type: integer
+      charge_rate_category_id: 
+        type: integer
+      role_id: 
+        type: integer
+      role_details:
+        type: object
+          properties:
+            $ref: "#/definitions/tupple"
+      pay_level_id: 
+        type: integer
+      skill_level_id: 
+        type: integer
+      cost_book_id: 
+        type: integer
+      start_date: 
+        type: date
+      end_date: 
+        type: date
+      amount: 
+        type: decimal
+      description: 
+        type: string
+      external_reference: 
+        type: string
+      status: 
+        type: integer
+      archive:
+        type: integer
+      created:
+        type: datetime
+      created_by:
+        type: integer
+      updated:
+        type: datetime
+      updated_by:
+        type: integer
+  timesheet:
+    type: object
+    properties:
+      id: 
+        type: integer
+      member_id: 
+        type: integer
+      shift_id: 
+        type: integer
+      shift_no: 
+        type: integer
+      timesheet_no: 
+        type: integer
+      member_label: 
+        type: string
+      status_label: 
+        type: string
+      amount: 
+        type: decimal
+      status: 
+        type: integer
+      archive:
+        type: integer
+      created:
+        type: datetime
+      created_by:
+        type: integer
+      updated:
+        type: datetime
+      updated_by:
+        type: integer
+  timesheets_list:
+    type: object
+    properties:
+      id: 
+        type: integer
+      member_id: 
+        type: integer
+      shift_id: 
+        type: integer
+      shift_no: 
+        type: integer
+      timesheet_no: 
+        type: integer
+      member_label: 
+        type: string
+      status_label: 
+        type: string
+      amount: 
+        type: decimal
+      status: 
+        type: integer
+      ts_created:
+        type: datetime
+  invoice:
+    type: object
+    properties:
+      id: 
+        type: integer
+      account_id: 
+        type: integer
+      shift_id: 
+        type: integer
+      shift_no: 
+        type: integer
+      invoice_no: 
+        type: integer
+      account_label: 
+        type: string
+      status_label: 
+        type: string
+      amount: 
+        type: decimal
+      status: 
+        type: integer
+      archive:
+        type: integer
+      created:
+        type: datetime
+      created_by:
+        type: integer
+      updated:
+        type: datetime
+      updated_by:
+        type: integer
+  invoices_list:
+    type: object
+    properties:
+      id: 
+        type: integer
+      account_id: 
+        type: integer
+      shift_id: 
+        type: integer
+      shift_no: 
+        type: integer
+      invoice_no: 
+        type: integer
+      account_label: 
+        type: string
+      status_label: 
+        type: string
+      amount: 
+        type: decimal
+      status: 
+        type: integer
+      ts_created:
+        type: datetime
+  tupple:
+    type: object
+    properties:
+      label:
+        type: string
+      value:
+        type: integer

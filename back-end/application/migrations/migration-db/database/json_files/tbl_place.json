@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "companyId": "1",
+        "name": "Parks"
+    },
+    {
+        "id": "2",
+        "companyId": "1",
+        "name": "Playgrounds"
+    },
+    {
+        "id": "3",
+        "companyId": "1",
+        "name": "Beach"
+    },
+    {
+        "id": "4",
+        "companyId": "1",
+        "name": "Shopping Centres"
+    },
+    {
+        "id": "5",
+        "companyId": "1",
+        "name": "Theme Parks"
+    },
+    {
+        "id": "6",
+        "companyId": "1",
+        "name": "Home"
+    },
+    {
+        "id": "7",
+        "companyId": "1",
+        "name": "Airports"
+    },
+    {
+        "id": "8",
+        "companyId": "1",
+        "name": "Library"
+    },
+    {
+        "id": "9",
+        "companyId": "1",
+        "name": "Community centres"
+    }
+]

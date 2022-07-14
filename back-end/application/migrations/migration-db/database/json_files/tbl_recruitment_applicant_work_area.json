@@ -1,0 +1,21 @@
+[
+    {
+        "id": "1",
+        "work_area": "Casual Staff Service - Disability",
+        "key":"ndis",
+        "status": "1",
+        "archived": "0"
+    }, {
+        "id": "2",
+        "work_area": "Casual Staff Service -  Welfare",
+        "key":"welfare",
+        "status": "1",
+        "archived": "0"
+    }, {
+        "id": "3",
+        "work_area": "Private",
+        "key":"private",
+        "status": "1",
+        "archived": "0"
+    }
+]

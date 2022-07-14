@@ -1,0 +1,56 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.22"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/recruitment/OnlineAssessment"
+schemes:
+- "https"
+- "http"
+paths:
+  /send_assessment_completion_email:
+    post:
+      summary: "To sends the Assessment completion Email to Recruiter"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                uuid: 
+                  type: string
+                  example: aeba8d55-68b2-e684-a075-25f8
+      security:
+        - api_key: []
+      responses:
+        "200":
+          description: "sends the Assessment completion Email to Recruiter by UUID"
+          schema:
+            type: object
+            properties:
+              data:
+                type: object
+                properties:
+                    msg: 
+                     type: string
+                     example: 'Message Sent Successfully.'
+                    status: 
+                     type: boolean
+        "500":
+          description: "Server error"
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"

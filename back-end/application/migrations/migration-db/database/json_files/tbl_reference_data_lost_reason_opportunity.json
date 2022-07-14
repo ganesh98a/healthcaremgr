@@ -1,0 +1,51 @@
+[
+	{
+
+		"code": "",
+		"display_name": "ONCALL declined- Risk Assessment",
+		"key_name": "cancel_and_lost_reason_opp",
+		"start_date": "",
+		"created": "2021-03-18 10:20:00"
+	},
+	{
+
+		"code": "",
+		"display_name":"ONCALL declined- Needs Assessment",
+		"key_name":"cancel_and_lost_reason_opp",
+		"start_date":"",
+		"created": "2021-03-18 10:20:00"
+	},
+	{
+
+		"code": "",
+		"display_name":"ONCALL declined- Capacity",
+		"key_name":"cancel_and_lost_reason_opp",
+		"start_date":"",
+		"created": "2021-03-18 10:20:00"
+	},
+	{
+
+		"code": "",
+		"display_name":"Customer choice- Other provider",
+		"key_name":"cancel_and_lost_reason_opp",
+		"start_date":"",
+		"created": "2021-03-18 10:20:00"
+	},
+	{
+
+		"code": "",
+		"display_name":"Customer choice- unable to meet ONCALL requirements",
+		"key_name":"cancel_and_lost_reason_opp",
+		"start_date":"",
+		"created": "2021-03-18 10:20:00"
+	},
+	{
+
+		"code": "",
+		"display_name":"Customer choice- Non responsive",
+		"key_name":"cancel_and_lost_reason_opp",
+		"start_date":"",
+		"created": "2021-03-18 10:20:00"
+	}
+
+]

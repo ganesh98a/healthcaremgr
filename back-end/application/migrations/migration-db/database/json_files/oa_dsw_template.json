@@ -1,0 +1,1143 @@
+[
+    {
+        "assessment_template":
+        {
+            "title": "DSW Template",
+            "location": "NA",
+            "job_type": "4",
+            "status": "1"
+        },
+        "question_answers_list": [
+            {            
+                "question": "Active Support means: ‘I do everything for my client’.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0", 
+                "serial_no":"1",          
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",              
+                    "blank_question_position": null
+                },
+                {
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+                ]
+            },
+            {            
+                "question": "A Behaviour Support Plan (BSP) does not need to be followed if I have been with a client for over 1 year.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "serial_no":"2",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",              
+                    "blank_question_position": null
+                },
+                {
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+                ]
+            },
+            {            
+                "question": "I SHOULDN'T fill up my car with petrol during my transport shift.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "serial_no":"3",            
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "1",
+                    "archive": "0",              
+                    "blank_question_position": null
+                },
+                {
+                    "option": "False",
+                    "is_correct": "0",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+                ]
+            },
+            {            
+                "question": "If I witness a colleague abusing a client, I can just approach them to discuss the situation and do nothing else.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "serial_no":"4",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",              
+                    "blank_question_position": null
+                },
+                {
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+                ]
+            },
+            {            
+                "question": "People with disability CAN make decisions for themselves.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "serial_no":"5",                 
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "1",
+                    "archive": "0",              
+                    "blank_question_position": null
+                },
+                {
+                    "option": "False",
+                    "is_correct": "0",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+                ]
+            },
+            {            
+                "question": "If a client slips and falls to the floor, I CAN physically assist them with the use of proper technique.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "serial_no":"6",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "1",
+                    "archive": "0",              
+                    "blank_question_position": null
+                },
+                {
+                    "option": "False",
+                    "is_correct": "0",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+                ]
+            },
+            {            
+                "question": "If a person with a disability is yelling at the dinner table and upsetting others, it is okay to take their arm to move them away.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "serial_no":"7",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",              
+                    "blank_question_position": null
+                },
+                {
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+                ]
+            },
+            {            
+                "question": "If I cannot find a client, I ALWAYS must call the police immediately.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "serial_no":"8",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",              
+                    "blank_question_position": null
+                },
+                {
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+                ]
+            },
+            {            
+                "question": "I am allowed to accept gifts from my clients.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "serial_no":"9",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",              
+                    "blank_question_position": null
+                },
+                {
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+                ]
+            },
+            {            
+                "question": "I am NOT allowed to post photos of my clients on Facebook.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "serial_no":"10",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "1",
+                    "archive": "0",              
+                    "blank_question_position": null
+                },
+                {
+                    "option": "False",
+                    "is_correct": "0",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+                ]
+            },
+
+
+
+            {           
+                "question": "If I'm running late I SHOULD call ONCALL, even if it's less than 5 minutes.",
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "serial_no":"11",             
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "1",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "0",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {           
+                "question": "If there is nothing else to do on my shift, it is okay to use my mobile.",
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "serial_no":"12",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {           
+                "question": "It is OK to give my mobile phone number to my clients.",
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "serial_no":"13",            
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {           
+                "question": "Physical restraint is the only restrictive practice.",
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "serial_no":"14",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {           
+                "question": "When showering a client I must ALWAYS start with their hair.",
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "serial_no":"15",            
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {            
+                "question": "Which situation below would you write an incident report for:",           
+                "answer_type": "2",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "serial_no":"16",           
+                "options": [
+                    {               
+                        "option": "Error in Medication",
+                        "is_correct": "0",
+                        "archive": "0",              
+                        "blank_question_position": null
+                    },
+                    {
+                        "option": "A fight between residents",
+                        "is_correct": "0",
+                        "archive": "0",
+                        "blank_question_position": null
+                    },
+                    {
+                        "option": "Unexplained bruises on a client",
+                        "is_correct": "0",
+                        "archive": "0",
+                        "blank_question_position": null
+                    },
+                    {
+                        "option": "All of the above",
+                        "is_correct": "1",
+                        "archive": "0",
+                        "blank_question_position": null
+                    }
+                ]
+            },
+            {            
+                "question": "DRSABCD stands for:",           
+                "answer_type": "2",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "serial_no":"17",           
+                "options": [
+                    {               
+                        "option": "Danger, Response, Send for Help, Air Way, Breathing, CPR, Defibrillator",
+                        "is_correct": "1",
+                        "archive": "0",              
+                        "blank_question_position": null
+                    },
+                    {
+                        "option": "Danger, Response, Send for Help, Act, Breathing, CPR, Defibrillator",
+                        "is_correct": "0",
+                        "archive": "0",
+                        "blank_question_position": null
+                    },
+                    {
+                        "option": "Danger, Remove, Stand Aside, Air Way, Breathing, CPR, Defibrillator",
+                        "is_correct": "0",
+                        "archive": "0",
+                        "blank_question_position": null
+                    },
+                    {
+                        "option": "Danger, Response, See Issue, Ask, Breathing, Contact, Defibrillator",
+                        "is_correct": "0",
+                        "archive": "0",
+                        "blank_question_position": null
+                    }
+                ]
+            },
+            {            
+                "question": "Which one of the following best describes being non-judgemental?",           
+                "answer_type": "2",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "serial_no":"18",            
+                "options": [
+                    {               
+                        "option": "Accepting values similar to your own",
+                        "is_correct": "0",
+                        "archive": "0",              
+                        "blank_question_position": null
+                    },
+                    {
+                        "option": "Being critical of a client when you don't agree with their choices",
+                        "is_correct": "0",
+                        "archive": "0",
+                        "blank_question_position": null
+                    },
+                    {
+                        "option": "Being accepting of different values and beliefs",
+                        "is_correct": "1",
+                        "archive": "0",
+                        "blank_question_position": null
+                    },
+                    {
+                        "option": "Making assumptions about others in your care",
+                        "is_correct": "0",
+                        "archive": "0",
+                        "blank_question_position": null
+                    }
+                ]
+            },
+        {            
+            "question": "If a client does not have enough money to pay for their lunch, you should:",           
+            "answer_type": "2",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "serial_no":"19",           
+            "options": [
+            {               
+                "option": "Call ONCALL for specific advice about the situation",
+                "is_correct": "1",
+                "archive": "0",              
+                "blank_question_position": null
+            },
+            {
+                "option": "Pay for their lunch and have the client pay you back",
+                "is_correct": "0",
+                "archive": "0",
+                "created_at": "2022-04-30 16:59:25",
+                "updated_at": null,
+                "created_by": "20",
+                "updated_by": null,
+                "blank_question_position": null
+            },
+            {
+                "option": "Call the clients family and ask them to transfer them the money",
+                "is_correct": "0",
+                "archive": "0",
+                "created_at": "2022-04-30 16:59:25",
+                "updated_at": null,
+                "created_by": "20",
+                "updated_by": null,
+                "blank_question_position": null
+            },
+            {
+                "option": "Pay for their lunch as a gift",
+                "is_correct": "0",
+                "archive": "0",
+                "created_at": "2022-04-30 16:59:25",
+                "updated_at": null,
+                "created_by": "20",
+                "updated_by": null,
+                "blank_question_position": null
+            }]
+        },
+        {            
+            "question": "Incorrect manual handling may result in:",           
+            "answer_type": "2",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "serial_no":"20",           
+            "options": [
+            {               
+                "option": "Compromised skin integrity",
+                "is_correct": "0",
+                "archive": "0",              
+                "blank_question_position": null
+            },
+            {
+                "option": "Client behaviours",
+                "is_correct": "0",
+                "archive": "0",
+                "created_at": "2022-04-30 16:59:25",
+                "updated_at": null,
+                "created_by": "20",
+                "updated_by": null,
+                "blank_question_position": null
+            },
+            {
+                "option": "Injuries, fractures and soft tissue damage",
+                "is_correct": "0",
+                "archive": "0",
+                "created_at": "2022-04-30 16:59:25",
+                "updated_at": null,
+                "created_by": "20",
+                "updated_by": null,
+                "blank_question_position": null
+            },
+            {
+                "option": "All of the above",
+                "is_correct": "1",
+                "archive": "0",
+                "created_at": "2022-04-30 16:59:25",
+                "updated_at": null,
+                "created_by": "20",
+                "updated_by": null,
+                "blank_question_position": null
+            }]
+        },
+        {  
+            "question": "<strong>Read the following passage and answer the related questions:</strong> <br><br>Taylor is an energetic outdoors-loving 23 year old, and has lived in supported accommodation since he was 21. Taylor requires support with communication and memory, and likes to get to know people before they come to his home.&nbsp; <br><br> A Functional Behaviour Assessment identified elements of Taylor's behaviour that cause harm: <br><br> - Hitting his head and/or himself against solid objects. <br><br>Taylor will make a deep humming/grunting noise and pace when he is unsure of what is happening next. If staff do not respond to Taylor's noise and pacing, and if information is not provided to Taylor in a timely manner, his behaviour may escalate; Taylor may engage in self-harm behaviour such as hitting himself in the head or against the nearest solid object. <br><br>This behaviour is more likely to occur if Taylor has had a negative interaction with his housemates, and/or there are changes to his schedule, and/or he is tired. ",           
+            "answer_type": "5",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "4",
+            "grade": "0",
+            "is_mandatory": "0",
+            "archive": "0",
+            "serial_no":"21",          
+            "options": []
+        },
+        {            
+            "question": "What triggers Taylor's behaviour?",           
+            "answer_type": "4",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "3",
+            "is_mandatory": "1",
+            "archive": "0",
+            "serial_no":"21a",
+            "suggest_answer" :"1) Negative interaction with his housemates.<br><br>2) Changes in schedule.<br><br> 3) He is tired.",            
+            "options": [
+            ]
+        },       
+        {
+            "question": "How would you ensure that Taylor's behaviour does not escalate?",           
+            "answer_type": "4",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "2",
+            "is_mandatory": "1",
+            "archive": "0", 
+            "serial_no":"21b",
+            "suggest_answer" :"1) Respond to Taylor’s deep humming/grunting in a timely manner.<br><br> 2) Provide Taylor with information on what is happening next.",            
+            "options": []
+        },
+        {
+           "question": "What three (3) things would you do when working with Taylor for the first time?",           
+            "answer_type": "4",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "3",
+            "is_mandatory": "1",
+            "archive": "0",
+            "serial_no":"21c",
+            "suggest_answer":"Options may include:<br><br> - Introduce yourself.<br><br> - Read the BSP / Care Plan.<br><br> - Follow the BSP / Care Plan.<br><br> - Get to know Taylor's schedule.",           
+            "options": []
+        },
+        {
+            "question": "Select the correct spelling from the options provided:",
+            "answer_type": "6",
+            "blank_question_type": "2",
+            "fill_up_formatted_question": "Staff are to use the sign for \"next\" when communicating with Taylor and he is unsure of what is {{SELECT_OPTION}} next.<br> Remember to keep {{SELECT_OPTION}} with Taylor short and clear, using {{SELECT_OPTION}} while signing.<br> Taylor's short-term {{SELECT_OPTION}} is supported well by regular speech and sign language.",
+            "follow_up_questions_crp": "0",
+            "grade": "4",
+            "is_mandatory": "1",
+            "archive": "0", 
+            "serial_no":"21d",           
+            "options": [
+            {
+                "option": "happning",
+                "is_correct": "0",
+                "archive": "0",                
+                "blank_question_position": "0"
+            },
+            {
+                "option": "hapaning",
+                "is_correct": "0",
+                "archive": "0",              
+                "blank_question_position": "0"
+            },
+            {
+                "option": "happaning",
+                "is_correct": "0",
+                "archive": "0",               
+                "blank_question_position": "0"
+            },
+            {
+                "option": "hanpend",
+                "is_correct": "0",
+                "archive": "0",
+                "blank_question_position": "0"
+            },
+            {
+                "option": "happening",
+                "is_correct": "1",
+                "archive": "0",                
+                "blank_question_position": "0"
+            },
+            {
+                "option": "communicashion",
+                "is_correct": "0",
+                "archive": "0",
+                "blank_question_position": "1"
+            },
+            {
+                "option": "communnication",
+                "is_correct": "0",
+                "archive": "0",               
+                "blank_question_position": "1"
+            },
+            {
+                "option": "communication",
+                "is_correct": "1",
+                "archive": "0",
+                "blank_question_position": "1"
+            },
+            {
+                "option": "comunicating",
+                "is_correct": "0",
+                "archive": "0",
+                "blank_question_position": "1"
+            },
+            {
+            "option": "speech",
+            "is_correct": "1",
+            "archive": "0",            
+            "blank_question_position": "2"
+        },
+        {
+            "option": "speach",
+            "is_correct": "0",
+            "archive": "0",            
+            "blank_question_position": "2"
+        },
+        {
+            "option": "speek",
+            "is_correct": "0",
+            "archive": "0",            
+            "blank_question_position": "2"
+        },
+        {        
+        "option": "memory",
+        "is_correct": "1",
+        "archive": "0",
+        "blank_question_position": "3"
+    },
+    {
+        "option": "memoiry",
+        "is_correct": "0",
+        "archive": "0",        
+        "blank_question_position": "3"
+    },
+    {
+        "option": "memmery",
+        "is_correct": "0",
+        "archive": "0",
+        "blank_question_position": "3"
+    },
+    {        
+        "option": "memary",
+        "is_correct": "0",
+        "archive": "0",
+        "blank_question_position": "3"
+    }]
+        },
+        {           
+            "question": "If you observe any faults in manual handling equipment, you can still use it:",           
+            "answer_type": "3",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "serial_no":"22",            
+            "options": [
+            {               
+                "option": "True",
+                "is_correct": "0",
+                "archive": "0",                
+                "blank_question_position": null
+            },
+            {               
+                "option": "False",
+                "is_correct": "1",
+                "archive": "0",               
+                "blank_question_position": null
+            }]
+        },
+        {           
+            "question": "Unless otherwise advised, all PRN (as required) administration requires approval by a supervisor.",           
+            "answer_type": "3",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "serial_no":"23",            
+            "options": [
+            {               
+                "option": "True",
+                "is_correct": "1",
+                "archive": "0",                
+                "blank_question_position": null
+            },
+            {               
+                "option": "False",
+                "is_correct": "0",
+                "archive": "0",               
+                "blank_question_position": null
+            }]
+        },
+        {           
+            "question": "I can go and buy cold and flu tablets for a client if they have a bad cough without seeking advice.",           
+            "answer_type": "3",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "serial_no":"24",           
+            "options": [
+            {               
+                "option": "True",
+                "is_correct": "0",
+                "archive": "0",                
+                "blank_question_position": null
+            },
+            {               
+                "option": "False",
+                "is_correct": "1",
+                "archive": "0",               
+                "blank_question_position": null
+            }]
+        },
+        {           
+            "question": "It is my responsibility to read the support plans of each person I am supporting on any given shift.",           
+            "answer_type": "3",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "serial_no":"25",           
+            "options": [
+            {               
+                "option": "True",
+                "is_correct": "1",
+                "archive": "0",                
+                "blank_question_position": null
+            },
+            {               
+                "option": "False",
+                "is_correct": "0",
+                "archive": "0",               
+                "blank_question_position": null
+            }]
+        },
+        {           
+            "question": "Seclusion is a healthy part of disability support and care.",           
+            "answer_type": "3",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "serial_no":"26",              
+            "options": [
+            {               
+                "option": "True",
+                "is_correct": "0",
+                "archive": "0",                
+                "blank_question_position": null
+            },
+            {               
+                "option": "False",
+                "is_correct": "1",
+                "archive": "0",               
+                "blank_question_position": null
+            }]
+        },
+        {            
+            "question": "You are required to balance your client's petty cash. What is the total of the following?",
+            "answer_type": "5",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "5",
+            "grade": "0",
+            "is_mandatory": "1",
+            "archive": "0",
+            "serial_no":"27",               
+            "options": []
+        }, 
+        {            
+            "question": "6 x $2 coins",
+            "answer_type": "7",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "serial_no":"27a",               
+            "options": [ {
+                "option": "12.00",
+                "is_correct": "1",
+                "archive": "0",                
+                "blank_question_position": null
+            }]
+        }, 
+        {            
+            "question": "2 x $5 notes and 1 x $20 note",           
+            "answer_type": "7",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "serial_no":"27b",            
+            "options": [ {
+                "option": "30.00",
+                "is_correct": "1",
+                "archive": "0",                
+                "blank_question_position": null
+            }]
+        },
+        {            
+            "question": "4 x $20 notes",           
+            "answer_type": "7",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "serial_no":"27c",            
+            "options": [ {
+                "option": "80.00",
+                "is_correct": "1",
+                "archive": "0",                
+                "blank_question_position": null
+            }]
+        },
+        {            
+            "question": "7 x 50 cent coins",           
+            "answer_type": "7",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "serial_no":"27d",            
+            "options": [ {
+                "option": "3.50",
+                "is_correct": "1",
+                "archive": "0",                
+                "blank_question_position": null
+            }]
+        },
+        {            
+            "question": "3 x $5 notes, 1 x $10 note and 3 x $20 notes",           
+            "answer_type": "7",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "serial_no":"27e",            
+            "options": [ {
+                "option": "85.00",
+                "is_correct": "1",
+                "archive": "0",                
+                "blank_question_position": null
+            }]
+        },
+        {
+            "question": "Select the correct 7 rights (7 R's) of Medication Administration.<br><br>Select one or more from the options below:",
+            "answer_type": "1",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0", 
+            "serial_no":"28",            
+            "options": [
+                {
+                    "option": "Medication",
+                    "is_correct": "1",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {
+                    "option": "Incident Report",
+                    "is_correct": "0",
+                    "archive": "0",               
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "Date/Day",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "Route",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "Documentation",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "Person",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "Dose",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "Self-administer",
+                    "is_correct": "0",
+                    "archive": "0",               
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "Co- sign",
+                    "is_correct": "0",
+                    "archive": "0",               
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "To increase the dose",
+                    "is_correct": "0",
+                    "archive": "0",               
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "Time",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }
+            ]
+        },
+        {  
+            "question": "You arrive on shift for the first time at an accommodation house to find the other staff member on duty, losing their temper and yelling at one of the residents in the dining room.<br/></br>You can see through to the lounge room, where another resident has just fallen to the ground and is having a seizure.<br/><br/>You notice the other three residents have hidden in their rooms.",           
+            "answer_type": "5",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "2",
+            "grade": "0",
+            "is_mandatory": "0",
+            "archive": "0",
+            "serial_no":"29",
+            "options": []
+        },
+        {
+            "question": "In which order would you attend to the following - select from the options provided:",           
+            "answer_type": "6",
+            "blank_question_type": "2",
+            "fill_up_formatted_question": "Staff member losing their temper {{SELECT_OPTION}}. Resident having a seizure {{SELECT_OPTION}}. Other residents hiding in their bedrooms {{SELECT_OPTION}}",
+            "follow_up_questions_crp": "0",
+            "grade": "3",
+            "is_mandatory": "1",
+            "archive": "0",
+            "serial_no":"29a",            
+            "options": [
+                {
+                    "option": "Attend to this second (2)",
+                    "is_correct": "1",
+                    "archive": "0",                
+                    "blank_question_position": "0"
+                },
+                {
+                    "option": "Attend to this last (3)",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": "0"
+                },
+                {
+                    "option": "Attend to this first (1)",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": "0"
+                },                
+                {
+                    "option": "Attend to this second (2)",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": "1"
+                },
+                {
+                    "option": "Attend to this last (3)",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": "1"
+                },
+                {
+                    "option": "Attend to this first (1)",
+                    "is_correct": "1",
+                    "archive": "0",                
+                    "blank_question_position": "1"
+                },
+                {
+                    "option": "Attend to this second (2)",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": "2"
+                },
+                {
+                    "option": "Attend to this last (3)",
+                    "is_correct": "1",
+                    "archive": "0",                
+                    "blank_question_position": "2"
+                },
+                {
+                    "option": "Attend to this first (1)",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": "2"
+                }
+            ]
+        },
+    {            
+            "question": "Write what you would do after the situation has de-escalated; include 3 of your responsibilities.",           
+            "answer_type": "4",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "3",
+            "is_mandatory": "1",
+            "archive": "0",
+            "serial_no":"29b", 
+            "suggest_answer":"Options may include:<br><br> - Ensure all residents are safe<br><br> - Reassure the client <br><br> - Contact ONCALL / report to the supervisor Complete an  incident report<br><br> - Access medical support if required",           
+            "options": []
+        } 
+
+    ]
+        
+    }
+]

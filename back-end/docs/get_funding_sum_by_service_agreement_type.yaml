@@ -1,0 +1,51 @@
+---
+swagger: "2.0"
+info:
+  description: HCM API documentation.
+  version: 1.0.0
+  title: HCM
+host: virtserver.swaggerhub.com
+basePath: /OPT7/Feed/1.0.0
+schemes:
+- https
+- http
+paths:
+  /get_funding_sum_by_service_agreement_type:
+    post:
+      summary: "Fetch total funding for all service booking against a service agreement"
+      description: ""
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      parameters:
+      - in: body
+        name: request_data
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            service_agreement_id:
+              type: integer
+      responses:
+        "200":
+          description: Get related type
+          schema:
+            type: array
+            items:
+              type: object
+              properties:
+                service_agreement_type:
+                  type: string
+                total:
+                  type: number
+        "500":
+          description: Server error
+      security:
+      - api_key: []
+securityDefinitions:
+  api_key:
+    type: apiKey
+    name: pin
+    in: query

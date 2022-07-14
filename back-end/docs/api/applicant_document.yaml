@@ -1,0 +1,251 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.24"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/recruitment/RecruitmentApplicant"
+tags:
+- name: "Document List"
+  description: "Get all document list of member"
+- name: "Create Applicant Document"
+  description: "Create document with type"
+schemes:
+- "https"
+- "http"
+paths:
+  /get_document_list:
+    post:
+      tags:
+      - "Document List"
+      summary: "Get List of documents"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: "object"
+          properties:
+            token:
+              type: "string"
+            data:
+              type: "object"
+              properties:
+                member_id:
+                  type: "integer"
+                page:
+                  type: "integer"
+                pageSize:
+                  type: "integer"
+      responses:
+        "200":
+          description: "List of documents"
+          schema:
+            type: "object"
+            properties:
+              data:
+                type: "object"
+                properties:
+                  id:
+                    type: "string"
+                  document_id:
+                    type: "string"
+                  status:
+                    type: "string"
+                  archive:
+                    type: "string"
+                  issue_date:
+                    $ref: "#/definitions/datetime"
+                  expiry_date:
+                    $ref: "#/definitions/datetime"
+                  reference_number:
+                    type: "string"
+                  created_by:
+                    type: "string"
+                  created_at:
+                    $ref: "#/definitions/datetime"
+                  updated_by:
+                    type: "string"
+                  updated_at:
+                    $ref: "#/definitions/datetime"
+                  file_name:
+                    type: "string"
+                  file_type:
+                    type: "string"
+                  file_size:
+                    type: "string"
+                  attached_on:
+                    $ref: "#/definitions/datetime"
+                  updated_on:
+                    type: "string"
+                  file_base_path:
+                    type: "string"
+                  converted_name:
+                    type: "string"
+                  uri_param_1:
+                    type: "string"
+                  file_path:
+                    type: "string"
+                  document:
+                    type: "string"
+                  member:
+                    type: "string"
+              count:
+                type: "integer"
+              document_count:
+                type: "integer"
+        "500":
+          description: "Server error"
+      security:
+      - api_key: []
+  /save_applicant_document:
+    post:
+      tags:
+      - "Create Applicant Document"
+      summary: "Create Applicant documents"
+      description: ""
+      consumes:
+      - "multipart/form-data"
+      parameters:
+      - name: "attachments"
+        in: "formData"
+        description: "The file to upload."
+        required: true
+        type: "file"
+      - name: "doc_type_id"
+        in: "formData"
+        description: "Member Document Type"
+        required: true
+        type: "integer"
+      - name: "member_id"
+        in: "formData"
+        description: "Member Id"
+        required: false
+        type: "integer"
+      - name: "issue_date_mandatory"
+        in: "formData"
+        description: "Determine the issue date is mandatory or not. which is associated\
+          \ with document type"
+        required: true
+        type: "boolean"
+      - name: "expiry_date_mandatory"
+        in: "formData"
+        description: "Determine the expiry date is mandatory or not. which is associated\
+          \ with document type"
+        required: true
+        type: "boolean"
+      - name: "reference_number_mandatory"
+        in: "formData"
+        description: "Determine the reference number is mandatory or not. which is\
+          \ associated with document type"
+        required: true
+        type: "boolean"
+      - name: "issue_date"
+        in: "formData"
+        description: "Document Issued Date"
+        required: false
+        type: "string"
+      - name: "expiry_date"
+        in: "formData"
+        description: "Document Expiry Date"
+        required: false
+        type: "string"
+      - name: "reference_number"
+        in: "formData"
+        description: "Reference Number"
+        required: false
+        type: "string"
+      - name: "status"
+        in: "formData"
+        description: "Document Status"
+        required: false
+        type: "integer"
+      - name: "action"
+        in: "formData"
+        description: "Action type create | updated"
+        required: false
+        type: "string"
+      - name: "token"
+        in: "formData"
+        description: "Auth token"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Create applicant documents"
+          schema:
+            type: "object"
+            properties:
+              status:
+                type: "boolean"
+              msg:
+                type: "string"
+                example: "Document Created Successfully."
+        "500":
+          description: "Server error"
+      security:
+      - api_key: []
+  /archive_selected_file:
+    post:
+      tags:
+      - "Archive Applicant Document"
+      summary: "Archive Applicant documents"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: "object"
+          properties:
+            token:
+              type: "string"
+            data:
+              type: "object"
+              properties:
+                applicantId:
+                  type: "integer"
+                token:
+                  type: "integer"
+                archiveData:
+                  type: "object"
+                  properties:
+                    document_id:
+                      type: "boolean"
+      responses:
+        "200":
+          description: "Archive Applicant documents"
+          schema:
+            type: "object"
+            properties:
+              status:
+                type: "boolean"
+              msg:
+                type: "string"
+                example: "Document Deleted Successfully."
+        "500":
+          description: "Server error"
+      security:
+      - api_key: []
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"
+definitions:
+  datetime:
+    type: "string"
+    pattern: "/([0-9]{4})-(?:[0-9]{2})-([0-9]{2}) (\\d{2}):(\\d{2}):(\\d{2})/"
+    format: "date-time"
+    example: "2019-05-17 00:00:00"

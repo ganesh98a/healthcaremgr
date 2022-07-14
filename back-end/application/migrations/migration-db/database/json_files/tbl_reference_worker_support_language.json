@@ -1,0 +1,62 @@
+[
+    {			
+        "type": "14",
+        "code": "MANDARINCHINESE",
+        "display_name": "Mandarin Chinese",
+        "definition": ""
+    },
+    {			
+        "type": "14",
+        "code": "HINDI",
+        "display_name": "Hindi",
+        "definition": ""
+    },
+    {			
+        "type": "14",
+        "code": "SPANISH",
+        "display_name": "Spanish",
+        "definition": ""
+    },
+    {			
+        "type": "14",
+        "code": "FRENCH",
+        "display_name": "French",
+        "definition": ""
+    },
+    {			
+        "type": "14",
+        "code": "ARABIC",
+        "display_name": "Arabic",
+        "definition": ""
+    },
+    {			
+        "type": "14",
+        "code": "BENGALI",
+        "display_name": "Bengali",
+        "definition": ""
+    },
+    {			
+        "type": "14",
+        "code": "RUSSIAN",
+        "display_name": "Russian",
+        "definition": ""
+    },
+    {			
+        "type": "14",
+        "code": "FARSI",
+        "display_name": "Farsi",
+        "definition": ""
+    },
+    {			
+        "type": "14",
+        "code": "PUNJABI",
+        "display_name": "Punjabi",
+        "definition": ""
+    },
+    {			
+        "type": "14",
+        "code": "ITALIAN",
+        "display_name": "Italian",
+        "definition": ""
+    }
+]

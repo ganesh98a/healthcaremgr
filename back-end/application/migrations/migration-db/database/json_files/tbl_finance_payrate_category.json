@@ -1,0 +1,28 @@
+[
+    {
+        "id": "1",
+        "name": "Social and Community Services Employee",
+        "created": "2019-10-10 14:08:46",
+        "archive": "0"
+    }, {
+        "id": "2",
+        "name": "Crisis Accommodation Employee",
+        "created": "2019-10-10 14:08:46",
+        "archive": "0"
+    }, {
+        "id": "3",
+        "name": "Family Day Care Employee",
+        "created": "2019-10-10 14:08:46",
+        "archive": "0"
+    }, {
+        "id": "4",
+        "name": "Home Care Employee",
+        "created": "2019-10-10 14:08:46",
+        "archive": "0"
+    }, {
+        "id": "5",
+        "name": "Allowances",
+        "created": "2019-10-10 14:08:55",
+        "archive": "0"
+    }
+]

@@ -1,0 +1,157 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.27"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/admin/ProcessBuilder"
+schemes:
+- "https"
+- "http"
+paths:
+  /create_update_event:
+    post:
+      summary: "Create/Update Process Builder Events"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            request_data:
+              type: object
+              properties:
+                  data:
+                    type: object
+                    properties:
+                      id: 
+                        type: integer
+                      email_template: 
+                        type: integer
+                      event_trigger: 
+                        type: string
+                      object_name: 
+                        type: string
+                      criteria: 
+                        type: string
+                      event_action: 
+                        type: string
+                      recipient: 
+                        type: object
+                        properties:
+                          label: 
+                            type: string
+                          value: 
+                            type: string
+                      conditions:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            field:
+                              type: string
+                            values:
+                              type: array
+                              items:
+                                type: object
+                                properties:
+                                  label:
+                                    type: string
+                                  value:
+                                    type: string
+                      condition_logic:
+                        type: string
+                      recipient_type: 
+                        type: string
+                      name: 
+                        type: string
+                      description: 
+                        type: string
+                      expression_inputs:
+                        type: object
+                        properties:
+                          expression:
+                            type: object
+                            properties:
+                              conditions:
+                                type: array
+                                items:
+                                  type: object
+                                  properties:
+                                    isGroup: 
+                                      type: boolean
+                                    field: 
+                                      type: string
+                                    operator: 
+                                      type: string
+                                    value: 
+                                      type: integer
+                              triggerType: 
+                                type: string
+                          inputs:
+                            type: object
+                            properties:
+                              field: 
+                                type: string
+                              values:
+                                type: array
+                                items:
+                                  type: object
+                                  properties:
+                                    label: 
+                                      type: string
+                                    value: 
+                                      type: integer
+                      expression:
+                        type: object
+                        properties:
+                          conditions:
+                            type: array
+                            items:
+                              type: object
+                              properties:
+                                isGroup: 
+                                  type: boolean
+                                field: 
+                                  type: string
+                                operator: 
+                                  type: string
+                                value: 
+                                  type: integer
+                      triggerType: 
+                        type: string
+                      template_label: 
+                        type: string
+                
+      security:
+        - api_key: []
+      responses:
+        "200":
+          description: "Event added successfully"
+          schema:
+            type: object
+            properties:
+              status:
+                  type: boolean
+              message:
+                type: string
+        "500":
+          description: "Server error"
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"
+definitions:
+  datetime:
+    type: string
+    format: date-time
+    pattern: /([0-9]{4})-(?:[0-9]{2})-([0-9]{2}) (\d{2}):(\d{2}):(\d{2})/
+    example: "2019-05-17 00:00:00"

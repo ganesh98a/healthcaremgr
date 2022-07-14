@@ -1,0 +1,738 @@
+[
+    {
+        "assessment_template":
+        {
+            "title": "Oncall Job Ready",
+            "location": "NA",
+            "job_type": "5",
+            "status": "1"
+        },
+        "question_answers_list": [
+            {
+                "serial_no": "1",
+                "question": "Active Support means: ‘I do everything for my client’.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {
+                "serial_no": "2",
+                "question": "If my client is upset at me I can take them by hand to their room.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {
+                "serial_no": "3",
+                "question": "It is okay to give my clients my contact number.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {
+                "serial_no": "4",
+                "question": "If I witness a colleague abusing a client, I can just approach them to discuss the situation and do nothing else.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {
+                "serial_no": "5",
+                "question": "I'm allowed to talk with my family about my day at work.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "1",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "0",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {
+                "serial_no": "6",
+                "question": "People with disabilities CANNOT make decisions for themselves.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {
+                "serial_no": "7",
+                "question": "I SHOULDN'T fill up my car with petrol during my transport shift.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "1",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "0",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {
+                "serial_no": "8",
+                "question": "My client wants to hang out his washing himself and has done it in the past, but I should do it for him.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {
+                "serial_no": "9",
+                "question": "It is okay to post photos of clients on my Facebook.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {
+                "serial_no": "10",
+                "question": "Seclusion IS a healthy part of disability care.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {
+                "serial_no": "11",
+                "question": "My client wants to gift me a movie voucher for my birthday. I should accept it and take them with me.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {
+                "serial_no": "12",
+                "question": "If I have an issue on a shift outside of normal business hours, I am NOT supported by ONCALL.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {
+                "serial_no": "13",
+                "question": "If I'm running late I SHOULD call ONCALL, even if it's less than 5 minutes.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "1",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "0",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {
+                "serial_no": "14",
+                "question": "If there is nothing else to do on my shift, it is okay to use my mobile.",           
+                "answer_type": "3",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",           
+                "options": [
+                {               
+                    "option": "True",
+                    "is_correct": "0",
+                    "archive": "0",                
+                    "blank_question_position": null
+                },
+                {               
+                    "option": "False",
+                    "is_correct": "1",
+                    "archive": "0",               
+                    "blank_question_position": null
+                }]
+            },
+            {         
+                "serial_no": "15",
+                "question": "You are required to balance your client's petty cash. What is the total for each?",
+                "answer_type": "5",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "6",
+                "grade": "0",
+                "is_mandatory": "1",
+                "archive": "0",
+                "options": []
+            },
+            {
+                "serial_no": "15a",
+                "question": "10 x 20 cent coins",
+                "answer_type": "7",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "options": [
+                    {
+                        "option": "2.00",
+                        "is_correct": "1",
+                        "archive": "0",
+                        "blank_question_position": null
+                    }
+                ]
+            },
+            {
+                "serial_no": "15b",
+                "question": "5 x 2 dollar coins",
+                "answer_type": "7",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "options": [
+                    {
+                        "option": "10.00",
+                        "is_correct": "1",
+                        "archive": "0",
+                        "blank_question_position": null
+                    }
+                ]
+            },
+            {
+                "serial_no": "15c",
+                "question": "2 x 10 dollar notes",
+                "answer_type": "7",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "options": [
+                    {
+                        "option": "20.00",
+                        "is_correct": "1",
+                        "archive": "0",
+                        "blank_question_position": null
+                    }
+                ]
+            },
+            {
+                "serial_no": "15d",
+                "question": "7 x 50 cent coins",
+                "answer_type": "7",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "options": [
+                    {
+                        "option": "3.50",
+                        "is_correct": "1",
+                        "archive": "0",
+                        "blank_question_position": null
+                    }
+                ]
+            },
+            {
+                "serial_no": "15e",
+                "question": "4 x 20 dollar notes",
+                "answer_type": "7",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "options": [
+                    {
+                        "option": "80.00",
+                        "is_correct": "1",
+                        "archive": "0",
+                        "blank_question_position": null
+                    }
+                ]
+            },
+            {
+                "serial_no": "15f",
+                "question": "10 x 5 cent coins",
+                "answer_type": "7",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "options": [
+                    {
+                        "option": "0.50",
+                        "is_correct": "1",
+                        "archive": "0",
+                        "blank_question_position": null
+                    }
+                ]
+            },
+            {
+                "serial_no": "16",
+                "question": "Select the correct spelling from the options provided:",           
+                "answer_type": "6",
+                "blank_question_type": "2",
+                "fill_up_formatted_question": "Staff are to teach Jane to use the sign for \"next\" when she is unsure of what is {{SELECT_OPTION}} next.<br> Remember to keep {{SELECT_OPTION}} with Jane short and clear, using {{SELECT_OPTION}} while signing.<br> Jane's short-term {{SELECT_OPTION}} is supported well by regular speech and sign {{SELECT_OPTION}}.",
+                "follow_up_questions_crp": "0",
+                "grade": "5",
+                "is_mandatory": "1",
+                "archive": "0",            
+                "options": [
+                    {
+                        "option": "happning",
+                        "is_correct": "0",
+                        "archive": "0",                
+                        "blank_question_position": "0"
+                    },
+                    {
+                        "option": "hapaning",
+                        "is_correct": "0",
+                        "archive": "0",                
+                        "blank_question_position": "0"
+                    },
+                    {
+                        "option": "happaning",
+                        "is_correct": "0",
+                        "archive": "0",                
+                        "blank_question_position": "0"
+                    }, 
+                    {
+                        "option": "hanpend",
+                        "is_correct": "0",
+                        "archive": "0",                
+                        "blank_question_position": "0"
+                    }, 
+                    {
+                        "option": "happening",
+                        "is_correct": "1",
+                        "archive": "0",                
+                        "blank_question_position": "0"
+                    }, 
+                    
+                    
+                    {
+                        "option": "communicashion",
+                        "is_correct": "0",
+                        "archive": "0",                
+                        "blank_question_position": "1"
+                    },
+                    {
+                        "option": "communnication",
+                        "is_correct": "0",
+                        "archive": "0",                
+                        "blank_question_position": "1"
+                    },
+                    {
+                        "option": "communication",
+                        "is_correct": "1",
+                        "archive": "0",                
+                        "blank_question_position": "1"
+                    }, 
+                    {
+                        "option": "comunicating",
+                        "is_correct": "0",
+                        "archive": "0",                
+                        "blank_question_position": "1"
+                    }, 
+
+                    
+                    {
+                        "option": "speech",
+                        "is_correct": "1",
+                        "archive": "0",                
+                        "blank_question_position": "2"
+                    },
+                    {
+                        "option": "speach",
+                        "is_correct": "0",
+                        "archive": "0",                
+                        "blank_question_position": "2"
+                    },
+                    {
+                        "option": "speek",
+                        "is_correct": "0",
+                        "archive": "0",                
+                        "blank_question_position": "2"
+                    }, 
+                    
+
+                    {
+                        "option": "memory",
+                        "is_correct": "1",
+                        "archive": "0",                
+                        "blank_question_position": "3"
+                    },
+                    {
+                        "option": "memoiry",
+                        "is_correct": "0",
+                        "archive": "0",                
+                        "blank_question_position": "3"
+                    },
+                    {
+                        "option": "memmery",
+                        "is_correct": "0",
+                        "archive": "0",                
+                        "blank_question_position": "3"
+                    }, 
+                    {
+                        "option": "memary",
+                        "is_correct": "0",
+                        "archive": "0",                
+                        "blank_question_position": "3"
+                    }, 
+
+                    
+                    {
+                        "option": "langwich",
+                        "is_correct": "0",
+                        "archive": "0",                
+                        "blank_question_position": "4"
+                    },
+                    {
+                        "option": "language",
+                        "is_correct": "1",
+                        "archive": "0",                
+                        "blank_question_position": "4"
+                    },
+                    {
+                        "option": "langauge",
+                        "is_correct": "0",
+                        "archive": "0",                
+                        "blank_question_position": "4"
+                    }, 
+                    {
+                        "option": "langage",
+                        "is_correct": "0",
+                        "archive": "0",                
+                        "blank_question_position": "4"
+                    }
+                ]
+            },            
+            {       
+                "serial_no": "17",
+                "question": "<strong>Read the following passage and answer the related questions: </strong><br/><br/>NDIS participant Jack has a mild intellectual disability. He also has trouble sleeping which can make him feel very tired during the day. If Jack is tired, he may not want to participate in any activities.<br/><br/>Jack enjoys watching cooking shows on TV and listening to music. He also loves swimming and is proud of his independence. Jack does not want support staff to be inside the change rooms when he is getting changed to go swimming. If staff do go inside the change rooms, Jack may start swearing and might refuse to go swimming.",
+                "answer_type": "5",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "3",
+                "grade": "0",
+                "is_mandatory": "0",
+                "archive": "0",
+                "options": []
+            },
+            {       
+                "serial_no": "17a",
+                "question": "What is Jack's disability?",
+                "answer_type": "4",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "options": [],
+                "suggest_answer": "Mild intellectual disability"
+
+            },
+            {       
+                "serial_no": "17b",
+                "question": "What are two things Jack enjoys doing?",
+                "answer_type": "4",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "2",
+                "is_mandatory": "1",
+                "archive": "0",
+                "options": [],
+                "suggest_answer": "2 of the following:<br><br>- Watching cooking shows on TV<br>- Listening to music<br>- Swimming "
+
+            },
+            {       
+                "serial_no": "17c",
+                "question": "What is one reason why Jack may not want to go swimming?",
+                "answer_type": "4",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "1",
+                "is_mandatory": "1",
+                "archive": "0",
+                "options": [],
+                "suggest_answer": "1 of the following:<br><br>- Staff go inside change rooms<br>- He is tired"
+
+            },
+            {       
+                "serial_no": "18",
+                "question": "<strong>Read the following passage and answer the related questions: </strong><br/><br/>Sue was involved in a motor vehicle accident on 1st June 2018 and as a result has an ABI (Acquired Brain Injury). She has lost the mobility of her legs and is now using a wheelchair. She also has minor memory loss issues that affect her ability to care for herself adequately.<br/><br/>Initially Sue was hospitalised for three months but after her discharge from hospital, Jane, a Support Worker from ONCALL, was employed to assist Sue with her personal care support needs. Jane's duties include supporting Sue with the following: showering, dressing, toileting, grooming, eating, drinking and meal preparation.",
+                "answer_type": "5",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "3",
+                "grade": "0",
+                "is_mandatory": "0",
+                "archive": "0",
+                "options": []
+            },
+            {       
+                "serial_no": "18a",
+                "question": "What is Sue's disability and when did it occur?",
+                "answer_type": "4",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "2",
+                "is_mandatory": "1",
+                "archive": "0",
+                "options": [],
+                "suggest_answer": "ABI (Acquired Brain Injury)<br>1st June 2018"
+
+            },
+            {       
+                "serial_no": "18b",
+                "question": "Which part of Sue's body was affected and how long was she hospitalised?",
+                "answer_type": "4",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "2",
+                "is_mandatory": "1",
+                "archive": "0",
+                "options": [],
+                "suggest_answer": "Legs<br>3 months"
+
+            },
+            {       
+                "serial_no": "18c",
+                "question": "List three tasks that Jane supports Sue with:",
+                "answer_type": "4",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "3",
+                "is_mandatory": "1",
+                "archive": "0",
+                "options": [],
+                "suggest_answer": "3 of the following:<br><br>- Showering<br>- Dressing<br>- Toileting<br>- Grooming<br>- Eating<br>- Drinking<br>- Meal preparation"
+
+            },
+            {       
+                "serial_no": "19",
+                "question": "Write 100-150 words detailing what personal qualities you have that will make you a good disability support worker, and why you are interested in doing this job?",
+                "answer_type": "4",
+                "blank_question_type": "0",
+                "fill_up_formatted_question": "",
+                "follow_up_questions_crp": "0",
+                "grade": "3",
+                "is_mandatory": "1",
+                "archive": "0",
+                "options": [],
+                "suggest_answer": "What to look for in response:<br><br>- Person/human-centred<br>- Outcomes oriented<br>- Goal oriented<br>- Good listening skills<br>- Take/follow direction well<br>- Respectful<br>- Build rapport easily<br>- See the person not the disability<br>- Lived experience<br>- Refers to support plans<br>- Reference or knowledge of disability or sector<br>- Opportunity to help others<br>- Opportunity to give back to the community"
+
+            }
+        ]
+    }
+]

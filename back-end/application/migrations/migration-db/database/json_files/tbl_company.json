@@ -1,0 +1,13 @@
+[
+    {
+        "id": "1",
+        "name": "OCS",
+        "address": "209 st kilda",
+        "city": "Melbourne",
+        "state": "Vic",
+        "email": "oncalsysytem@ocs.com",
+        "phone": "1234567890",
+        "contact_person": "0",
+        "status": "1"
+    }
+]

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HCM ios Build</title>
+	<meta name="theme-color" content="#09a275">
+	<meta name='viewport' content='width=device-width, initial-scale=0.1, maximum-scale=1, user-scalable=1'  />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+</head>
+
+<style type="text/css">
+html{
+	background:linear-gradient(-135deg, #d77f0b, #09a275);
+	background-repeat:no-repeat;
+	background-size: contain;
+	min-height: 100%;
+	font-family: sans-serif;
+}
+.mobile-a {
+	margin-top:70px; 
+    width: 297px;
+    height: 526px;
+    padding: 110px 42px 136px 38px;
+    background: url(./images/mobile.png) no-repeat;
+    text-align: center;
+}
+.mobile-a img{
+	width: 297px;
+	height: 526px;
+}
+figure {
+    /*position: absolute;
+    left: 50%;*/
+    top: 100px;
+    width: 297px;
+    /*margin: 0 0 0 -550px;*/
+}
+h2 {
+    position: relative;
+    margin-bottom: -4px;
+    padding-top: 0;
+    color: #fff;
+    font-size: 4.6em;
+    font-weight: 300;
+}
+p {
+    margin-bottom: 36px;
+    font-size: 2.4em;
+}
+.container {
+    width: 1170px;
+    display: flex;
+    margin: 0px auto;
+}
+
+.first_div{background: #fff;}
+header, .row {
+  display: flex;  /* aligns all child elements (flex items) in a row */
+}
+.col {
+  flex: 1;        /* distributes space on the line equally among items */
+}
+header div {
+    background: #ffff;
+    padding: 8px 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.row div{
+	border-left: 1px solid #fff;
+}
+.Version_title {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.Version_title{
+	margin-top: 60px;
+}
+header{
+	margin-bottom: 1px;
+}
+h2{
+	margin-top: 150px;
+}
+header div:last-child {
+    flex: 0;
+    padding: 0;
+}
+header div:last-child img{
+	width: 30px;
+}
+header div:last-child img {
+    width: 22px;
+    padding: 3px 6px;
+}
+
+@media(max-width:1170px){
+	.container{
+		width: 100%;
+	}
+	h2 {
+        margin-top: 80px;
+    }
+}
+
+@media(max-width:992px){
+    .mobile-a{
+        width: 220px;
+        background-size: 610px;
+        padding: 88px 54px 55px 28px;
+    }
+    .mobile-a img {
+        width: 255px;
+    height: 448px;
+    }
+    body{
+        margin: 0px;
+    }
+    .width_be{
+        width: 320px;
+    }
+}
+
+@media(max-width:767px){
+   
+    .width_be{
+        width: 100%;
+    }
+	.container{
+		width: 100%;
+		display: block;
+	}
+	b {
+        display: block;
+        font-size: 12px;
+    }
+    .col {
+        flex: 1;
+        font-size: 12px;
+    }
+    .div_second header b,
+    .first_div header b {
+     display: none;
+ }
+
+ .Version_title{
+   font-size: 18px;
+   margin-top: 20px;
+}
+p{
+	font-size: 25px;
+}
+.mobile-a{
+	margin: 0px auto;
+}
+body{
+	margin: 0px;
+}
+/* .container .d_50:nth-child(2n){
+	padding: 15px;
+} */
+.mobile-a {
+    margin-top: 70px;
+    width: 280px;
+    height: 579px;
+    padding: 0;
+    text-align: center;
+    background-size: 549px;
+}
+.mobile-a img {
+    width: 227px;
+    height: 397px;
+    margin-top: 83px;
+}
+h2{
+	margin-top: 30px;
+	font-size: 36px;
+}
+.div_second{
+	margin-bottom: 50px;
+}
+h2 img{
+	margin-left: -10px;
+}
+
+
+}
+</style>
+
+
+<body>
+
+    <div class="container">
+        <div class="d_50">
+            <figure class="mobile-a"><img src="images/device1.png" alt="Placeholder"></figure>
+        </div>
+        <div class="d_50 width_be">
+
+            <h2><img src="images/ocs_logo.svg"> </h2>
+            <p>A beautiful app for you iphone</p>
+
+            <h3 class="Version_title">Latest Version</h3>
+            <div class="first_div">
+
+              <header>
+                <div class="col"><b>App Version:</b> 0.4</div>
+                <!-- <div class="col"><b>Size:</b> 3 MB</div> -->
+                <div class="col"><b>Release Date:</b> 17-12-2018</div>
+                <div class="col"><a href="itms-services://?action=download-manifest&url=https://appbuild.ydtwebstaging.com/manifest.plist"><img src="images/download.svg"></a></div>
+            </header>
+
+                <ul style="
+                margin-top: 0;
+                list-style-type: none;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                ">
+                <li><b>Features:</b></li>
+                <li>Fixed some UI issue.</li>
+                <!-- <li>Change in My profile.</li> -->
+            </ul>
+
+    </div>
+
+
+    <h3 class="Version_title">Previous Version</h3>
+    <div class="div_second">
+
+      <header>
+        <div class="col"><b>App Version:</b> 0.3</div>
+        <!-- <div class="col"><b>Size:</b> 3 MB</div> -->
+        <div class="col"><b>Release Date:</b> 08-12-2018</div>
+        <div class="col"><a href="itms-services://?action=download-manifest&url=https://appbuild.ydtwebstaging.com/manifest_old_v.plist"><img src="images/download.svg"></a></div>
+    </header>
+<!--       <header>
+        <div class="col"><b>App Version:</b> 1.0.3</div>
+        <div class="col"><b>Size:</b> 2 MB</div>
+        <div class="col"><b>Release Date:</b> 3-9-2018</div>
+        <div class="col"><a href=""><img src="images/download.svg"></a></div>
+      </header>
+      <header>
+        <div class="col"><b>App Version:</b> 1.0.1</div>
+        <div class="col"><b>Size:</b> 1.5 MB</div>
+        <div class="col"><b>Release Date:</b> 12-7-2018</div>
+        <div class="col">	<a href=""><img src="images/download.svg"></a></div>
+    </header> -->
+
+</div>
+
+</div>
+
+
+
+</div>
+
+</body>
+
+
+</html>

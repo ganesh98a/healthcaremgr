@@ -1,0 +1,45 @@
+[
+    {
+        "id": "1",
+        "name": "Monday",
+        "short_name": "Mon",
+        "js_formate_number": "0",
+        "created": "2019-10-07 15:42:03"
+    }, {
+        "id": "2",
+        "name": "Tuesday",
+        "short_name": "Tue",
+        "js_formate_number": "0",
+        "created": "2019-10-07 15:42:03"
+    }, {
+        "id": "3",
+        "name": "Wednesday",
+        "short_name": "Wed",
+        "js_formate_number": "0",
+        "created": "2019-10-07 15:42:21"
+    }, {
+        "id": "4",
+        "name": "Thursday",
+        "short_name": "Thu",
+        "js_formate_number": "0",
+        "created": "2019-10-07 15:42:21"
+    }, {
+        "id": "5",
+        "name": "Friday",
+        "short_name": "Fri",
+        "js_formate_number": "0",
+        "created": "2019-10-07 15:42:40"
+    }, {
+        "id": "6",
+        "name": "Saturday",
+        "short_name": "Sat",
+        "js_formate_number": "0",
+        "created": "2019-10-07 15:42:40"
+    }, {
+        "id": "7",
+        "name": "Sunday",
+        "short_name": "Sun",
+        "js_formate_number": "0",
+        "created": "2019-10-07 15:42:53"
+    }
+]

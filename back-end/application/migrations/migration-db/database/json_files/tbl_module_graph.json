@@ -1,0 +1,65 @@
+[
+    {
+        "id": "1",
+        "name": "Intake Drop Out Rate",
+        "moduleId": "3",
+        "key_name": "intake_drop_out_rate",
+        "graph_type": "1",
+        "order": "10",
+        "archive": "0"
+    },
+    {
+        "id": "2",
+        "name": "Shifts by Members",
+        "moduleId": "3",
+        "key_name": "shifts_by_members",
+        "graph_type": "1",
+        "order": "20",
+        "archive": "0"
+    },
+    {
+        "id": "3",
+        "name": "Intake Drop Out Rate",
+        "moduleId": "2",
+        "key_name": "intake_drop_out_rate",
+        "graph_type": "1",
+        "order": "30",
+        "archive": "0"
+    },
+    {
+        "id": "4",
+        "name": "Types of Participants Funding",
+        "moduleId": "2",
+        "key_name": "types_of_participants_funding",
+        "graph_type": "1",
+        "order": "40",
+        "archive": "0"
+    },
+    {
+        "id": "5",
+        "name": "Shifts Requested by Participants",
+        "moduleId": "2",
+        "key_name": "shifts_requested_by_participants",
+        "graph_type": "1",
+        "order": "50",
+        "archive": "0"
+    },
+    {
+        "id": "6",
+        "name": "Shifts by Organisations or Sub Organisations",
+        "moduleId": "7",
+        "key_name": "shifts_by_organisations_or_sub_organisations",
+        "graph_type": "1",
+        "order": "60",
+        "archive": "0"
+    },
+    {
+        "id": "7",
+        "name": "Total Shifts",
+        "moduleId": "4",
+        "key_name": "total_shifts",
+        "graph_type": "1",
+        "order": "70",
+        "archive": "0"
+    }
+]

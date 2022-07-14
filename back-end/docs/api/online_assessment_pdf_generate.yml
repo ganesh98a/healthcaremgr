@@ -1,0 +1,58 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.24"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/recruiment/OnlineAssessment"
+tags:
+- name: "Online assessment pdf generattion"
+  description: "Get all the question & option from the template with evaluted answer"
+- name: "Generate PDF"
+  description: "Generate pdf to download the assessment submitted by applicant"
+schemes:
+- "https"
+- "http"
+paths:
+  /print_online_assessment:
+    post:
+      tags:
+      - "Generate PDF"
+      summary: "Generate PDF and download"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: "object"
+          properties:
+            data:
+              type: "object"
+              properties:
+                job_assesssment_id:
+                  type: "integer"
+                application_id:
+                  type: "integer"
+      responses:
+        "200":
+          description: "List of questions & option"
+          schema:
+            type: "object"
+            properties:
+              data:
+                type: "string"
+        "500":
+          description: "Server error"
+      security:
+      - api_key: []
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"

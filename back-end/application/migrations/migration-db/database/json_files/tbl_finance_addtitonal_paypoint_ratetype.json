@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "name": "Hourly",
+        "created": "2019-10-29 14:08:46",
+        "archive": "0"
+    },
+    {
+        "id": "2",
+        "name": "Annually",
+        "created": "2019-10-29 14:08:46",
+        "archive": "0"
+    }, {
+        "id": "3",
+        "name": "Fixed",
+        "created": "2019-10-29 14:08:46",
+        "archive": "0"
+    }, {
+        "id": "4",
+        "name": "Daily",
+        "created": "2019-10-29 14:08:46",
+        "archive": "0"
+    }, {
+        "id": "5",
+        "name": "Monthly",
+        "created": "2019-10-29 14:08:46",
+        "archive": "0"
+    }
+]

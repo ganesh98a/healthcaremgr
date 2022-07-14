@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "key_name": "phone",
+        "name": "Phone",
+        "order_ref":10,
+        "archive":0
+    },
+    {
+        "id": "2",
+        "key_name": "email",
+        "name": "Email",
+        "order_ref":30,
+        "archive":0
+    },
+    {
+        "id": "3",
+        "key_name": "website",
+        "name": "Website",
+        "order_ref":50,
+        "archive":0
+    }
+]

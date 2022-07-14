@@ -1,0 +1,68 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.22"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/schedule/ScheduleDashboard"
+schemes:
+- "https"
+- "http"
+paths:
+  /create_update_list_view_controls:
+    post:
+      summary: "Updating the shift status"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                id:
+                  type: integer
+                  example: 35
+                status: 
+                  type: integer
+                  example: 3
+      security:
+        - api_key: []
+      responses:
+        "200":
+          description: "Updating the shift status"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Successfully updated shift status'
+              status: 
+                type: boolean
+                example: true
+        "201":
+          description: "Updating the shift status actual response is 200"
+          schema:
+            type: object
+            properties:
+              msg: 
+                type: string
+                example: 'Please assign at least one registered member to schedule this shift'
+              status: 
+                type: boolean
+                example: false
+        "500":
+          description: "Server error"
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"

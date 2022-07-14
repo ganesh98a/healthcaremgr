@@ -1,0 +1,26 @@
+[
+    {
+        "type": "10",
+        "code": "person_contact_role_parent",
+        "display_name": "Parent",
+        "key_name": "person_contact_role_parent",
+        "start_date": "",
+        "created": "2020-06-18 09:39:10"
+    },
+    {
+        "type": "10",
+        "code": "person_contact_role_doctor",
+        "display_name": "Doctor",
+        "key_name": "person_contact_role_doctor",
+        "start_date": "",
+        "created": "2020-06-18 09:39:10"
+    },
+    {
+        "type": "11",
+        "code": "org_contact_role_agent",
+        "display_name": "Agent",
+        "key_name": "org_contact_role_agent",
+        "start_date": "",
+        "created": "2020-06-18 09:39:10"
+    }
+]

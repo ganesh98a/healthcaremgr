@@ -1,0 +1,41 @@
+{
+    "name": "dyrynda/nomad",
+    "description": "Laravel-style database migrations wherever they may roam",
+    "type": "library",
+    "homepage": "https://github.com/michaeldyrynda/nomad",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Dyrynda",
+            "email": "michael@dyrynda.com.au"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "doctrine/dbal": "^2.9",
+        "illuminate/cache": "5.5.* || 5.6.*",
+        "illuminate/config": "5.5.* || 5.6.*",
+        "illuminate/console": "5.5.* || 5.6.*",
+        "illuminate/container": "5.5.* || 5.6.*",
+        "illuminate/database": "5.5.* || 5.6.*",
+        "illuminate/events": "5.5.* || 5.6.*",
+        "illuminate/filesystem": "5.5.* || 5.6.*",
+        "laravel-zero/foundation": "5.5.* || 5.6.*",
+        "symfony/process": "~3.3",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dyrynda\\Nomad\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "bin": ["nomad"],
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}

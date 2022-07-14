@@ -1,0 +1,83 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.22"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/admin/Dashboard"
+schemes:
+- "https"
+- "http"
+paths:
+  /list_admins:
+    post:
+      summary: "Get List of System Users"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                filtered: 
+                  type: object
+                  properties:
+                    filter_status:
+                      type: string
+                page: 
+                  type: integer
+                pageSize: 
+                  type: string
+                sorted: 
+                  type: array
+                  items:
+                    type: object
+      security:
+        - api_key: []
+      responses:
+        "200":
+          description: "List of System Users"
+          schema:
+            type: object
+            properties:
+              data:
+                type: "object"
+                properties:
+                  archive: 
+                    type: integer
+                  email: 
+                    type: string
+                  firstname: 
+                    type: string
+                  gender: 
+                    type: string
+                  id: 
+                    type: integer
+                  lastname: 
+                    type: string
+                  phone: 
+                    type: string
+                  status: 
+                    type: integer
+                  username: 
+                    type: string
+              status:
+                  type: boolean
+              msg:
+                type: string
+        "500":
+          description: "Server error"
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"

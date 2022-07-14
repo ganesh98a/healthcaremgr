@@ -1,0 +1,68 @@
+.jq-toast-wrap {
+  width: 400px;
+}
+.jq-toast-wrap .jq-toast-single {
+  width: 400px;
+}
+.jq-toast-wrap .jq-toast-single h2 {
+  font-size: 17px;
+}
+.jq-toast-wrap .jq-toast-single.jq-icon-error {
+  background-color: #f8d7da;
+  color: #670808;
+  border-color: #670808;
+  background-image: none;
+}
+.jq-toast-wrap .jq-toast-single.jq-icon-error .jq-toast-loaded {
+  background-color: #670808 !important;
+}
+.jq-toast-wrap .jq-toast-single.jq-icon-success {
+  background-color: #d4edda;
+  color: #155724;
+  border-color: #155724;
+  background-image: none;
+}
+.jq-toast-wrap .jq-toast-single.jq-icon-success .jq-toast-loaded {
+  background-color: #155724 !important;
+}
+
+.jq-icon-error::before {
+  content: "r" !important;
+  font-family: "appliedjobportalrequitement" !important;
+  font-size: 35px;
+  text-align: center;
+}
+
+.jq-icon-success::before {
+  content: "s" !important;
+  font-family: "appliedjobportalrequitement" !important;
+  font-size: 35px;
+  text-align: center;
+}
+
+.jq-has-icon {
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: 50px 1fr 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.close-jq-toast-single {
+  font-size: 17px;
+}
+
+.jq-toast-single.jq-has-icon.jq-icon-error::after,
+.jq-toast-single.jq-has-icon.jq-icon-success::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: fixed;
+  background: #00000057;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=tosty_msg.css.map */

@@ -1,0 +1,54 @@
+{
+    "safety_checklist_categories": [
+        {
+            "name": "ACCESS TO PROPERTY",
+            "items": [
+                "Is there more than one level on the property?",
+                "If I need them, are there working lifts or accessible stairways?",
+                "Are any entrances/exits to the property obstructed in any way, or could they pose a risk to safety? Eg, broken/uneven stairs",
+                "Is there difficulty with mobile phone reception?",
+                "Is there a safe place to park my car?",
+                "Is there a working landline (home phone) on the property?",
+                "Is there more than 1 entry or exit point to the property?"
+            ]
+        },
+        {
+            "name": "ENVIRONMENTAL HAZARDS",
+            "items": [
+                "Is there adequate lighting/ventilation inside?",
+                "Are there any trip or slip hazards?",
+                "Are there any fire hazards?",
+                "Are smoke detectors present and maintained?",
+                "Do you have all the required equipment to work safely within your home?",
+                "Do you have any pets/animals on the property?",
+                "Can the animals be put in a room or outside during home visits, if needs be?",
+                "Where does the pet go to the toilet?"
+            ]
+        },
+        {
+            "name": "OCCUPANTS",
+            "items": [
+                "Do you or other occupants in the house smoke inside?",
+                "Do you or any other occupants have a known history of physical violence?",
+                "Are there any other occupants or visitors who may be present during home visits?",
+                "Does the client or any other occupants have use of firearms in the past?"
+            ]
+        },
+        {
+            "name": "SERVICE DELIVERY",
+            "items": [
+                "Is manual handling required?",
+                "Is any equipment in working order?",
+                "If medication is administered by ONCALL,?",
+                "If so,has an ONCALL medication treatment sheet been completed?",
+                "Is medication stored safely?",
+                "Any other risks/issues to report?",
+                "Do you use communication aides?",
+                "Do you use any mobility aides?",
+                "If so, is this equipment safe and maintained?",
+                "Are there any biological hazards (could the staff come into contact with any body fluids)?",
+                "Is there appropriate PPE available for personal care?"
+            ]
+        }
+    ]
+}

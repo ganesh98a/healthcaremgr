@@ -1,0 +1,85 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.22"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/admin/Login"
+schemes:
+- "https"
+- "http"
+paths:
+  /check_login:
+    post:
+      summary: "User Login"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                email: 
+                  type: string
+                error: 
+                  type: string
+                loading: 
+                  type: boolean
+                locked_account: 
+                  type: boolean
+                member_id: 
+                  type: integer
+                old_account: 
+                  type: boolean
+                password: 
+                  type: string
+                pin: 
+                  type: string
+                pin_resent: 
+                  type: string
+                remember: 
+                  type: string
+                serial: 
+                  type: string
+                success: 
+                  type: string
+      security:
+        - api_key: []
+      responses:
+        "200":
+          description: "Success"
+          schema:
+            type: object
+            properties:
+              status:
+                type: boolean
+                example: true | false
+              error:
+                type: string
+        "500":
+          description: "Server error"
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"
+definitions:
+  date:
+    type: string
+    format: date
+    pattern: /([0-9]{4})-(?:[0-9]{2})-([0-9]{2})/
+    example: "2019-05-17"
+  datetime:
+    type: string
+    format: date-time
+    pattern: /([0-9]{4})-(?:[0-9]{2})-([0-9]{2}) (\d{2}):(\d{2}):(\d{2})/
+    example: "2019-05-17 00:00:00"

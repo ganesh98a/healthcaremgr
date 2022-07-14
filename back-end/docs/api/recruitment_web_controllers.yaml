@@ -1,0 +1,578 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.24"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/recruitment/Recruitment_member"
+schemes:
+- "https"
+- "http"
+paths:
+  /update_shift_status:
+    post:
+      summary: "Updates shift status"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            id:
+              type: integer
+              example: 35
+            status:
+              type: integer
+              example: 3
+            applicant_id:
+              type: integer
+              example: 110
+            member_id: 
+              type: integer
+              example: 23
+            token: 
+              type: string
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "Successfully updated the shift status"
+          schema:
+            type: object
+            properties:
+              data: 
+                type: array
+                items:
+                  type: string  
+                example: '[]'
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+  /get_shift_member_details_frm_member_id:
+    post:
+      summary: "Get details of shift member assignment"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            applicant_id:
+              type: integer
+              example: 110
+            member_id: 
+              type: integer
+              example: 23
+            token: 
+              type: string
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+            id:
+              type: integer
+              example: 23
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/shift_member_details"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_shift_status_portal:
+    post:
+      summary: "Returns Array of shift statuses"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            applicant_id:
+              type: integer
+              example: 110
+            member_id: 
+              type: integer
+              example: 23
+            token: 
+              type: string
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        200:
+          description: "OK"
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/tupple"
+  /get_shift_details:
+    post:
+      summary: "Get details of shift"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            applicant_id:
+              type: integer
+              example: 110
+            member_id: 
+              type: integer
+              example: 23
+            token: 
+              type: string
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+            id:
+              type: integer
+              example: 23
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/shift_details"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /get_shifts_member:
+    post:
+      summary: "Get the list of all shifts available or accepted by a member"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            applicant_id:
+              type: integer
+              example: 110
+            member_id: 
+              type: integer
+              example: 23
+            type:
+              type: string
+              example: available
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+            page:
+              type: integer
+              example: 0
+            pageSize:
+              type: integer
+              example: 9999
+      responses:
+        "200":
+          description: "successful fetching of shifts list"
+          schema:
+            properties:
+              data:
+                $ref: "#/definitions/shifts_list"
+              status:
+                type: boolean 
+        "500":
+          description: "Server error"
+  /create_update_shift_portal:
+    post:
+      summary: "Updates shift information"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            id:
+              type: integer
+              example: 35
+            applicant_id:
+              type: integer
+              example: 110
+            member_id: 
+              type: integer
+              example: 23
+            actual_end_date: 
+              type: date
+              example: "2020-02-02"
+            actual_end_time: 
+              type: time
+              example: "02:30 PM"
+            actual_reimbursement: 
+              type: float
+              example: "1.00"
+            actual_rows:
+              type: array
+                items:
+                $ref: "#/definitions/breaks"
+            actual_start_date:
+              type: date
+              example: "2020-02-02"
+            actual_start_time: 
+              type: time
+              example: "02:30 PM"
+            actual_travel:
+              type: float
+              example: "1.00"
+            notes:
+              type: string
+              example: "my notes"
+            shift_no:
+              type: string
+              example: "ST000000190"
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "Successfully updated the shift information"
+          schema:
+            type: object
+            properties:
+              data: 
+                type: array
+                example: 'Successfully updated the shift information'
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+  /calculate_shift_duration:
+    post:
+      summary: "Calculating shift duration"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            applicant_id:
+              type: integer
+              example: 110
+            member_id: 
+              type: integer
+              example: 23
+            actual_end_date: 
+              type: date
+              example: "2020-02-02"
+            actual_end_time: 
+              type: time
+              example: "02:30 PM"
+            actual_rows:
+              type: array
+                items:
+                $ref: "#/definitions/breaks"
+            actual_start_date:
+              type: date
+              example: "2020-02-02"
+            actual_start_time: 
+              type: time
+              example: "02:30 PM"
+            scheduled_end_date: 
+              type: date
+              example: "2020-02-02"
+            scheduled_end_time: 
+              type: time
+              example: "02:30 PM"
+            scheduled_rows:
+              type: array
+                items:
+                $ref: "#/definitions/breaks"
+            scheduled_start_date:
+              type: date
+              example: "2020-02-02"
+            scheduled_start_time: 
+              type: time
+              example: "02:30 PM"
+            token: 
+              type: text
+              example: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlByYW5hdi5HYWpqYXJAYW1waW9uLmNvbS5hdTIwMjAtMTAtMjAgMTA6MDE6MDIi
+      responses:
+        "200":
+          description: "Successful calculating of shift duration"
+          schema:
+            type: object
+            properties:
+              data: 
+                type: string
+                example: HH:MM
+              status: 
+                type: boolean
+                example: true
+        "500":
+          description: "Server error"
+definitions:
+  date:
+    type: string
+    format: date
+    pattern: /([0-9]{4})-(?:[0-9]{2})-([0-9]{2})/
+    example: "2019-05-17"
+  datetime:
+    type: string
+    format: date-time
+    pattern: /([0-9]{4})-(?:[0-9]{2})-([0-9]{2}) (\d{2}):(\d{2}):(\d{2})/
+    example: "2019-05-17 00:00:00"
+  time:
+    type: string
+    format: time
+    pattern: /(\d{2}):(\d{2}):(\d{2}) (AM|PM)/
+    example: "02:30 PM"
+  shift_member_details:
+    type: object
+    properties:
+      id:
+        type: integer
+      member_id:
+        type: integer
+      shift_id:
+        type: integer
+      shift_no:
+        type: string
+      status:
+        type: integer
+      created:
+        $ref: '#/definitions/datetime'
+      created_by:
+        type: integer
+      updated:
+        $ref: '#/definitions/datetime'
+      updated_by:
+        type: integer
+      archive:
+        type: integer
+  shift_details:
+    type: object
+    properties:
+      accepted_shift_member_id:
+        type: integer
+      account_id:
+        type: integer
+      account_person:
+        type: array
+        items:
+          $ref: "#/definitions/tupple"
+      account_type:
+        type: integer
+      accountlabel:
+        type: string
+      actual_end_date:
+        $ref: '#/definitions/date'
+      actual_end_datetime:
+        $ref: '#/definitions/datetime'
+      actual_end_time:
+        $ref: '#/definitions/datetime'
+      actual_paid_break:
+        type: integer
+      actual_rows:
+        type: array
+        items:
+          $ref: "#/definitions/breaks"
+      actual_start_date:
+        $ref: '#/definitions/date'
+      actual_start_datetime:
+        $ref: '#/definitions/datetime'
+      actual_start_time:
+        $ref: '#/definitions/datetime'
+      actual_travel:
+        type: integer
+      actual_unpaid_break:
+        type: integer
+      archive:
+        type: integer
+      cancel_notes:
+        type: string
+      cancel_reason_id:
+        type: integer
+      cancel_reason_label:
+        type: string
+      contact_person:
+        type: array
+        items:
+          $ref: "#/definitions/tupple"
+      contactemail:
+        type: string
+      contactlabel:
+        type: string
+      contactphone:
+        type: string
+      contactvalue:
+        type: string
+      created:
+        $ref: '#/definitions/datetime'
+      created_by:
+        type: integer
+      description:
+        type: string
+      id:
+        type: integer
+      notes:
+        type: string
+      org_type:
+        type: string
+      owner_id:
+        type: integer
+      owner_person:
+        type: array
+        items:
+          $ref: "#/definitions/tupple"
+      ownerlabel:
+        type: string
+      ownervalue:
+        type: integer
+      person_id:
+        type: integer
+      role_details:
+        type: array
+        items:
+          $ref: "#/definitions/tupple"
+      role_id:
+        type: integer
+      rolelabel:
+        type: string
+      scheduled_end_date:
+        $ref: '#/definitions/date'
+      scheduled_end_datetime:
+        $ref: '#/definitions/datetime'
+      scheduled_end_time:
+        $ref: '#/definitions/datetime'
+      scheduled_paid_break:
+        type: integer
+      scheduled_paid_rows: 
+        type: array
+        items:
+          $ref: "#/definitions/breaks"
+      scheduled_rows: 
+        type: array
+        items:
+          $ref: "#/definitions/breaks"
+      scheduled_sleepover_rows: 
+        type: array
+        items:
+          $ref: "#/definitions/breaks"
+      scheduled_start_date:
+        $ref: '#/definitions/date'
+      scheduled_start_datetime:
+        $ref: '#/definitions/datetime'
+      scheduled_start_time:
+        $ref: '#/definitions/datetime'
+      scheduled_travel:
+        type: integer
+      scheduled_unpaid_break:
+        type: integer
+      scheduled_unpaid_rows: 
+        type: array
+        items:
+          $ref: "#/definitions/breaks"
+      shift_no:
+        type: string
+      status:
+        type: integer
+      status_label:
+        type: string
+      updated:
+        $ref: '#/definitions/datetime'
+      updated_by:
+        type: integer
+  tupple:
+    type: object
+    properties:
+      label:
+        type: string
+      value:
+        type: integer
+  breaks:
+    type: object
+    properties:
+      break_duration:
+        $ref: '#/definitions/datetime'
+      break_end_time:
+        $ref: '#/definitions/datetime'
+      break_start_time:
+        $ref: '#/definitions/datetime'
+      break_type:
+        type: integer
+      duration_disabled:
+        type: boolean
+      id:
+        type: integer
+      shift_id:
+        type: integer
+      timing_disabled:
+        type: boolean
+  shifts_list:
+    type: object
+    properties:
+      account_fullname:
+        type: string
+      actions:
+        type: string
+      fullname:
+        type: string
+      id:
+        type: integer
+      member_id:
+        type: integer
+      role_name:
+        type: string
+      scheduled_end_datetime:
+        type: datetime
+      scheduled_start_datetime:
+        type: datetime
+      shift_id:
+        type: integer
+      shift_no:
+        type: string
+      status:
+        type: integer
+      status_label:
+        type: string

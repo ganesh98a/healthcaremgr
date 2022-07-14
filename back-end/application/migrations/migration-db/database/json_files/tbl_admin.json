@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "companyId": "1",
+    "username": "admin",
+    "password": "$2y$10$huP4sngfAygqEPXCJV5N8OTJxOUyIiWJnoCLj5c.lHkm0zp77aVQe",
+    "pin": "$2y$10$huP4sngfAygqEPXCJV5N8OTJxOUyIiWJnoCLj5c.lHkm0zp77aVQe",
+    "firstname": "Super",
+    "lastname": "Admin",
+    "profile": "",
+    "position": "",
+    "department": "",
+    "status": "1",
+    "background": "",
+    "gender": "1",
+    "token": "",
+    "archive": "0",
+    "created": "0000-00-00 00:00:00"
+  }
+]

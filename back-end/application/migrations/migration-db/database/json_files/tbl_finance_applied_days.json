@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"name": "Weekday",
+		"key_name": "weekday",
+		"archive": 0,
+		"created_at": "2020-05-04 18:55:00"
+	},
+	{
+		"id": 2,
+		"name": "Saturday",
+		"key_name": "saturday",
+		"archive": 0,
+		"created_at": "2020-05-04 18:55:00"
+	},
+	{
+		"id": 3,
+		"name": "Sunday",
+		"key_name": "sunday",
+		"archive": 0,
+		"created_at": "2020-05-04 18:55:00"
+	},
+	{
+		"id": 4,
+		"name": "Public Holiday",
+		"key_name": "public_holiday",
+		"archive": 0,
+		"created_at": "2020-05-04 18:55:00"
+	}
+]

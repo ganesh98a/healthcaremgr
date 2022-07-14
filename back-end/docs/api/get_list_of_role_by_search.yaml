@@ -1,0 +1,57 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.22"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/items/MemberRole"
+schemes:
+- "https"
+- "http"
+paths:
+  /get_role_list_by_search:
+    post:
+      summary: "Get list of roles by search"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                search: 
+                  type: string
+                  example: 'role'
+      security:
+        - api_key: []
+      responses:
+        "200":
+          description: "Get list of roles "
+          schema:
+            type: object
+            properties:
+              data:
+                type: object
+                properties:
+                  value: 
+                    type: integer
+                    example: 1
+                  label: 
+                    type: string
+                    example: 'role'
+        "500":
+          description: "Server error"
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"

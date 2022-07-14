@@ -1,0 +1,119 @@
+[
+    {
+        "id": "1",
+        "parent_id": "0",
+        "description": "Field Staff",
+        "name": "Field Staff",
+        "archive": "0",
+        "created": "2019-07-18 17:44:35",
+        "updated": "2019-07-18 17:44:35"
+    },
+    {
+        "id": "2",
+        "parent_id": "0",
+        "description": "Head Office",
+        "name": "Head Office",
+        "archive": "0",
+        "created": "2019-07-18 17:44:35",
+        "updated": "2019-07-18 17:44:35"
+    },
+    {
+        "id": "3",
+        "parent_id": "1",
+        "description": "Child, Youth & Family",
+        "name": "Child, Youth & Family",
+        "archive": "0",
+        "created": "2019-07-18 17:44:35",
+        "updated": "2019-07-18 17:44:35"
+    },
+    {
+        "id": "4",
+        "parent_id": "1",
+        "description": "Disability",
+        "name": "Disability",
+        "archive": "0",
+        "created": "2019-07-18 17:44:35",
+        "updated": "2019-07-18 17:44:35"
+    },
+    {
+        "id": "5",
+        "parent_id": "1",
+        "description": "NDIS JobReady",
+        "name": "NDIS JobReady",
+        "archive": "0",
+        "created": "2019-07-18 17:44:35",
+        "updated": "2019-07-18 17:44:35"
+    },
+    {
+        "id": "6",
+        "parent_id": "2",
+        "description": "Casual Staff Services",
+        "name": "Casual Staff Services",
+        "archive": "0",
+        "created": "2020-05-04 17:44:35",
+        "updated": "2020-05-04 17:44:35"
+    },
+    {
+        "id": "7",
+        "parent_id": "2",
+        "description": "NDIS Services",
+        "name": "NDIS Services",
+        "archive": "0",
+        "created": "2020-05-04 17:44:35",
+        "updated": "2020-05-04 17:44:35"
+    },
+    {
+        "id": "8",
+        "parent_id": "2",
+        "description": "Accommodation Services",
+        "name": "Accommodation Services",
+        "archive": "0",
+        "created": "2020-05-04 17:44:35",
+        "updated": "2020-05-04 17:44:35"
+    },
+    {
+        "id": "9",
+        "parent_id": "2",
+        "description": "Business Systems",
+        "name": "Business Systems",
+        "archive": "0",
+        "created": "2020-05-04 17:44:35",
+        "updated": "2020-05-04 17:44:35"
+    },
+    {
+        "id": "10",
+        "parent_id": "2",
+        "description": "People and Culture",
+        "name": "People and Culture",
+        "archive": "0",
+        "created": "2020-05-04 17:44:35",
+        "updated": "2020-05-04 17:44:35"
+    },
+    {
+        "id": "11",
+        "parent_id": "2",
+        "description": "Marketing",
+        "name": "Marketing",
+        "archive": "0",
+        "created": "2020-05-04 17:44:35",
+        "updated": "2020-05-04 17:44:35"
+    },
+    {
+        "id": "12",
+        "parent_id": "2",
+        "description": "Finance",
+        "name": "Finance",
+        "archive": "0",
+        "created": "2020-05-04 17:44:35",
+        "updated": "2020-05-04 17:44:35"
+    },
+    {
+        "id": "13",
+        "parent_id": "2",
+        "description": "Corporate",
+        "name": "Corporate",
+        "archive": "0",
+        "created": "2020-05-04 17:44:35",
+        "updated": "2020-05-04 17:44:35"
+    }
+]

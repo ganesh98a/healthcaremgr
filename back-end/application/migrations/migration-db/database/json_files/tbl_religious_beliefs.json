@@ -1,0 +1,11 @@
+[
+{"id":"1","name":"Anglican","order":"1","created":"2019-12-02 16:20:48","archive":"0"},
+{"id":"2","name":"Atheist","order":"2","created":"2019-12-02 16:20:48","archive":"0"},
+{"id":"3","name":"Buddhist","order":"3","created":"2019-12-02 16:20:48","archive":"0"},
+{"id":"4","name":"Catholic","order":"4","created":"2019-12-02 16:20:48","archive":"0"},
+{"id":"5","name":"Other Christian","order":"5","created":"2019-12-02 16:20:48","archive":"0"},
+{"id":"6","name":"Hindi","order":"6","created":"2019-12-02 16:20:48","archive":"0"},
+{"id":"7","name":"Islamic","order":"7","created":"2019-12-02 16:20:48","archive":"0"},
+{"id":"8","name":"Judaism","order":"8","created":"2019-12-02 16:20:48","archive":"0"},
+{"id":"9","name":"Sikhism","order":"9","created":"2019-12-02 16:20:48","archive":"0"}
+]

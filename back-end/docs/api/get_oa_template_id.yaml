@@ -1,0 +1,133 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.22"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/create_update_oa_template"
+schemes:
+- "https"
+- "http"
+paths:
+    /create_update_oa_template:
+     post:
+      summary: "create Update Assessment Template"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                id: 
+                  type: integer
+                  example: 1
+      security:
+        - api_key: []
+      responses:
+        "200":
+          description: "Create Update Assessment Template"
+          schema:
+            type: "object"
+            properties:
+      data:
+       type: "object"
+      properties:
+    assessment_template:
+     type: "object"
+    properties:
+      title: 
+      type: string
+      example: test new assessment for validation
+      location: 
+        type: integer
+        example: 1
+      job_type: 
+       type: integer
+       example: 3
+      status: 
+       type: integer
+       example: 1
+    question_answers_list:
+       id:
+        type: integer
+        example: '47'
+        question:
+          type: string
+          example: test-1
+        oa_template_id: 
+         type: integer
+         example: 42
+        answer_type:
+         type: integer
+         example: 2
+        grade: 
+         type: integer
+         example: 1
+        is_mandatory: 
+         type: boolean 
+         example:  1
+        archive:
+         type: boolean
+         example: 0
+        created_at: 
+         type: string 
+         example: '2022-03-02 02:53:09'
+        updated_at:
+         type: string 
+         example: '2022-03-02 02:53:09'
+        created_by:
+         type: string 
+         example: '13'
+        updated_by: 
+         type: string 
+         example: '13'
+        options:
+          id: 
+            type: string 
+            example: '93'
+            oa_template_id: 
+             type: string 
+             example: '42'
+            question_id:
+             type: string 
+             example: '47'
+            option: 
+             type: string 
+             example: '1'
+            is_correct: 
+             type: string 
+             example: '1'
+            archive:
+             type: boolean
+             example: 0
+            created_at: 
+             type: string 
+             example: '2022-03-02 02:53:09'
+            updated_at:
+             type: string 
+             example: '2022-03-02 02:53:09'
+            created_by:
+             type: string 
+             example: '13'
+            updated_by: 
+             type: string 
+             example: '13'
+        "500":
+          description: "Server error"
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"
+
+           

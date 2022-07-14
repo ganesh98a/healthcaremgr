@@ -1,0 +1,178 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.22"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/admin/notification"
+schemes:
+- "https"
+- "http"
+paths:
+  /get_notification_without_imail_alert:
+    post:
+      summary: "Get the Notificaiton List"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                pageSize:
+                  type: integer
+                  example: 10
+                page:
+                  type: integer
+                  example: 1
+      responses:
+        "200":
+          description: "List notifications"
+          schema:
+            type: object
+            properties:
+              data:
+                type: object
+                properties:
+                    msg:
+                     type: string
+                     example: 'Notifications fetched successfully.'
+                    status:
+                     type: boolean
+        "500":
+          description: "Server error"
+
+  /update_notification_as_readed:
+    post:
+      summary: "Update notification status"
+      description: "Update notification status as read while clicking the notification"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                notification_id:
+                  type: integer
+                  example: 25
+                index:
+                  type: integer
+                  example: 0
+                url:
+                  type: string
+                  example: "/admin/recruitment/application_quiz/detail/626"
+      responses:
+        "200":
+          description: "Mark Notification as Read"
+          schema:
+            type: object
+            properties:
+              data:
+                type: object
+                properties:
+                    msg:
+                     type: string
+                     example: 'Notifications Marked as Read successfully.'
+                    status:
+                     type: boolean
+        "500":
+          description: "Server error"
+
+  /mark_all_as_read:
+    post:
+      summary: "Update notification status"
+      description: "Update notification status as read while clicking the notification"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                pin:
+                  type: integer
+                  example: 25
+      responses:
+        "200":
+          description: "Mark All Notification as Read"
+          schema:
+            type: object
+            properties:
+              data:
+                type: object
+                properties:
+                    msg:
+                     type: string
+                     example: 'All Notifications Marked as Read successfully.'
+                    status:
+                     type: boolean
+        "500":
+          description: "Server error"
+
+  /remove_notification:
+    post:
+      summary: "Dismiss notification status"
+      description: "Hide notification from notification list"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                notification_id:
+                  type: integer
+                  example: 25
+                index:
+                  type: integer
+                  example: 0
+      responses:
+        "200":
+          description: "Dismiss Notification"
+          schema:
+            type: object
+            properties:
+              data:
+                type: object
+                properties:
+                    msg:
+                     type: string
+                     example: 'Remove Notification from List.'
+                    status:
+                     type: boolean
+        "500":
+          description: "Server error"

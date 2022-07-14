@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "companyId": 1,
+    "api_key": "am9UK2NvRllwY1dOZGRTRU1VK3JKYWZxbEh4VFBrYVhiNWlFdmFUSzYvYXdyOXVKdy8zWkRPTnJOblFEVXVWVQ",
+    "business_id": "88006",
+    "status": 0
+  },
+  {
+    "id": 2,
+    "companyId": 1,
+    "api_key": "aGNDbnNqV3BWVk1KN2h0MmdmR3ArZz09",
+    "business_id": "144956",
+    "status": 0
+  },
+  {
+    "id": 3,
+    "companyId": 1,
+    "api_key": "anZYcyt5aGdHZVN6a2hEYWt3VDVlSTEwZEZjdXhLakZ2Z01LbXZqUkFOTGdXRWtoWnNWdzFWYW9TS3h5cDBJTA",
+    "business_id": "204022",
+    "location_id": "546957",
+    "status": 1
+  }
+]

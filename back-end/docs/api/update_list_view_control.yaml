@@ -1,0 +1,68 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.22"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/sales/ListViewControls"
+schemes:
+- "https"
+- "http"
+paths:
+  /create_update_list_view_controls:
+    post:
+      summary: "Updating the list view control"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: object
+          properties:
+            data:
+              type: "object"
+              properties:
+                filter_list_id:
+                  type: integer
+                  example: 10
+                user_view_by: 
+                  type: integer
+                  example: 1
+                list_name: 
+                  type: string
+                  example: 'public list'
+                related_type: 
+                  type: integer
+                  example: 1
+                shareSettings:
+                   type: boolean
+                   example: false
+      security:
+        - api_key: []
+      responses:
+        "200":
+          description: "Updating the list view control"
+          schema:
+            type: object
+            properties:
+              data:
+                type: object
+                properties:
+                    msg: 
+                     type: string
+                     example: 'List view controls has been updated successfully.'
+                    status: 
+                     type: boolean
+        "500":
+          description: "Server error"
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"

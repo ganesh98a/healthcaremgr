@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "title": "Docs Required (Apply Job)",
+        "key_name": "apply_job",
+        "archive": "0"
+    },
+    {
+        "id": "2",
+        "title": "Docs Required (Recruitment Stage)",
+        "key_name": "recruitment_stage",
+        "archive": "0"
+    }
+]

@@ -1,0 +1,731 @@
+[
+    {
+        "assessment_template":
+        {
+            "title": "CYF Template",
+            "location": "NA",
+            "job_type": "3",
+            "status": "1"
+        },
+        "question_answers_list": [
+        {
+            "serial_no": "1",
+            "question": "If a young person's mother calls and asks to speak to the young person, it is a requirement that you allow the young person speak to their mother.",           
+            "answer_type": "3",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "options": [
+            {               
+                "option": "True",
+                "is_correct": "0",
+                "archive": "0",                
+                "blank_question_position": null
+            },
+            {               
+                "option": "False",
+                "is_correct": "1",
+                "archive": "0",               
+                "blank_question_position": null
+            }]
+        },
+        {
+            "serial_no": "2",
+            "question": "All behaviour has meaning.",           
+            "answer_type": "3",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",           
+            "options": [
+            {               
+                "option": "True",
+                "is_correct": "1",
+                "archive": "0",                
+                "blank_question_position": null
+            },
+            {               
+                "option": "False",
+                "is_correct": "0",
+                "archive": "0",               
+                "blank_question_position": null
+            }]
+        },
+        {
+            "serial_no": "3",
+            "question": "It is okay to give a client my personal phone number if it is an emergency.",           
+            "answer_type": "3",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",           
+            "options": [
+            {               
+                "option": "True",
+                "is_correct": "0",
+                "archive": "0",                
+                "blank_question_position": null
+            },
+            {               
+                "option": "False",
+                "is_correct": "1",
+                "archive": "0",               
+                "blank_question_position": null
+            }]
+        },
+        {
+            "serial_no": "4",
+            "question": "Adding a client on Facebook is a breach of ONCALL Social Media Policy.",
+            "answer_type": "3",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",           
+            "options": [
+            {               
+                "option": "True",
+                "is_correct": "1",
+                "archive": "0",                
+                "blank_question_position": null
+            },
+            {               
+                "option": "False",
+                "is_correct": "0",
+                "archive": "0",               
+                "blank_question_position": null
+            }]
+        },
+        {
+            "serial_no": "5",
+            "question": "If a client advises me of abuse or neglect, it is my responsibility to report it.",
+            "answer_type": "3",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",           
+            "options": [
+            {               
+                "option": "True",
+                "is_correct": "1",
+                "archive": "0",                
+                "blank_question_position": null
+            },
+            {               
+                "option": "False",
+                "is_correct": "0",
+                "archive": "0",               
+                "blank_question_position": null
+            }]
+        },
+        {
+            "serial_no": "6",
+            "question": "Physical restraint is the only restrictive practice.",
+            "answer_type": "3",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",           
+            "options": [
+            {               
+                "option": "True",
+                "is_correct": "0",
+                "archive": "0",                
+                "blank_question_position": null
+            },
+            {               
+                "option": "False",
+                "is_correct": "1",
+                "archive": "0",               
+                "blank_question_position": null
+            }]
+        },
+        {
+            "serial_no": "7",
+            "question": "Failure to report an incident while I am on shift is a breach of my Duty of Care.",
+            "answer_type": "3",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",           
+            "options": [
+            {               
+                "option": "True",
+                "is_correct": "1",
+                "archive": "0",                
+                "blank_question_position": null
+            },
+            {               
+                "option": "False",
+                "is_correct": "0",
+                "archive": "0",               
+                "blank_question_position": null
+            }]
+        },
+        {
+            "serial_no": "8",
+            "question": "If I am only 5 minutes late, it is unnecessary to call the client and let them know, and there is no need to update my timesheet.",
+            "answer_type": "3",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",           
+            "options": [
+            {               
+                "option": "True",
+                "is_correct": "0",
+                "archive": "0",                
+                "blank_question_position": null
+            },
+            {               
+                "option": "False",
+                "is_correct": "1",
+                "archive": "0",               
+                "blank_question_position": null
+            }]
+        },
+        {
+            "serial_no": "9",
+            "question": "If a young person is exhibiting behaviour of concern, they are most likely attention-seeking or trying to irritate me.",
+            "answer_type": "3",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",           
+            "options": [
+            {               
+                "option": "True",
+                "is_correct": "0",
+                "archive": "0",                
+                "blank_question_position": null
+            },
+            {               
+                "option": "False",
+                "is_correct": "1",
+                "archive": "0",               
+                "blank_question_position": null
+            }]
+        },
+        {
+            "serial_no": "10",
+            "question": "It is okay for me to identify clients whilst speaking with my family, friends or others, especially when debriefing them about what happened on a shift.",
+            "answer_type": "3",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",           
+            "options": [
+            {               
+                "option": "True",
+                "is_correct": "0",
+                "archive": "0",                
+                "blank_question_position": null
+            },
+            {               
+                "option": "False",
+                "is_correct": "1",
+                "archive": "0",               
+                "blank_question_position": null
+            }]
+        },
+        {           
+            "serial_no": "11",
+            "question": "What is the correct spelling for the following word?",
+            "answer_type": "2",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",           
+            "options": [
+                {               
+                    "option": "Availablle",
+                    "is_correct": "0",
+                    "archive": "0",              
+                    "blank_question_position": null
+                },
+                {
+                    "option": "Availuble",
+                    "is_correct": "0",
+                    "archive": "0",
+                    "blank_question_position": null
+                },
+                {
+                    "option": "Available",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+            ]
+        },
+        {
+            "serial_no": "12",
+            "question": "What is the correct spelling for the following word?",
+            "answer_type": "2",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",           
+            "options": [
+                {               
+                    "option": "Medicatiun",
+                    "is_correct": "0",
+                    "archive": "0",              
+                    "blank_question_position": null
+                },
+                {
+                    "option": "Medication",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": null
+                },
+                {
+                    "option": "Meedication",
+                    "is_correct": "0",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+            ]
+        },
+        {
+            "serial_no": "13",
+            "question": "What is the correct spelling for the following word?",
+            "answer_type": "2",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",           
+            "options": [
+                {               
+                    "option": "Acommodation",
+                    "is_correct": "0",
+                    "archive": "0",              
+                    "blank_question_position": null
+                },
+                {
+                    "option": "Accomodation",
+                    "is_correct": "0",
+                    "archive": "0",
+                    "blank_question_position": null
+                },
+                {
+                    "option": "Accommodation",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+            ]
+        },
+        {
+            "serial_no": "14",
+            "question": "What is the correct spelling for the following word?",
+            "answer_type": "2",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",           
+            "options": [
+                {               
+                    "option": "Argument",
+                    "is_correct": "1",
+                    "archive": "0",              
+                    "blank_question_position": null
+                },
+                {
+                    "option": "Arguement",
+                    "is_correct": "0",
+                    "archive": "0",
+                    "blank_question_position": null
+                },
+                {
+                    "option": "Arcuement",
+                    "is_correct": "0",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+            ]
+        },
+        {
+            "serial_no": "15",
+            "question": "Which word would best replace the missing word? <br><br>Occupational Health & Safety hazards could be _______________________ by ensuring good work practices within the workplace.",
+            "answer_type": "2",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",           
+            "options": [
+                {
+                    "option": "Deficient",
+                    "is_correct": "0",
+                    "archive": "0",
+                    "blank_question_position": null
+                },
+                {
+                    "option": "Eluded",
+                    "is_correct": "0",
+                    "archive": "0",
+                    "blank_question_position": null
+                },
+                {
+                    "option": "Reduced",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": null
+                },
+                {
+                    "option": "Increased",
+                    "is_correct": "0",
+                    "archive": "0",
+                    "blank_question_position": null
+                },
+                {
+                    "option": "Removed",
+                    "is_correct": "0",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+            ]
+        },
+        {
+            "serial_no": "16",
+            "question": "Arriving at shift the staff member was told to sign they're name in the communicasion diary. <br/><strong>Replace the misspelled words in the sentence above by filling in the blanks below:</strong>",
+            "answer_type": "6",
+            "blank_question_type": "1",
+            "fill_up_formatted_question": "Arriving at shift the staff member was told to sign {{INPUT_OPTION}} name in the {{INPUT_OPTION}} diary.",
+            "follow_up_questions_crp": "0",
+            "grade": "2",
+            "is_mandatory": "1",
+            "archive": "0",            
+            "options": [
+                {
+                    "option": "their",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": 0
+                },
+                {
+                    "option": "communication",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": 1
+                }
+            ]
+        },
+        {
+            "serial_no": "17",
+            "question": "<strong>Read the following passage and answer the related questions:</strong> <br><br> Tina is a 15 year old girl who is new to Out of Home Care placement. Tina has been exhibiting behaviour of concern, and has been placed on a Temporary Assessment Order (TAO). Not all of Tina's triggers have been identified, but the following has been noted:<br><br>- Difficulty engaging with female staff and observed to be at a higher risk of aggression when supported by a female only shift. <br>- Actively seeks to leave when confronted with violent situations.<br>- Displays innappropriate sexual behaviour, and requires high level of supervision to minimise risks to herself and the other young people with which she resides.<br><br>Strategies to support Tina with her behaviour have been documented in her Positive Behaviour Support Plan. <br><br>You are contacted by ONCALL and requested to do an active night shift. Upon arrival you notice a commotion in the house. You observe 2 young people in a physical altercation and your co-worker attempting to diffuse the situation. Following the altercation, one of the young people decides to press charges. Your co-worker also notes that during the altercation he lost track of Tina, who has fled placement.<br>",           
+            "answer_type": "5",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "3",
+            "grade": "0",
+            "is_mandatory": "0",
+            "archive": "0",           
+            "options": []
+        },
+        {
+            "serial_no": "17a",
+            "question": "Name the 3 occurrences that would need to be listed in the Incident Report:",
+            "answer_type": "4",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "3",
+            "is_mandatory": "1",
+            "archive": "0",
+            "options": [],            
+            "suggest_answer": "1 - Details of 2 young people in a physical altercation<br><br>2 - One of the young people decides to press charges<br><br>3 - Tina has fled placement"
+        },
+        {            
+            "serial_no": "17b",
+            "question": "What 2 triggers have already been identified in relation to Tina?",
+            "answer_type": "4",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "2",
+            "is_mandatory": "1",
+            "archive": "0",
+            "options": [],
+            "suggest_answer": "1 - Being supported by female staff / female-only shift<br><br>2 - Confronted with violent situation"
+        },
+        {
+            "serial_no": "17c",
+            "question": "What document identifies strategies to deal with some of these behaviours?",
+            "answer_type": "4",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "options": [],
+            "suggest_answer": "Positive Behaviour Support Plan"
+        },
+        {
+            "serial_no": "18",
+            "question": "Jenny has a shift that is due to commence at 3:30pm in Camberwell. She lives in Mitcham and will use public transport that will take half an hour to get to Camberwell.",           
+            "answer_type": "5",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "1",
+            "grade": "0",
+            "is_mandatory": "0",
+            "archive": "0",           
+            "options": []
+        },
+        {
+            "serial_no": "18",
+            "question": "What time will Jenny need to catch the public transport?",
+            "answer_type": "4",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "options": [
+                {
+                    "option": "3:00pm (from Mitcham)",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+            ]
+        },
+        {
+            "serial_no": "19",
+            "question": "Mrs Jangles is waiting for a train that is due to arrive at Flinders Street Station at 7:45pm. When she boards the train, it will take 15 minutes for the train to arrive at her destination, Parliament Station.",           
+            "answer_type": "5",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "1",
+            "grade": "0",
+            "is_mandatory": "0",
+            "archive": "0",           
+            "options": []
+        },
+        {
+            "serial_no": "19",
+            "question": "What time will the train arrive at Mrs Jangles' destination, assuming it is on time?",
+            "answer_type": "4",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "options": [
+                {
+                    "option": "8:00pm (at Parliament Station)",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+            ]
+        },
+        
+        {
+            "serial_no": "20",
+            "question": "You are required to count your client's cash. What is the total of the following. ",
+            "answer_type": "5",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "5",
+            "grade": "0",
+            "is_mandatory": "1",
+            "archive": "0",
+            "options": []
+        },
+        {
+            "serial_no": "20a",
+            "question": "6 x $2 coins ",
+            "answer_type": "7",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "options": [
+                {
+                    "option": "12.00",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+            ]
+        },
+        {
+            "serial_no": "20b",
+            "question": "2 x $5 notes and 1 x $20 note",
+            "answer_type": "7",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "options": [
+                {
+                    "option": "30.00",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+            ]
+        },
+        {
+            "serial_no": "20c",
+            "question": "4 x $20 notes",
+            "answer_type": "7",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "options": [
+                {
+                    "option": "80.00",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+            ]
+        },
+        {
+            "serial_no": "20d",
+            "question": "7 x 50 cent coins",
+            "answer_type": "7",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "options": [
+                {
+                    "option": "3.50",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+            ]
+        },
+        {
+            "serial_no": "20e",
+            "question": "3 x $5 notes, 1 x $10 note and 3 x $20 notes",
+            "answer_type": "7",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "options": [
+                {
+                    "option": "85.00",
+                    "is_correct": "1",
+                    "archive": "0",
+                    "blank_question_position": null
+                }
+            ]
+        },
+        {
+            "serial_no": "21",
+            "question": "What is your understanding of Residential Care? List 5 day-to-day duties required to maintain a residential household.",
+            "answer_type": "4",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "5",
+            "is_mandatory": "1",
+            "archive": "0",
+            "options": [],
+            "suggest_answer": "Residential Care description guidance:<br><br>Provides short, medium and long term out-of-home care in a variety of settings for children and young people aged 0-18 years who can display multiple and complex needs and are involved in the Child Protection system.<br><br>Correct duties may include:<br><br>- Shift reports<br>- Transporting young people to appointments, school, community access, family contact<br>- Behaviour support<br>- Following Positive Behaviour Support Plans<br>- Assisting with daily activities e.g. chores, homework, cooking<br>- Role-modelling<br>- Mentoring<br>- Assisting with skill-building<br>- Counting petty cash<br>- Medication administration<br>- Following daily schedule<br>- Domestic duties e.g. cooking, cleaning, washing"
+        },
+        {
+            "serial_no": "22",
+            "question": "Name 3 stakeholders involved with a young person in care that you may be required to work with, thinking about 'Care Team' members?",
+            "answer_type": "4",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "3",
+            "is_mandatory": "1",
+            "archive": "0",
+            "options": [],
+            "suggest_answer": "Correct Care Team options include:<br><br>- GP<br>- Psychologist<br>- Case Manager<br>- Guardian<br>- Support Coordinator<br>- DHHS representative<br>- House Coordinator<br>- School representative<br>- Cultural representative<br>- Parents & Family members<br>- Youth workers"
+        },
+        {
+            "serial_no": "23",
+            "question": "What is the legislation in relation to working with young people in Child Protection? What other policies do you feel are important to be familiar with when working within residential care?",
+            "answer_type": "4",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "1",
+            "is_mandatory": "1",
+            "archive": "0",
+            "options": [],
+            "suggest_answer": "Children, Youth and Families Act 2005<br><br>Child Wellbeing and Safety Act (2005)<br>Commission for Children and Young People Act (2012)<br>Family Violence Protection Act (2008)<br>Children and Justice Legislation Amendment (Youth Justice Reform) Act 2017"
+        },
+        {
+            "serial_no": "24",
+            "question": "List 3 types of behaviours you might have to manage within residential care, with young people who have experienced trauma and neglect.",
+            "answer_type": "4",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "3",
+            "is_mandatory": "1",
+            "archive": "0",
+            "options": [],
+            "suggest_answer": "Correct options include:<br><br>- Verbal abuse (yelling, swearing, threatening)<br>- Physical violence (pushing, punching, using weapons)<br>- Inappropriate sexual behaviour<br>- Absconding/fleeing<br>- Property damage<br>- Drug and alcohol use<br>- Self-harm<br>- Inability to self-regulate<br>- Anxiousness/depression<br>- Refusing to engage in schedule (showering, medication, school)<br>- Withdrawal and self isolation<br>- Lack of engagement<br>- Reduced personal care"
+        },
+        {
+            "serial_no": "25",
+            "question": "Residential Care and Youth Work can be a very demanding vocation. Describe 3 self-care strategies you have, or can put into place, to deal with personal stress.",
+            "answer_type": "4",
+            "blank_question_type": "0",
+            "fill_up_formatted_question": "",
+            "follow_up_questions_crp": "0",
+            "grade": "3",
+            "is_mandatory": "1",
+            "archive": "0",
+            "options": [],
+            "suggest_answer": "Examples may include:<br><br>- Ensuring I don’t do too many shifts in a week<br>- Making time for myself<br>- Spending time with friends<br>- Spending time outdoors<br>- Getting fresh air and sunshine<br>- Taking a regular holiday with my family<br>- Practicing mindfulness and gratitude<br>- Meditation<br>- Eating healthy and nutritious food<br>- Getting some exercise / engaging in sports<br>- Engaging in a hobby<br>- Relaxing on the couch watching a film/TV<br>- Reading<br>- Getting a massage / personal pampering"
+        }
+    ]
+    }
+]

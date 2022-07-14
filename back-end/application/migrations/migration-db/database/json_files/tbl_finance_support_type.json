@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"type": "Self Care",
+		"key_name": "self_care",
+		"archive": 0,
+		"created_at": "2020-05-04 18:55:00"
+	},
+	{
+		"id": 2,
+		"type": "Cleaning",
+		"key_name": "cleaning",
+		"archive": 0,
+		"created_at": "2020-05-04 18:55:00"
+	},
+	{
+		"id": 3,
+		"type": "Establishment Fee",
+		"key_name": "establishment_fee",
+		"archive": 0,
+		"created_at": "2020-05-04 18:55:00"
+	},
+	{
+		"id": 4,
+		"type": "Comm Access",
+		"key_name": "comm_access",
+		"archive": 0,
+		"created_at": "2020-05-04 18:55:00"
+	}
+]

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitment Job</title>
+    <link href="css/jquery.toast.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/responsive_style.css" rel="stylesheet" />
+    <link href="css/icons.css" rel="stylesheet" />
+  
+
+</head>
+
+<body>
+
+    <div>
+        <div class="main_page_template_hcm_app">
+            <div class="left_side"></div>
+            <div class="right_side">
+                <div>
+                    <div class="main_logo"><img src="http://localhost:82/BitBucket_Dir/OCS_Dev/admin/back-end/assets/preview_job/img/ocs_logo.svg" /></div>
+                    <div>
+                        <div class="pt-5">
+                            <h5><strong>Job description:</strong></h5>
+                            <p class="mb-0"><p>Test gfhgf h</p>
+                        </p>
+                    </div>
+                    <div class="pt-5">
+                        <h5><strong>Job Details:</strong></h5>
+                        <p class="mb-0"><strong>Type:</strong> NDIS</p>
+                        <p class="mb-0"><strong>Job Category:</strong> Cat 1</p>
+                        <p class="mb-0"><strong>Job Sub-Category:</strong> Cat 44</p>
+                        <p class="mb-0"><strong>Job Position:</strong> Manager</p>
+                        <p class="mb-0"><strong>Employment Type:</strong> Full Time</p>
+                    </div>
+                    <div class="pt-5">
+                        <h5><strong>Job Location:</strong></h5>
+                        <p class="mb-0"><strong>Location:</strong> Liverpool St, Paddington NSW 2021, Australia</p>
+                        <p class="mb-0"><strong>Phone:</strong> 3023322332</p>
+                        <p class="mb-0"><strong>Email:</strong> testteam.developer@gmail.com</p>
+                        <p class="mb-0"><strong>Website:</strong> www.test</p>
+                    </div>
+
+                    <div class="pt-5">
+                        <h5><strong>Required Documents:</strong></h5>
+                        <div class="list_req_doc">
+                            <div><span>Cover Letter</span> <span class="btn_small_1">Required</span></div>
+                            <div><span>Other</span> <span class="btn_small_1">Required</span></div>
+                        </div>
+                    </div>
+
+                    <div class="pt-5 pb-5">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#jpbAppliedModalCenter">Apply for job</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="left_side footer_left"></div>
+        <div class="right_side footer_right">
+            <div class="social_icons">
+                <div><a href="#"><img src="http://localhost:82/BitBucket_Dir/OCS_Dev/admin/back-end/assets/preview_job/img/fb.png" /></a></div>
+                <div><a href="#"><img src="http://localhost:82/BitBucket_Dir/OCS_Dev/admin/back-end/assets/preview_job/img/twitter.png" /></a></div>
+                <div><a href="#"><img src="http://localhost:82/BitBucket_Dir/OCS_Dev/admin/back-end/assets/preview_job/img/instagram.png" /></a></div>
+            </div>
+            <div class="log_footer">
+                <div class="img_footer"><img src="http://localhost:82/BitBucket_Dir/OCS_Dev/admin/back-end/assets/preview_job/img/ocs_logo.svg" /></div>
+                <div class="website_text">hcm.com.au</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade  modal_lg_my" id="jpbAppliedModalCenter" tabindex="-1" role="dialog" aria-labelledby="jpbAppliedModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header m_header_1">
+                <h5 class="modal-title" id="exampleModalLongTitle">Add Application Info</h5>
+                <button type="button" class="close" aria-label="Close" onclick="clear_form_inputs()">
+                    <span aria-hidden="true"><img src=http://localhost:82/BitBucket_Dir/OCS_Dev/admin/back-end/assets/preview_job/img/close.svg /></span>
+                </button>
+            </div>
+            <form id="job_applied" action="http://localhost:82/BitBucket_Dir/OCS_Dev/admin/back-end/recruitment/RecruitmentAppliedForJob/create_applicant">
+                <div class="modal-body m_body_1">
+                    <h5 class="mt-3">Applicants Information:</h5>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">First Name:</label>
+                                <input type="text" class="form-control input_box" name="firstname" placeholder="First Name" required >
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Last Name:</label>
+                                <input type="text" class="form-control input_box" name="lastname" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h5 class="mt-3">Contact Information:</h5>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Phone:</label>
+                                <input type="text" class="form-control input_box" name="phone" placeholder="Phone" required data-rule-phonenumber maxLength='18'>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email:</label>
+                                <input type="email" class="form-control input_box" name="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Primary Address:</label>
+                                <input type="text" class="form-control input_box" id="pac-input" name="address" placeholder="Primary Address" required>
+                                <div id="map"></div>
+
+                            </div>
+                        </div>
+                       <!--  <div class="col-lg-3">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">State:</label>
+                                <div class="">
+                                    <select class="select" id="state_select"  data-placeholder="Choose a country..." required>
+                                        <option value="">Select</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Suburb:</label>
+                                <div class="">
+                                    <select class="wide chzn-choices" id="suburb_chosen_search" required>
+                                        <option data-display="Select">Select</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">PostCode:</label>
+                                <input type="text" class="form-control input_box" id="postal" name="postcode" placeholder="PostCode" required>
+                            </div>
+                        </div> -->
+                    </div>
+
+                    <div>
+                        <h5 class="mb-4 bt-1 bt-color pt-4 mt-4">Upload Documents:</h5>
+                    </div>
+
+                    <div class="row">
+                        
+                        <div class="col-lg-4">
+                            <div class="form-group upload_req_doc">
+                                <div class="left_req_doc">Resume</div>
+                                <div class="right_req_doc">
+                                    <label class="upload_bro">
+                                        <input required class="invisible" type="file"/>
+                                        <span>Upload File</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+                    
+
+                    <div>
+                        <h5 class="mb-4 bt-1 bt-color pt-4 mt-4">Reference:</h5>
+                    </div>
+
+                    <!-- Looping start -->
+                    <div class="dev_container">
+                        <h6 class="mt-3">Reference 1</h6>
+                        <div class="row element" id='div_1'>
+                            <div class="col-lg-3">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Full Name:</label>
+                                    <input type="text" class="form-control input_box" name="reference[0][name]" placeholder="Full Name" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Phone:</label>
+                                    <input type="text" class="form-control input_box" name="reference[0][phone]" placeholder="Phone" required data-rule-phonenumber maxLength='18'>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email:</label>
+                                    <input type="email" class="form-control input_box" name="reference[0][email]" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 align-self-end">
+                                <div class="form-group add_btn_i">
+                                    <span class="icon icon-add-icon add"></span>
+                                    <span class="icon icon-minus-icon"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer m_footer_1">
+                    <button type="button" class="btn btn-secondary" onclick="clear_form_inputs()">Close</button>
+                    <button type="button" class="btn btn-bg-color save_data">Save changes</button>
+                    
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAV5zEPxeuJ0zeO_ue62RgqMwZN9cUVgJ4&libraries=places" async defer></script>
+<script src="js/operate.js"></script>
+<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js" ></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+<script src="js/jquery-validate.bootstrap-tooltip.js"></script>
+<script src="js/jquery.toast.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.min.js"></script>
+    <script src="js/ajax-chosen.min.js"></script> -->
+</body>
+
+
+</html>

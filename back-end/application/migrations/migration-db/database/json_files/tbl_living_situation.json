@@ -1,0 +1,9 @@
+[
+{"id":"1","name":"Own Home \/ living alone","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"2","name":"Own Home \/ living with family","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"3","name":"Living in supported accommodation","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"4","name":"Homeless","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"5","name":"Temporary (living with friends, family or other accom","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"6","name":"At risk (eg. eviction, behind in rent, family violence)","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"7","name":"Other","created":"0000-00-00 00:00:00","archive":"0"}
+]

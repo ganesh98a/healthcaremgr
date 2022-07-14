@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1",
+        "name": "Draft",
+        "key_name": "draft",
+        "archive": "0"
+    }, {
+        "id": "2",
+        "name": "Active",
+        "key_name": "active",
+        "archive": "0"
+    }, {
+        "id": "3",
+        "name": "Inactive",
+        "key_name": "inactive",
+        "archive": "0"
+    }
+]

@@ -1,0 +1,9 @@
+[
+{"id":"1","name":"Brother","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"2","name":"Sister","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"3","name":"Father","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"4","name":"Mother","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"5","name":"Guardian","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"6","name":"Spouse","created":"0000-00-00 00:00:00","archive":"0"},
+{"id":"7","name":"Self","created":"0000-00-00 00:00:00","archive":"0"}
+]

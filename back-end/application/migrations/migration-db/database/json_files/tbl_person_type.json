@@ -1,0 +1,35 @@
+[   
+    {
+        "id": "1",
+        "name": "Applicant",
+        "key_name": "applicant",
+        "archive": "0"
+    },
+    {
+        "id": "2",
+        "name": "Lead",
+        "key_name": "lead",
+        "archive": "0"
+    },
+    {
+        "id": "3",
+        "name": "Participant",
+        "key_name": "participant",
+        "archive": "0"
+    }, {
+        "id": "4",
+        "name": "Booker",
+        "key_name": "booker",
+        "archive": "0"
+    }, {
+        "id": "5",
+        "name": "Agent",
+        "key_name": "agent",
+        "archive": "0"
+    }, {
+        "id": "6",
+        "name": "Organisation",
+        "key_name": "organisation",
+        "archive": "0"
+    }
+]

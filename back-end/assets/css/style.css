@@ -1,0 +1,160 @@
+body {
+    font-family: sans-serif;
+}
+
+pre {
+    font-family: sans-serif;
+}
+
+.circle {
+    font-size: 20px;
+}
+.blank_table {
+    border-collapse: collapse;
+}
+.blank_table tr td {
+    padding: 9px;
+}
+.table_1 {
+    border-collapse: collapse;
+}
+.table_1 tr td {
+    padding: 9px;
+}
+.table_2 tr td {
+    padding: 9px 0px;
+}
+.color_1 {
+    color: #2a3369;
+}
+
+
+.table_3{
+    font-size: 13px;
+    border-collapse: collapse;
+}
+.table_3 tr th{
+    background: #2a3369;
+    color:#fff;
+}
+.table_3 tr td{
+    vertical-align: top;
+}
+.table_4{
+    border-collapse: collapse;
+    /* border: 0px solid #fff; */
+}
+.table_4 tr td{
+    border: 0px solid #fff;
+    padding: 0px;
+}
+.dot_custom{
+    vertical-align: top;
+    width: 15px;
+}
+
+/* 
+.table_3 tr th{
+    background: #2a3369;
+    color:#fff;
+}
+.table_3 tr td{
+    border: 1px solid #000;
+    padding: 9px;
+}
+
+.dot_custom{
+    width: 15px;
+}
+.table_4 tr td{
+    border: 0px solid #fff;
+    padding: 0px;
+} */
+/*
+* Consent service agreement document style start here
+*/
+.f-18 {
+    font-size: 18px;
+}
+
+.f-white {
+    color: white;
+}
+
+.align-right{
+    float: right;
+}
+
+.header_image {
+    background: url(../img/logo_consent.png) no-repeat center center; 
+    background-size: cover;
+    height: 148px;
+    width: 100%;
+}
+.sub-head {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(195, 80, 10);
+}
+.sub-label {
+    font-size: 14px;
+    color: rgb(195, 80, 10);
+}
+.subhead-table {
+    width: 100%;
+}
+.to-table {
+    width: 100%;
+}
+.border-bottom {
+    border-bottom: 2px solid;
+    border-color: rgb(195,80,10);
+}
+.sub-border-bottom {
+    border-bottom: 1px solid;
+    border-color: rgb(195,80,10);
+}
+.confirm-table {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-style: dotted;
+}
+.confirm-table .border-right {
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 1px solid #ccc;
+    border-style: dotted;
+}
+.input-fill {
+    border-bottom: 1px solid rgb(84, 87, 87);
+}
+.input-table {
+    width: 80%;
+}
+.header-table {
+    width: 100%;
+    height: 100%;
+}
+.pl-align {
+    padding-left: 3px;
+}
+.f-col, .f-col p, .f-col td {
+    color: rgb(84, 87, 87);
+}
+/*
+* Consent service agreement document style end here
+*/
+
+/**
+DSW-CASUAL-DOCUMENT-CSS
+**/
+
+.justify-para{
+    text-align: justify;
+    text-justify: inter-word;
+}
+/**
+DSW-CASUAL-DOCUMENT-CSS
+**/
+

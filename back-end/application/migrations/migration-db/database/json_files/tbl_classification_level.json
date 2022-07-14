@@ -1,0 +1,10 @@
+[
+{"id":"1","level_name":"Level 1","short_title":"1","status":"1","level_priority":"100","created":"2019-03-30 14:39:59"},
+{"id":"2","level_name":"Level 2","short_title":"2","status":"1","level_priority":"200","created":"2019-03-30 14:39:59"},
+{"id":"3","level_name":"Level 3","short_title":"3","status":"1","level_priority":"300","created":"2019-03-30 14:39:59"},
+{"id":"4","level_name":"Level 4","short_title":"4","status":"1","level_priority":"400","created":"2019-03-30 14:39:59"},
+{"id":"5","level_name":"Level 5","short_title":"5","status":"1","level_priority":"500","created":"2019-03-30 14:39:59"},
+{"id":"6","level_name":"Level 6","short_title":"6","status":"1","level_priority":"600","created":"2019-03-30 14:39:59"},
+{"id":"7","level_name":"Level 7","short_title":"7","status":"1","level_priority":"700","created":"2019-03-30 14:39:59"},
+{"id":"8","level_name":"Level 8","short_title":"8","status":"1","level_priority":"800","created":"2019-03-30 14:39:59"}
+]

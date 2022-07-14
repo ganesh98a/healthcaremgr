@@ -1,0 +1,139 @@
+[{
+        "id": "1",
+        "companyId": "1",
+        "name": "Admin",
+        "role_key": "admin",
+        "status": "1",
+        "archive": "0",
+        "created": "2018-08-07 00:00:00"
+    }, {
+        "id": "2",
+        "companyId": "1",
+        "name": "Participant",
+        "role_key": "participant",
+        "status": "1",
+        "archive": "0",
+        "created": "2018-08-07 00:00:00"
+    }, {
+        "id": "3",
+        "companyId": "1",
+        "name": "Member",
+        "role_key": "member",
+        "status": "1",
+        "archive": "0",
+        "created": "2018-07-27 10:57:01"
+    }, {
+        "id": "4",
+        "companyId": "1",
+        "name": "Organization",
+        "role_key": "organization",
+        "status": "1",
+        "archive": "0",
+        "created": "2018-08-07 00:00:00"
+    }, {
+        "id": "6",
+        "companyId": "1",
+        "name": "Schedule",
+        "role_key": "schedule",
+        "status": "1",
+        "archive": "0",
+        "created": "2018-08-07 00:00:00"
+    }, {
+        "id": "7",
+        "companyId": "1",
+        "name": "Fms",
+        "role_key": "fms",
+        "status": "1",
+        "archive": "0",
+        "created": "2018-08-07 00:00:00"
+    }, {
+        "id": "8",
+        "companyId": "1",
+        "name": "Fms incentive",
+        "role_key": "fms_incentive",
+        "status": "1",
+        "archive": "0",
+        "created": "2018-08-07 00:00:00"
+    }, {
+        "id": "9",
+        "companyId": "1",
+        "name": "Imail",
+        "role_key": "imail",
+        "status": "1",
+        "archive": "0",
+        "created": "2018-08-07 00:00:00"
+    }, {
+        "id": "10",
+        "companyId": "0",
+        "name": "Recruitment",
+        "role_key": "recruitment",
+        "status": "1",
+        "archive": "0",
+        "created": "2019-02-22 19:39:01"
+    }, {
+        "id": "11",
+        "companyId": "1",
+        "name": "Participant Intake",
+        "role_key": "crm",
+        "status": "1",
+        "archive": "0",
+        "created": "2019-02-22 08:39:05"
+    }, {
+        "id": "12",
+        "companyId": "1",
+        "name": "CRM Admin",
+        "role_key": "crm_admin",
+        "status": "1",
+        "archive": "0",
+        "created": "0000-00-00 00:00:00"
+    }, {
+        "id": "13",
+        "companyId": "1",
+        "name": "Finance Planner",
+        "role_key": "finance_planner",
+        "status": "1",
+        "archive": "0",
+        "created": "2019-02-22 08:39:05"
+    }, {
+        "id": "14",
+        "companyId": "1",
+        "name": "Recruitment Admin",
+        "role_key": "recruitment_admin",
+        "status": "1",
+        "archive": "0",
+        "created": "2019-02-22 08:39:05"
+    }, {
+        "id": "15",
+        "companyId": "1",
+        "name": "Marketing",
+        "role_key": "marketing",
+        "status": "1",
+        "archive": "0",
+        "created": "2019-02-22 08:39:05"
+    }, {
+        "id": "16",
+        "companyId": "1",
+        "name": "Finance",
+        "role_key": "finance",
+        "status": "1",
+        "archive": "0",
+        "created": "2019-02-22 08:39:05"
+    }, {
+        "id": "17",
+        "companyId": "1",
+        "name": "Finance Admin",
+        "role_key": "finance_admin",
+        "status": "1",
+        "archive": "0",
+        "created": "2019-02-22 08:39:05"
+    },
+    {
+        "id": "18",
+        "companyId": "1",
+        "name": "Out of Office Status",
+        "role_key": "out_of_office",
+        "status": "1",
+        "archive": "0",
+        "created": "2020-03-17 08:39:05"
+    }    
+]

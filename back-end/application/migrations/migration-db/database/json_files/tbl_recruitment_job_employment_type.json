@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "title": "Full Time",
+        "archive": "0",
+        "created": "0000-00-00 00:00:00",
+        "updated": "0000-00-00 00:00:00"
+    },
+    {
+        "id": "2",
+        "title": "Casual",
+        "archive": "0",
+        "created": "0000-00-00 00:00:00",
+        "updated": "0000-00-00 00:00:00"
+    },
+    {
+        "id": "3",
+        "title": "Part Time",
+        "archive": "0",
+        "created": "0000-00-00 00:00:00",
+        "updated": "0000-00-00 00:00:00"
+    },
+    {
+        "id": "4",
+        "title": "Fixed Term",
+        "archive": "0",
+        "created": "0000-00-00 00:00:00",
+        "updated": "0000-00-00 00:00:00"
+    }
+]

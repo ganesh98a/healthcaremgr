@@ -1,0 +1,136 @@
+swagger: "2.0"
+info:
+  description: "HCM API documentation."
+  version: "1.24"
+  title: "HCM"
+host: "admin.int.healthcaremgr.net"
+basePath: "/recruiment/OnlineAssessment"
+tags:
+- name: "Online assessment get question & option"
+  description: "Get all the question & option from the template"
+- name: "Save assessment submitted by applicant"
+  description: "Save assessment answers"
+schemes:
+- "https"
+- "http"
+paths:
+  /get_oa_template_by_uid:
+    post:
+      tags:
+      - "Questions & options"
+      summary: "Get questions & options"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: "object"
+          properties:
+            data:
+              type: "object"
+              properties:
+                uuid:
+                  type: "string"
+      responses:
+        "200":
+          description: "List of questions & option"
+          schema:
+            type: "object"
+            properties:
+              data:
+                type: "object"
+                properties:
+                  id:
+                    type: "string"
+                  question:
+                    type: "string"
+                  answer_type:
+                    type: "string"
+                  is_mandatory:
+                    type: "string"
+                  index_number:
+                    type: "string"
+                  created_by:
+                    type: "string"
+                  options:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                        question_id:
+                          type: string
+                        option:
+                          type: string
+        "500":
+          description: "Server error"
+      security:
+      - api_key: []
+  /save_assessment_answer_by_uid:
+    post:
+      tags:
+      - "Save Assessment"
+      summary: "Save assessment answer"
+      description: ""
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "request_data"
+        description: ""
+        required: true
+        schema:
+          type: "object"
+          properties:
+            data:
+              type: "object"
+              properties:
+                uuid:
+                  type: "string"
+                answer:
+                  type: array
+                  items:
+                      type: object
+                      properties:
+                        answer:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              answer_id:
+                                type: string
+                              selected:
+                                type: boolean
+                        answer_type:
+                          type: string
+                        question_id:
+                          type: string
+      responses:
+        "200":
+          description: "Assessment submitted successfully"
+          schema:
+            type: "object"
+            properties:
+              status:
+                type: "boolean"
+              msg:
+                type: "string"
+                example: "Assessment submitted successfully"
+        "500":
+          description: "Server error"
+      security:
+      - api_key: []
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "pin"
+    in: "query"
